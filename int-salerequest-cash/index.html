@@ -1432,7 +1432,7 @@
 <p><img alt="" src="../assets/objectmodel-cash-ios.png" /></p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>The object and method names above are shown in simplified pseudo-code to make it easier to read for both developers and non-developers. Generally speaking, we remove the <code class="codehilite">WDAccept</code>, which is the prefix at the beginning of all class names, and we add in some spaces. For example, the actual class name is <code class="codehilite">WDAcceptSaleRequest</code> but that is tough to read, so we display it as <strong>Sale Request</strong> instead. We do the same with method names. For example, the method <strong>add cash payment</strong>, shown above, is implemented in Objective-C and Swift as <code class="codehilite">addCashPayment</code>.</p>
+<p>The object and method names above are shown in simplified pseudo-code to make it easier to read for both developers and non-developers. Generally speaking, we remove the <code class="codehilite">WDePos</code>, which is the prefix at the beginning of all class names, and we add in some spaces. For example, the actual class name is <code class="codehilite">WDSaleRequest</code> but that is tough to read, so we display it as <strong>Sale Request</strong> instead. We do the same with method names. For example, the method <strong>add cash payment</strong>, shown above, is implemented in Objective-C and Swift as <code class="codehilite">addCashPayment</code>.</p>
 </div>
 <h3 id="the-ios-process-flow">The iOS Process Flow</h3>
 <p>The process flow in the code is as follows:</p>
@@ -1449,7 +1449,7 @@
 <h2 id="the-android-design">The Android Design</h2>
 <p>The Android design and process flow is described below.</p>
 <h3 id="the-android-object-model">The Android Object Model</h3>
-<p>The Sales Manager component in Android is implemented as the <code class="codehilite">sales()</code> method of the <code class="codehilite">AcceptSDK</code> class. The <code class="codehilite">Sales Builder</code> then does most of the work as shown:</p>
+<p>The Sales Manager component in Android is implemented as the <code class="codehilite">sales()</code> method of the <code class="codehilite">WDePOS</code> class. The <code class="codehilite">Sales Builder</code> then does most of the work as shown:</p>
 <p><img alt="" src="../assets/objectmodel-cash-java.png" /></p>
 <h3 id="the-android-process-flow">The Android Process Flow</h3>
 <p>The process flow is:</p>

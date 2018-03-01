@@ -1280,9 +1280,10 @@ ZipArchive.framework</em>  </li>
     | [SocketScanner] |Socket_SDK.framework |   <strong>com.socketmobile.chs</strong>   |
 Together with the step .5, your "Embedded binaries" section will look like:<br />
 <img alt="" src="../assets/embedded.png" />   </li>
-<li>You also need to add the acceptResources.bundle file into your project's Build Phases "Copy Bundle Resources” section:
-<img alt="" src="../assets/buildphases.png" />  </li>
-<li>Now add the following Apple frameworks in your project's General "Linked Frameworks and Libraries" section:<br />
+<li>You also need to add the WDePosResources.bundle file into your project's Build Phases "Copy Bundle Resources” section:</li>
+</ol>
+<p><img alt="" src="../assets/buildphases.png" /><br />
+8. Now add the following Apple frameworks in your project's General "Linked Frameworks and Libraries" section:<br />
 <em>ExternalAccessory <br />
 CoreFoundation<br />
 CoreLocation<br />
@@ -1293,8 +1294,7 @@ Security<br />
 SystemConfiguration<br />
 Foundation<br />
 MobileCoreServices</em><br />
-Together with the steps above, it will look like:</li>
-</ol>
+Together with the steps above, it will look like:</p>
 <p><img alt="" src="../assets/appleframeworks.png" /><br />
 9. Make sure your project Build Settings/Build Options has “Always Embed Swift Standard Libraries” set to YES:</p>
 <p><img alt="" src="../assets/buildoptions.png" /><br />
