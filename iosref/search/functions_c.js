@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['passwordpolicy_3a',['passwordPolicy:',['../interface_w_d_user_manager.html#a831da996ecca04cb8e60bf5e61fab365',1,'WDUserManager']]],
+  ['pathforresource_3aoftype_3a',['pathForResource:ofType:',['../interface_w_d_utils.html#a292832df7fb0eb469a288aedf0b14ad5',1,'WDUtils']]],
+  ['pay_3adelegate_3a',['pay:delegate:',['../interface_w_d_sale_manager.html#a8b96f7bb7b14c35012aa5c57eaa1c7c9',1,'WDSaleManager']]],
+  ['pay_3aprogress_3acollectsignature_3averifysignature_3acardapplication_3acompletion_3a',['pay:progress:collectSignature:verifySignature:cardApplication:completion:',['../interface_w_d_sale_manager.html#abb6a948e0a0a4f47a86eb29da3f27d18',1,'WDSaleManager']]],
+  ['payments',['payments',['../interface_w_d_sale.html#a6bdd94438b4750bb02ceed7902410267',1,'WDSale']]],
+  ['percentagebatteryremaining_3a',['percentageBatteryRemaining:',['../interface_w_d_extension_manager.html#a311634e6fb110c92c9c52ffd3c215a7c',1,'WDExtensionManager']]],
+  ['posentrymodedescriptionwithcardtype_3a',['posEntryModeDescriptionWithCardType:',['../interface_w_d_receipt_data.html#ad8614215dc0061f00b717b9f8d23c0f5',1,'WDReceiptData']]],
+  ['print_3aprogress_3acompletion_3a',['print:progress:completion:',['../interface_w_d_printer_manager.html#ae0fe23d7243389f51abbd54815190a3b',1,'WDPrinterManager']]],
+  ['processedalipaypayment',['processedAlipayPayment',['../interface_w_d_sale_response.html#a1cbc6e09e0b887c402d3b8cffd184020',1,'WDSaleResponse']]],
+  ['processedcardpayment',['processedCardPayment',['../interface_w_d_sale_response.html#a18a3ab3d89e47a9e686f2762fdffacfd',1,'WDSaleResponse']]],
+  ['processedcashpayment',['processedCashPayment',['../interface_w_d_sale_response.html#a15c514a3ba6330ff6287c1814481b98d',1,'WDSaleResponse']]],
+  ['processedwechatpayment',['processedWeChatPayment',['../interface_w_d_sale_response.html#a803363cdc8aff9f6c034c2ec8b80bc6a',1,'WDSaleResponse']]],
+  ['productcatalogues_3acompletion_3a',['productCatalogues:completion:',['../interface_w_d_product_catalogue_manager.html#a261da179d28259d5b398e956db61a468',1,'WDProductCatalogueManager']]],
+  ['productcategoriestree_3acompletion_3a',['productCategoriesTree:completion:',['../interface_w_d_product_catalogue_manager.html#a86469ce8be1c5a21f55a04e74d5b78c5',1,'WDProductCatalogueManager']]],
+  ['productcategory_3ainproductcatalogue_3acompletion_3a',['productCategory:inProductCatalogue:completion:',['../interface_w_d_product_catalogue_manager.html#a20a6068838b167aa35ba8821fe4b0200',1,'WDProductCatalogueManager']]],
+  ['productimage_3acompletion_3a',['productImage:completion:',['../interface_w_d_product_catalogue_manager.html#a6a4f001465bc10c8c8ec95a1de1b2e3c',1,'WDProductCatalogueManager']]],
+  ['productpriceformember_3aexternalids_3acurrency_3agrossprice_3acompletion_3a',['productPriceForMember:externalIDs:currency:grossPrice:completion:',['../interface_w_d_product_catalogue_manager.html#a97c4c8db973e03d874d8f211988644ee',1,'WDProductCatalogueManager']]],
+  ['products_3auncategorized_3acompletion_3a',['products:uncategorized:completion:',['../interface_w_d_product_catalogue_manager.html#aa93b24f16a25de53233f010407f79cb3',1,'WDProductCatalogueManager']]],
+  ['productschanges_3acompletion_3a',['productsChanges:completion:',['../interface_w_d_product_catalogue_manager.html#ad5b50dc1603b4a8d96da1df61efe87ab',1,'WDProductCatalogueManager']]],
+  ['productsimage_3acompletion_3a',['productsImage:completion:',['../interface_w_d_product_catalogue_manager.html#a28bf76e442fb4d8b0d2072dc2ba1e307',1,'WDProductCatalogueManager']]],
+  ['productsstock_3ainshop_3acompletion_3a',['productsStock:inShop:completion:',['../interface_w_d_product_catalogue_manager.html#ae96adc629aafae5ccdb0fa244d1fc2bc',1,'WDProductCatalogueManager']]],
+  ['productstockinallshops_3acompletion_3a',['productStockInAllShops:completion:',['../interface_w_d_product_catalogue_manager.html#ae8f10588664a4ee2a73b7328dde5b604',1,'WDProductCatalogueManager']]],
+  ['progress_3a',['progress:',['../protocol_w_d_payment_delegate_01-p.html#a4ca0c28cecb5aae909118d46afa8a695',1,'WDPaymentDelegate -p']]]
+];

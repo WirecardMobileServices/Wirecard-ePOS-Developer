@@ -1,0 +1,28 @@
+var interface_w_d_sale_response =
+[
+    [ "allPaymentsApproved", "interface_w_d_sale_response.html#a8fbd1bd0941c1d2e284b6d7438e06390", null ],
+    [ "getReceiptData", "interface_w_d_sale_response.html#ac4eae4d2076c8bcbe2ef384322b833f3", null ],
+    [ "isRefundable", "interface_w_d_sale_response.html#aa5377c2d0b9d1ee5fcf59d7a962a7ec3", null ],
+    [ "isReversible", "interface_w_d_sale_response.html#afbb56c993a968bc7a1fc36de04965be4", null ],
+    [ "mostOnerousStatus", "interface_w_d_sale_response.html#aa643ce4bbe03b40240fdb43aaf96a992", null ],
+    [ "processedAlipayPayment", "interface_w_d_sale_response.html#a1cbc6e09e0b887c402d3b8cffd184020", null ],
+    [ "processedCardPayment", "interface_w_d_sale_response.html#a18a3ab3d89e47a9e686f2762fdffacfd", null ],
+    [ "processedCashPayment", "interface_w_d_sale_response.html#a15c514a3ba6330ff6287c1814481b98d", null ],
+    [ "processedWeChatPayment", "interface_w_d_sale_response.html#a803363cdc8aff9f6c034c2ec8b80bc6a", null ],
+    [ "receipt:showReturns:format:dpi:completion:", "interface_w_d_sale_response.html#a90cf825408c3971249239ca150ce021a", null ],
+    [ "receipt:showReturns:format:dpi:language:completion:", "interface_w_d_sale_response.html#ad379408b9f76cf28bc2c21ade17550ce", null ],
+    [ "saleReturn", "interface_w_d_sale_response.html#a23dbf41ca0a764a683dc870eb3442b24", null ],
+    [ "setCashierId:", "interface_w_d_sale_response.html#a40beb3339cfb14fe47a1c3fb44e21e7d", null ],
+    [ "cashierId", "interface_w_d_sale_response.html#acc2b8afa90c5d29c1597a127ecae6ecd", null ],
+    [ "customerId", "interface_w_d_sale_response.html#a89a040e0388c4b0973162a0f552ba976", null ],
+    [ "initialized", "interface_w_d_sale_response.html#a6723cce067cb50b7f2ad23936bce324a", null ],
+    [ "internalId", "interface_w_d_sale_response.html#a1a91bd1a57d4a78a850e06d891d288d7", null ],
+    [ "merchant", "interface_w_d_sale_response.html#a72881523beec7f5854a6fb7578221be1", null ],
+    [ "merchantReceiptId", "interface_w_d_sale_response.html#af4710fba73c15a343877336d1b90b389", null ],
+    [ "originalSaleId", "interface_w_d_sale_response.html#a1de99af27b924eb4f1010c4c9d3170d3", null ],
+    [ "returns", "interface_w_d_sale_response.html#a0568c1c000a0eea135c48d0d1cdd6293", null ],
+    [ "shop", "interface_w_d_sale_response.html#a687d74c085cf978d70199626a8910958", null ],
+    [ "status", "interface_w_d_sale_response.html#ad850a2afd56ff9e0b86bac0873338e3a", null ],
+    [ "type", "interface_w_d_sale_response.html#a7a3f01ff0c98f8420f65b33e12dd9b00", null ],
+    [ "user", "interface_w_d_sale_response.html#a703dc1dcc9ff94c80774e0b40506df46", null ]
+];

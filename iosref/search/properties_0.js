@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['address',['address',['../interface_w_d_product_stock.html#a4769877dde597cefb3e2eb7169ac2434',1,'WDProductStock::address()'],['../interface_w_d_receipt_data.html#a0d39e20b390df4597883d702ab35de2e',1,'WDReceiptData::address()']]],
+  ['aid',['aid',['../interface_w_d_receipt.html#abb1b4013186fb75de0e46c9c4ef38615',1,'WDReceipt']]],
+  ['aidheader',['aidHeader',['../interface_w_d_receipt.html#a838a25e35a0a8b219c53cbfeec1bec1a',1,'WDReceipt']]],
+  ['alipaybusinessname',['alipayBusinessName',['../interface_w_d_receipt_alipay_details.html#a2c9f778f76a73d1caefda29ead2574c4',1,'WDReceiptAlipayDetails']]],
+  ['alipaybuyerloginid',['alipayBuyerLoginId',['../interface_w_d_receipt_alipay_details.html#ae1cb87910307f781431482e255fd3836',1,'WDReceiptAlipayDetails']]],
+  ['alipaybuyeruserid',['alipayBuyerUserId',['../interface_w_d_receipt_alipay_details.html#a3ec23887e3c71fe7475eadfd847d37da',1,'WDReceiptAlipayDetails']]],
+  ['alipaydetails',['alipayDetails',['../interface_w_d_receipt.html#a79a01c941ea170712e2aaae53f620dc6',1,'WDReceipt::alipayDetails()'],['../interface_w_d_receipt_data.html#adbdf8d7347737c3a03e8c8e0edf292da',1,'WDReceiptData::alipayDetails()']]],
+  ['alipaylogo',['alipayLogo',['../interface_w_d_receipt_alipay_details.html#ab3b82449f91897fff5e0718d6517de7b',1,'WDReceiptAlipayDetails']]],
+  ['alipaypaytime',['alipayPayTime',['../interface_w_d_receipt_alipay_details.html#a6b42b20d8d174f891b5928c0aab5107a',1,'WDReceiptAlipayDetails']]],
+  ['alipaytransactionid',['alipayTransactionId',['../interface_w_d_receipt_alipay_details.html#af9c56aa04dd61ad8b103c75750d649e4',1,'WDReceiptAlipayDetails']]],
+  ['amount',['amount',['../interface_w_d_receipt.html#a80c4262432631863af3e3da92a8b73ee',1,'WDReceipt']]],
+  ['aosa',['aosa',['../interface_w_d_receipt_data.html#ae1a93e80de942869cb95750bed31ab12',1,'WDReceiptData']]],
+  ['appcrypt',['appCrypt',['../interface_w_d_receipt.html#adafe247fb9a0072e079f36ed863f9b08',1,'WDReceipt']]],
+  ['applicationcryptogram',['applicationCryptogram',['../interface_w_d_receipt_data.html#af56f78b598ede4e6663708c69233584a',1,'WDReceiptData']]],
+  ['approvalcode',['approvalCode',['../interface_w_d_receipt.html#a051d31fd0d18bbb839dcb31d8f2dbe8b',1,'WDReceipt::approvalCode()'],['../interface_w_d_receipt_data.html#a5936642e2da2b18a03af2d008adb1052',1,'WDReceiptData::approvalCode()']]],
+  ['apptranscounter',['appTransCounter',['../interface_w_d_receipt.html#a36acc8b0a070db8e44129591fab3b045',1,'WDReceipt']]],
+  ['authenticateduser',['authenticatedUser',['../interface_w_de_p_o_s.html#afbf0e93ea6dcb75268c52c068062dfec',1,'WDePOS']]],
+  ['availableofflinespendingamount',['availableOfflineSpendingAmount',['../interface_w_d_receipt.html#aaf42a5129dd9a8bc0d84506876cdcd73',1,'WDReceipt']]]
+];

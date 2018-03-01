@@ -1,0 +1,4 @@
+<map id="WDSaleServiceCharge" name="WDSaleServiceCharge">
+<area shape="rect" id="node2" href="$interface_w_d_sale_item_core.html" title="WDSaleItemCore" alt="" coords="107,152,232,177"/>
+<area shape="rect" id="node3" href="$interface_w_d_object.html" title="WDePos custom object &#160;WDePos Generic Object &#45; supports runtime object [property/values] description..." alt="" coords="11,79,93,104"/>
+</map>

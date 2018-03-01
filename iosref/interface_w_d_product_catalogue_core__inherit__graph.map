@@ -1,0 +1,5 @@
+<map id="WDProductCatalogueCore" name="WDProductCatalogueCore">
+<area shape="rect" id="node5" href="$interface_w_d_product_catalogue.html" title="WDProductCatalogue" alt="" coords="5,225,156,251"/>
+<area shape="rect" id="node6" href="$interface_w_d_product_catalogue_category.html" title="Product Catalogue Category object. " alt="" coords="180,225,384,251"/>
+<area shape="rect" id="node2" href="$interface_w_d_object.html" title="WDePos custom object &#160;WDePos Generic Object &#45; supports runtime object [property/values] description..." alt="" coords="83,79,166,104"/>
+</map>

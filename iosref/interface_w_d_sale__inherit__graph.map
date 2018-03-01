@@ -1,0 +1,5 @@
+<map id="WDSale" name="WDSale">
+<area shape="rect" id="node5" href="$interface_w_d_sale_request.html" title="The Sale to be processed &#160;Contains all necessary information to perform the Sale. ..." alt="" coords="5,225,125,251"/>
+<area shape="rect" id="node6" href="$interface_w_d_sale_response.html" title="The processed Sale &#160;Contains all details about performed Sale. " alt="" coords="149,225,280,251"/>
+<area shape="rect" id="node2" href="$interface_w_d_object.html" title="WDePos custom object &#160;WDePos Generic Object &#45; supports runtime object [property/values] description..." alt="" coords="43,79,125,104"/>
+</map>

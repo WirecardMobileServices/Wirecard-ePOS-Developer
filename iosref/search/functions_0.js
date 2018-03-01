@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['activedevice',['activeDevice',['../interface_w_d_extension_manager.html#a16b22a3089ec3d40ce21cdb8279a3129',1,'WDExtensionManager']]],
+  ['activedevice_3a',['activeDevice:',['../interface_w_d_extension_manager.html#a4e4b35f2728c199d8defed6cbb6bfdf7',1,'WDExtensionManager']]],
+  ['addalipaypayment_3aconsumerid_3a',['addAlipayPayment:consumerId:',['../interface_w_d_sale_request.html#aef7b638d67ef4a7720568e6e147b7b95',1,'WDSaleRequest']]],
+  ['addcardpayment_3aterminal_3a',['addCardPayment:terminal:',['../interface_w_d_sale_request.html#aecb203ed4dfc8a7cfdb8a3fbb13a1882',1,'WDSaleRequest']]],
+  ['addcashpayment_3a',['addCashPayment:',['../interface_w_d_sale_request.html#a8c895d0fc0d6a1c2e0e7729ba33b7552',1,'WDSaleRequest']]],
+  ['addcoupon_3acouponid_3a',['addCoupon:couponId:',['../interface_w_d_sale_request.html#a19b34bc9e11e418112f0b4849739723b',1,'WDSaleRequest']]],
+  ['addcouponpayment_3acouponid_3abrandid_3a',['addCouponPayment:couponId:brandId:',['../interface_w_d_sale_request.html#a28b2f2de25536b7400c39d88eb1c76e5',1,'WDSaleRequest']]],
+  ['adddelegate_3a',['addDelegate:',['../interface_w_de_p_o_s.html#addf10c065f2a84b46e0a64609060cf56',1,'WDePOS']]],
+  ['adddiscount_3aproductid_3a',['addDiscount:productId:',['../interface_w_d_sale_request.html#a2316c9229b0d040f5119e22af3bb8cc3',1,'WDSaleRequest']]],
+  ['addgratuity_3ataxrate_3a',['addGratuity:taxRate:',['../interface_w_d_sale_request.html#adc66f21cb7b49c7073834596618f625a',1,'WDSaleRequest']]],
+  ['addmanagerdelegate_3afordevice_3a',['addManagerDelegate:forDevice:',['../interface_w_d_extension_manager.html#a5b2eb4e725237cba70109e0deef0e1ed',1,'WDExtensionManager']]],
+  ['addprintermanagerdelegate_3aforprinter_3a',['addPrinterManagerDelegate:forPrinter:',['../interface_w_d_printer_manager.html#a0a4288b59d8d1241a10b6aaa4cffada0',1,'WDPrinterManager']]],
+  ['addsaleitem_3adiscountrate_3aquantity_3ataxrate_3aitemdescription_3aproductid_3a',['addSaleItem:discountRate:quantity:taxRate:itemDescription:productId:',['../interface_w_d_sale_request.html#a7d836f21cf3d387e9fbdf379fef22e99',1,'WDSaleRequest']]],
+  ['addsaleitem_3aquantity_3ataxrate_3aitemdescription_3aproductid_3a',['addSaleItem:quantity:taxRate:itemDescription:productId:',['../interface_w_d_sale_request.html#a05c0ca7eaede5994fa822035db9c9022',1,'WDSaleRequest']]],
+  ['addscannermanagerdelegate_3aforscanner_3a',['addScannerManagerDelegate:forScanner:',['../interface_w_d_scanner_manager.html#ad835a0f5a497b94fe4ea8aaced7bea58',1,'WDScannerManager']]],
+  ['addservicecharge_3ataxrate_3a',['addServiceCharge:taxRate:',['../interface_w_d_sale_request.html#a4772706012759741a0d3bca9522634c6',1,'WDSaleRequest']]],
+  ['addwechatpayment_3aconsumerid_3a',['addWeChatPayment:consumerId:',['../interface_w_d_sale_request.html#a5f0fff9dc7e5ef11767c1186d48ab661',1,'WDSaleRequest']]],
+  ['alipayidasbarcodebase64',['alipayIdAsBarCodeBase64',['../interface_w_d_receipt_data.html#accf211ab427d2265f9207b6d1f329439',1,'WDReceiptData']]],
+  ['alipayidasbarcodeimage',['alipayIdAsBarCodeImage',['../interface_w_d_receipt_data.html#a462821ce631caac2da54a0ff0d41bc97',1,'WDReceiptData']]],
+  ['allpaymentsapproved',['allPaymentsApproved',['../interface_w_d_sale_response.html#a8fbd1bd0941c1d2e284b6d7438e06390',1,'WDSaleResponse']]],
+  ['authorizedamountcard',['authorizedAmountCard',['../interface_w_d_sale_request.html#a7a930cdae12ce4fb35d672cf3e997683',1,'WDSaleRequest']]],
+  ['availableupdates_3a',['availableUpdates:',['../interface_w_d_terminal_manager.html#a805f36a9c56fababb3535bb7868bf3db',1,'WDTerminalManager']]]
+];

@@ -1,0 +1,4 @@
+<map id="WDReceiptMerchant" name="WDReceiptMerchant">
+<area shape="rect" id="node3" href="$interface_w_d_receipt.html" title="Receipt content for Payment &#45; to be used by Datecs printer. " alt="" coords="5,152,94,177"/>
+<area shape="rect" id="node4" href="$interface_w_d_z_report.html" title="ZReport. " alt="" coords="119,152,210,177"/>
+</map>

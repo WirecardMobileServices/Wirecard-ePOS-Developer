@@ -1,0 +1,23 @@
+var searchData=
+[
+  ['taxamount',['taxAmount',['../interface_w_d_z_report_category_item.html#a87bc2919c0a77aa437b51eeb7653fe00',1,'WDZReportCategoryItem::taxAmount()'],['../interface_w_d_receipt_tax_summary.html#a0be74155a3494a932d15ec1385e82764',1,'WDReceiptTaxSummary::taxAmount()']]],
+  ['taxcategory',['taxCategory',['../interface_w_d_product_catalogue_product.html#a9f71231480656817af98fea9c6e42ad0',1,'WDProductCatalogueProduct']]],
+  ['taxrate',['taxRate',['../interface_w_d_receipt_tax_summary.html#a8f27e216b63517befb0eca3e4b47cc38',1,'WDReceiptTaxSummary::taxRate()'],['../interface_w_d_receipt_payment_item.html#a2477c3602d8f0e389ae28241fb9c6f05',1,'WDReceiptPaymentItem::taxRate()'],['../interface_w_d_sale_summary_item.html#ace6e8610cdef11368eec553c0e89baba',1,'WDSaleSummaryItem::taxRate()'],['../interface_w_d_sale_item_core.html#a368f48eedb959ebe20d0b9c261978fed',1,'WDSaleItemCore::taxRate()']]],
+  ['taxsummary',['taxSummary',['../interface_w_d_receipt.html#a45e4ae2e3fb371b1f9fcce9bb2768cca',1,'WDReceipt']]],
+  ['taxsummaryitems',['taxSummaryItems',['../interface_w_d_receipt.html#af66ca44b9dc7774900e6884ca9dbd775',1,'WDReceipt::taxSummaryItems()'],['../interface_w_d_receipt_data.html#afd015445bc93d93576fc4c2f111baaee',1,'WDReceiptData::taxSummaryItems()']]],
+  ['technicalmessage',['technicalMessage',['../interface_w_d_receipt_data.html#aabd3d14d506840c1fa08b509d614adc4',1,'WDReceiptData']]],
+  ['terminalid',['terminalId',['../interface_w_d_receipt_alipay_details.html#a839cf1e51da1684ba9c5a03f2c4ac63f',1,'WDReceiptAlipayDetails::terminalId()'],['../interface_w_d_receipt.html#a94a53fe3f57a8b7738eb723bdcbcf87b',1,'WDReceipt::terminalID()']]],
+  ['terminalmanager',['terminalManager',['../interface_w_de_p_o_s.html#ae935d67266211fca06cebbfe0390a143',1,'WDePOS']]],
+  ['tip',['tip',['../interface_w_d_receipt.html#a7de86440debecf0a7c3db9ed29b5d74c',1,'WDReceipt']]],
+  ['tipitem',['tipItem',['../interface_w_d_receipt_data.html#a552d0af8c7959bdc58d161865f54de5b',1,'WDReceiptData']]],
+  ['tipsummary',['tipSummary',['../interface_w_d_receipt.html#ac42bc156bc3da25dd0465d16fd5333a7',1,'WDReceipt']]],
+  ['total',['total',['../interface_w_d_sale_summary_item.html#a5950991d3a79747ee4cfa2aafd98c0cd',1,'WDSaleSummaryItem']]],
+  ['totalamount',['totalAmount',['../interface_w_d_receipt_data.html#a7e3a95bc804c44d45f2a8bb1ca592e0e',1,'WDReceiptData']]],
+  ['totaldiscounted',['totalDiscounted',['../interface_w_d_sale_summary_item.html#ac9f2aa87eac049362d26e99f120397eb',1,'WDSaleSummaryItem']]],
+  ['totalprice',['totalPrice',['../interface_w_d_receipt_payment_item.html#ac5f5c46698146e3b575edaa24bfcc530',1,'WDReceiptPaymentItem']]],
+  ['transactionamountcny',['transactionAmountCny',['../interface_w_d_receipt_alipay_details.html#a40cb1ef9340fefb323a81363186a9ca8',1,'WDReceiptAlipayDetails::transactionAmountCny()'],['../interface_w_d_receipt_we_chat_details.html#a231b87decca25417ac4e348b38fe2012',1,'WDReceiptWeChatDetails::transactionAmountCny()']]],
+  ['transactioncertificate',['transactionCertificate',['../interface_w_d_receipt_data.html#abd6ede8a7b597c383be4fc85ce96b499',1,'WDReceiptData']]],
+  ['transactionstatus',['transactionStatus',['../interface_w_d_receipt.html#a1498bb7bb02ffde66218ab141e4d4df4',1,'WDReceipt']]],
+  ['transactiontypestring',['transactionTypeString',['../interface_w_d_receipt.html#a93d2f95bf8e1220cde44504a0b05c1f8',1,'WDReceipt']]],
+  ['type',['type',['../interface_w_d_product_catalogue.html#a0bd9a1b2caaa95f6ce1be2beee56f620',1,'WDProductCatalogue::type()'],['../interface_w_d_sale_request.html#a1c834f1ed2a73c8efedceb329e5f83ab',1,'WDSaleRequest::type()'],['../interface_w_d_sale_response.html#a7a3f01ff0c98f8420f65b33e12dd9b00',1,'WDSaleResponse::type()']]]
+];
