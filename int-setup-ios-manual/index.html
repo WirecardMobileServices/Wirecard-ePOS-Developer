@@ -592,6 +592,18 @@
 
 
   <li class="md-nav__item">
+    <a href="../int-salereceipt/" title="Sale Receipt" class="md-nav__link">
+      Sale Receipt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
     <a href="../int-salesstatistics/" title="Sales Statistics" class="md-nav__link">
       Sales Statistics
     </a>
@@ -1269,21 +1281,63 @@ Lockbox.framework<br />
 Mantle.framework<br />
 Overcoat.framework<br />
 ZipArchive.framework</em>  </li>
-<li>Other Wirecard ePOS SDK frameworks need to be added manually. Add to your project the WDePos.framework <strong>and</strong> the WDePosResources.bundle files, and other hardware frameworks you plan on using, from "unzipped_SDK/Pod/Classes". Terminal Extension frameworks that add support for terminals, printers, cash registers and scanners are:<br />
-    &gt;| Device | Framework |  Accessory protocol |
-    | ------ | --------- | ------------------ |
-    | [SPm2, SPm20] | Spire_SDK.framework |  <strong>com.thyron</strong> |
-    | [StarMicronics , mPOP] | Stario_SDK.framework |  <strong>jp.star-m.starpro</strong>   |
-    | [uEMVSwiper] |BBPOS_SDK.framework | <strong>com.bbpos.bt.wisepad</strong>   |
-    | [DPP-250] | Datecs_SDK.framework |  <strong>com.datecs.printer.escpos</strong>   |
-    | [M010] | Miura_SDK.framework |   <strong>com.miura.shuttle, com.miura.rpi</strong>  | 
-    | [SocketScanner] |Socket_SDK.framework |   <strong>com.socketmobile.chs</strong>   |
-Together with the step .5, your "Embedded binaries" section will look like:<br />
-<img alt="" src="../assets/embedded.png" />   </li>
-<li>You also need to add the WDePosResources.bundle file into your project's Build Phases "Copy Bundle Resources” section:</li>
-</ol>
-<p><img alt="" src="../assets/buildphases.png" /><br />
-8. Now add the following Apple frameworks in your project's General "Linked Frameworks and Libraries" section:<br />
+<li>Other Wirecard ePOS SDK frameworks need to be added manually. Add to your project the WDePos.framework <strong>and</strong> the WDePosResources.bundle files, and other hardware frameworks you plan on using, from "unzipped_SDK/Pod/Classes". Terminal Extension frameworks that add support for terminals, printers, cash registers and scanners are:  <blockquote>
+<table>
+<thead>
+<tr>
+<th>Device</th>
+<th>Framework</th>
+<th>Accessory protocol</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>[SPm2, SPm20]</td>
+<td>Spire_SDK.framework</td>
+<td><strong>com.thyron</strong></td>
+</tr>
+<tr>
+<td>[StarMicronics , mPOP]</td>
+<td>Stario_SDK.framework</td>
+<td><strong>jp.star-m.starpro</strong></td>
+</tr>
+<tr>
+<td>[uEMVSwiper]</td>
+<td>BBPOS_SDK.framework</td>
+<td><strong>com.bbpos.bt.wisepad</strong></td>
+</tr>
+<tr>
+<td>[DPP-250]</td>
+<td>Datecs_SDK.framework</td>
+<td><strong>com.datecs.printer.escpos</strong></td>
+</tr>
+<tr>
+<td>[M010]</td>
+<td>Miura_SDK.framework</td>
+<td><strong>com.miura.shuttle, com.miura.rpi</strong></td>
+</tr>
+<tr>
+<td>[SocketScanner]</td>
+<td>Socket_SDK.framework</td>
+<td><strong>com.socketmobile.chs</strong></td>
+</tr>
+<tr>
+<td>Together with the step .5, your "Embedded binaries" section will look like:</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><img alt="" src="../assets/embedded.png" /></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</blockquote>
+</li>
+<li>You also need to add the WDePosResources.bundle file into your project's Build Phases "Copy Bundle Resources” section:
+  <img alt="" src="../assets/buildphases.png" />  </li>
+<li>Now add the following Apple frameworks in your project's General "Linked Frameworks and Libraries" section:<br />
 <em>ExternalAccessory <br />
 CoreFoundation<br />
 CoreLocation<br />
@@ -1294,7 +1348,8 @@ Security<br />
 SystemConfiguration<br />
 Foundation<br />
 MobileCoreServices</em><br />
-Together with the steps above, it will look like:</p>
+Together with the steps above, it will look like:</li>
+</ol>
 <p><img alt="" src="../assets/appleframeworks.png" /><br />
 9. Make sure your project Build Settings/Build Options has “Always Embed Swift Standard Libraries” set to YES:</p>
 <p><img alt="" src="../assets/buildoptions.png" /><br />
