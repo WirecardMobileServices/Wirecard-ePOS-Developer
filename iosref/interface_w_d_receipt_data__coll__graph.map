@@ -1,6 +1,6 @@
 <map id="WDReceiptData" name="WDReceiptData">
 <area shape="rect" id="node3" href="$interface_w_d_receipt_alipay_details.html" title="Receipt content for Alipay payment &#45; to be used by Datecs printer. " alt="" coords="25,129,191,155"/>
-<area shape="rect" id="node5" href="$interface_w_d_object.html" title="WDePos custom object &#160;WDePos Generic Object &#45; supports runtime object [property/values] description..." alt="" coords="168,80,250,105"/>
+<area shape="rect" id="node5" href="$interface_w_d_object.html" title="WDePOS custom object &#160;WDePOS Generic Object &#45; supports runtime object [property/values] description..." alt="" coords="168,80,250,105"/>
 <area shape="rect" id="node6" href="$interface_w_d_receipt_we_chat_details.html" title="Receipt content for WeChat payment &#45; to be used by Datecs printer. " alt="" coords="253,129,430,155"/>
 <area shape="rect" id="node4" href="$interface_w_d_sale_summary_item.html" title="Tax Summary item. " alt="" coords="153,179,306,204"/>
 </map>
