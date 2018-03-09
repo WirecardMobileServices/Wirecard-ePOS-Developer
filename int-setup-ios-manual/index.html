@@ -32,7 +32,7 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-0.17.2, mkdocs-material-2.6.6">
+      <meta name="generator" content="mkdocs-0.17.3, mkdocs-material-2.6.6">
     
     
       
@@ -1348,43 +1348,45 @@ Security<br />
 SystemConfiguration<br />
 Foundation<br />
 MobileCoreServices</em><br />
-Together with the steps above, it will look like:</li>
-</ol>
-<p><img alt="" src="../assets/appleframeworks.png" /><br />
-9. Make sure your project Build Settings/Build Options has “Always Embed Swift Standard Libraries” set to YES:</p>
-<p><img alt="" src="../assets/buildoptions.png" /><br />
-10. And the last step: edit your project's info.plist (the faster way is as a text file) and copy paste the lines below. That way your project will include all needed keys/values and protocols for enabling hardware communication, permissions, etc. Make sure you don't have the following keys already defined with different values, and that you are going to use the <em>UISupportedExternalAccessoryProtocols</em> into your app (do not include the ones for hardware you don't plan on supporting, see point .6).  </p>
-<div class="codehilite"><pre><span></span>            <span class="nt">&lt;key&gt;</span>NSAppTransportSecurity<span class="nt">&lt;/key&gt;</span>
-             <span class="nt">&lt;dict&gt;</span>  
-                            <span class="nt">&lt;key&gt;</span>NSAllowsArbitraryLoads<span class="nt">&lt;/key&gt;</span>  
-                            <span class="nt">&lt;true/&gt;</span>  
-            <span class="nt">&lt;/dict&gt;</span>  
-                            <span class="nt">&lt;key&gt;</span>UIBackgroundModes<span class="nt">&lt;/key&gt;</span>  
-            <span class="nt">&lt;array&gt;</span>  
-                            <span class="nt">&lt;string&gt;</span>audio<span class="nt">&lt;/string&gt;</span>  
-                            <span class="nt">&lt;string&gt;</span>fetch<span class="nt">&lt;/string&gt;</span>  
-                            <span class="nt">&lt;string&gt;</span>external-accessory<span class="nt">&lt;/string&gt;</span>  
-                            <span class="nt">&lt;string&gt;</span>bluetooth-peripheral<span class="nt">&lt;/string&gt;</span>  
-                            <span class="nt">&lt;string&gt;</span>bluetooth-central<span class="nt">&lt;/string&gt;</span>  
-            <span class="nt">&lt;/array&gt;</span>  
-            <span class="nt">&lt;key&gt;</span>NSBluetoothPeripheralUsageDescription<span class="nt">&lt;/key&gt;</span>  
-            <span class="nt">&lt;string&gt;</span>BlueTooth is required for Terminal and Printer communication<span class="nt">&lt;/string&gt;</span>  
-            <span class="nt">&lt;key&gt;</span>NSCameraUsageDescription<span class="nt">&lt;/key&gt;</span>  
-            <span class="nt">&lt;string&gt;</span>Camera will be used for barcode scanning and taking Photos for product catalogue<span class="nt">&lt;/string&gt;</span>  
-            <span class="nt">&lt;key&gt;</span>NSLocationWhenInUseUsageDescription<span class="nt">&lt;/key&gt;</span>  
-            <span class="nt">&lt;string&gt;</span>The terminal location will be used for all payments<span class="nt">&lt;/string&gt;</span>  
-            <span class="nt">&lt;key&gt;</span>NSMicrophoneUsageDescription<span class="nt">&lt;/key&gt;</span>
-            <span class="nt">&lt;string&gt;</span>Audio jack is used for payment terminals such as BBPOS Chippers/Swippers<span class="nt">&lt;/string&gt;</span>  
-            <span class="nt">&lt;key&gt;</span>NSPhotoLibraryUsageDescription<span class="nt">&lt;/key&gt;</span>  
-            <span class="nt">&lt;string&gt;</span>Media Library will be used for adding pictures to catalogue products of your own<span class="nt">&lt;/string&gt;</span>  
-                            <span class="nt">&lt;key&gt;</span>UISupportedExternalAccessoryProtocols<span class="nt">&lt;/key&gt;</span>  
-            <span class="nt">&lt;array&gt;</span>  
-                            <span class="nt">&lt;string&gt;</span>com.socketmobile.chs<span class="nt">&lt;/string&gt;</span>  
-                            <span class="nt">&lt;string&gt;</span>com.thyron<span class="nt">&lt;/string&gt;</span>  
-                            <span class="nt">&lt;string&gt;</span>com.datecs.printer.escpos<span class="nt">&lt;/string&gt;</span>  
-                            <span class="nt">&lt;string&gt;</span>jp.star-m.starpro<span class="nt">&lt;/string&gt;</span>  
-            <span class="nt">&lt;/array&gt;</span>
+Together with the steps above, it will look like:
+<img alt="" src="../assets/appleframeworks.png" />  </li>
+<li>Make sure your project Build Settings/Build Options has “Always Embed Swift Standard Libraries” set to YES:
+<img alt="" src="../assets/buildoptions.png" />  </li>
+<li>And the last step: edit your project's info.plist (the faster way is as a text file) and copy paste the lines below. That way your project will include all needed keys/values and protocols for enabling hardware communication, permissions, etc. Make sure you don't have the following keys already defined with different values, and that you are going to use the <em>UISupportedExternalAccessoryProtocols</em> into your app (do not include the ones for hardware you don't plan on supporting, see point .6).  <div class="codehilite"><pre><span></span>        <span class="nt">&lt;key&gt;</span>NSAppTransportSecurity<span class="nt">&lt;/key&gt;</span>
+         <span class="nt">&lt;dict&gt;</span>  
+                        <span class="nt">&lt;key&gt;</span>NSAllowsArbitraryLoads<span class="nt">&lt;/key&gt;</span>  
+                        <span class="nt">&lt;true/&gt;</span>  
+        <span class="nt">&lt;/dict&gt;</span>  
+                        <span class="nt">&lt;key&gt;</span>UIBackgroundModes<span class="nt">&lt;/key&gt;</span>  
+        <span class="nt">&lt;array&gt;</span>  
+                        <span class="nt">&lt;string&gt;</span>audio<span class="nt">&lt;/string&gt;</span>  
+                        <span class="nt">&lt;string&gt;</span>fetch<span class="nt">&lt;/string&gt;</span>  
+                        <span class="nt">&lt;string&gt;</span>external-accessory<span class="nt">&lt;/string&gt;</span>  
+                        <span class="nt">&lt;string&gt;</span>bluetooth-peripheral<span class="nt">&lt;/string&gt;</span>  
+                        <span class="nt">&lt;string&gt;</span>bluetooth-central<span class="nt">&lt;/string&gt;</span>  
+        <span class="nt">&lt;/array&gt;</span>  
+        <span class="nt">&lt;key&gt;</span>NSBluetoothPeripheralUsageDescription<span class="nt">&lt;/key&gt;</span>  
+        <span class="nt">&lt;string&gt;</span>BlueTooth is required for Terminal and Printer communication<span class="nt">&lt;/string&gt;</span>  
+        <span class="nt">&lt;key&gt;</span>NSCameraUsageDescription<span class="nt">&lt;/key&gt;</span>  
+        <span class="nt">&lt;string&gt;</span>Camera will be used for barcode scanning and taking Photos for product catalogue<span class="nt">&lt;/string&gt;</span>  
+        <span class="nt">&lt;key&gt;</span>NSLocationWhenInUseUsageDescription<span class="nt">&lt;/key&gt;</span>  
+        <span class="nt">&lt;string&gt;</span>The terminal location will be used for all payments<span class="nt">&lt;/string&gt;</span>  
+        <span class="nt">&lt;key&gt;</span>NSMicrophoneUsageDescription<span class="nt">&lt;/key&gt;</span>
+        <span class="nt">&lt;string&gt;</span>Audio jack is used for payment terminals such as BBPOS Chippers/Swippers<span class="nt">&lt;/string&gt;</span>  
+        <span class="nt">&lt;key&gt;</span>NSPhotoLibraryUsageDescription<span class="nt">&lt;/key&gt;</span>  
+        <span class="nt">&lt;string&gt;</span>Media Library will be used for adding pictures to catalogue products of your own<span class="nt">&lt;/string&gt;</span>  
+                        <span class="nt">&lt;key&gt;</span>UISupportedExternalAccessoryProtocols<span class="nt">&lt;/key&gt;</span>  
+        <span class="nt">&lt;array&gt;</span>  
+                        <span class="nt">&lt;string&gt;</span>com.socketmobile.chs<span class="nt">&lt;/string&gt;</span>  
+                        <span class="nt">&lt;string&gt;</span>com.thyron<span class="nt">&lt;/string&gt;</span>  
+                        <span class="nt">&lt;string&gt;</span>com.datecs.printer.escpos<span class="nt">&lt;/string&gt;</span>  
+                        <span class="nt">&lt;string&gt;</span>jp.star-m.starpro<span class="nt">&lt;/string&gt;</span>  
+        <span class="nt">&lt;/array&gt;</span>
 </pre></div>
+
+
+</li>
+</ol>
                 
                   
                 
@@ -1468,7 +1470,7 @@ Together with the steps above, it will look like:</li>
     
       <script src="../assets/javascripts/application.02434462.js"></script>
       
-      <script>app.initialize({version:"0.17.2",url:{base:".."}})</script>
+      <script>app.initialize({version:"0.17.3",url:{base:".."}})</script>
       
     
     
