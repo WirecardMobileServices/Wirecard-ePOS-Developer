@@ -1267,8 +1267,11 @@
 <ol>
 <li>Open the Podfile in a text editor.</li>
 <li>Add the below lines to the Podfile
-<div class="codehilite"><pre><span></span>use_frameworks!
-pod &#39;WDePOS/All&#39;
+<div class="codehilite"><pre><span></span><span class="n">platform</span> <span class="o">:</span><span class="n">ios</span><span class="o">,</span> <span class="s1">&#39;9.0&#39;</span>
+<span class="n">use_frameworks</span><span class="o">!</span>
+<span class="n">target</span> <span class="s1">&#39;YourTarget&#39;</span> <span class="k">do</span>
+    <span class="n">pod</span> <span class="s1">&#39;WDePOS/All&#39;</span>
+<span class="n">end</span>
 </pre></div>
 That's it. Only couple of lines are required to install the SDK into your app. Note: If you want to use more than one target then you must explicitly state this in your Podfile.</li>
 <li>In the folder where your podfile is stored, run <code class="codehilite">pod install</code> to install a new pod. Or run <code class="codehilite">pod update</code> to update your current one.
