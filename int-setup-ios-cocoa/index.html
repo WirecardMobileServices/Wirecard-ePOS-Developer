@@ -1273,7 +1273,16 @@
     <span class="n">pod</span> <span class="s1">&#39;WDePOS/All&#39;</span>
 <span class="n">end</span>
 </pre></div>
-That's it. Only couple of lines are required to install the SDK into your app. Note: If you want to use more than one target then you must explicitly state this in your Podfile.</li>
+That's it. Only couple of lines are required to install the SDK into your app. Note: If you want to use more than one target then you must explicitly state this in your Podfile.<ul>
+<li>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+If you encounter issues with pod install please run 'pod repo update' to upgrade your cocoapods
+<div class="codehilite"><pre><span></span>pod repo update
+</pre></div></div>
+</li>
+</ul>
+</li>
 <li>In the folder where your podfile is stored, run <code class="codehilite">pod install</code> to install a new pod. Or run <code class="codehilite">pod update</code> to update your current one.
 This downloads and installs the SDK from Cocoapods and it creates the workspace for your application. 
 The <code class="codehilite">Example</code> folder is below the main project folder and it contains Integration Tests that you can use to check the usage of each public API. The <a href="../int-tests-i/">iOS Integration Tests</a> chapter has more information. </li>
