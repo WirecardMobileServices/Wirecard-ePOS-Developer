@@ -424,6 +424,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#is-there-a-non-rx-way" title="Is there a non Rx way?" class="md-nav__link">
+    Is there a non Rx way?
+  </a>
+  
+</li>
+      
       
       
       
@@ -1384,6 +1391,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#is-there-a-non-rx-way" title="Is there a non Rx way?" class="md-nav__link">
+    Is there a non Rx way?
+  </a>
+  
+</li>
+      
       
       
       
@@ -1409,6 +1423,10 @@
 <li>manage a chain of methods by operators </li>
 <li>and much more</li>
 </ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Every example in this documentation is using asynchronous approach with lambda expressions.</p>
+</div>
 <h2 id="completable-single-observable">Completable, Single, Observable</h2>
 <p>Most methods return <em>Completable</em> or <em>Single</em> object. They fulfil the observer pattern and can be used as regular RxJava observables. The result of a Completable object is a simple 'complete' answer, which indicates if everything was performed correctly. Single objects return as a response exactly one result, which is defined with generics. These two are used for most calls to SDK.
 Observable objects can return object defined by generics multiple times.</p>
@@ -1486,6 +1504,73 @@ Observable objects can return object defined by generics multiple times.</p>
     <span class="o">.</span><span class="na">andThen</span><span class="o">(</span><span class="n">epos</span><span class="o">.</span><span class="na">methodReturnsSingle</span><span class="o">())</span>
     <span class="o">.</span><span class="na">flatMap</span><span class="o">(</span><span class="n">previousResult</span> <span class="o">-&gt;</span> <span class="n">epos</span><span class="o">.</span><span class="na">methodReturnsAnotherSingle</span><span class="o">())</span>
     <span class="o">.</span><span class="na">subscribe</span><span class="o">(...);</span>
+</pre></div>
+
+<h2 id="is-there-a-non-rx-way">Is there a non Rx way?</h2>
+<p>If you're not familiar with RxJava and Rx principles, you can use SDK with "listeners" as you're used to. Just call <code class="codehilite">subscribe</code> method to every SDK method and put listeners as parameters.</p>
+<div class="codehilite"><pre><span></span><span class="c1">//completable</span>
+<span class="n">eposSDK</span><span class="o">.</span><span class="na">methodReturnsCompletable</span><span class="o">().</span><span class="na">subscribe</span><span class="o">(</span><span class="k">new</span> <span class="n">Action</span><span class="o">()</span> <span class="o">{</span>
+            <span class="nd">@Override</span>
+            <span class="kd">public</span> <span class="kt">void</span> <span class="nf">run</span><span class="o">()</span> <span class="kd">throws</span> <span class="n">Exception</span> <span class="o">{</span>
+                <span class="o">...</span>
+            <span class="o">}</span>
+        <span class="o">},</span> <span class="k">new</span> <span class="n">Consumer</span><span class="o">&lt;</span><span class="n">Throwable</span><span class="o">&gt;()</span> <span class="o">{</span>
+            <span class="nd">@Override</span>
+            <span class="kd">public</span> <span class="kt">void</span> <span class="nf">accept</span><span class="o">(</span><span class="n">Throwable</span> <span class="n">throwable</span><span class="o">)</span> <span class="kd">throws</span> <span class="n">Exception</span> <span class="o">{</span>
+                <span class="o">...</span>
+            <span class="o">}</span>
+        <span class="o">});</span>
+<span class="n">eposSDK</span><span class="o">.</span><span class="na">methodReturnsCompletable</span><span class="o">().</span><span class="na">subscribe</span><span class="o">(</span><span class="k">new</span> <span class="n">CompletableObserver</span><span class="o">()</span> <span class="o">{</span>
+            <span class="nd">@Override</span>
+            <span class="kd">public</span> <span class="kt">void</span> <span class="nf">onSubscribe</span><span class="o">(</span><span class="n">Disposable</span> <span class="n">d</span><span class="o">)</span> <span class="o">{</span>
+                <span class="o">...</span>
+            <span class="o">}</span>
+
+            <span class="nd">@Override</span>
+            <span class="kd">public</span> <span class="kt">void</span> <span class="nf">onComplete</span><span class="o">()</span> <span class="o">{</span>
+                <span class="o">...</span>
+            <span class="o">}</span>
+
+            <span class="nd">@Override</span>
+            <span class="kd">public</span> <span class="kt">void</span> <span class="nf">onError</span><span class="o">(</span><span class="n">Throwable</span> <span class="n">e</span><span class="o">)</span> <span class="o">{</span>
+                <span class="o">...</span>
+            <span class="o">}</span>
+        <span class="o">});</span>
+
+<span class="c1">//single</span>
+<span class="n">eposSDK</span><span class="o">.</span><span class="na">methodReturnsSingle</span><span class="o">().</span><span class="na">subscribe</span><span class="o">(</span><span class="k">new</span> <span class="n">BiConsumer</span><span class="o">&lt;</span><span class="n">Response</span><span class="o">,</span> <span class="n">Throwable</span><span class="o">&gt;()</span> <span class="o">{</span>
+            <span class="nd">@Override</span>
+            <span class="kd">public</span> <span class="kt">void</span> <span class="nf">accept</span><span class="o">(</span><span class="n">Response</span> <span class="n">response</span><span class="o">,</span> <span class="n">Throwable</span> <span class="n">throwable</span><span class="o">)</span> <span class="kd">throws</span> <span class="n">Exception</span> <span class="o">{</span>
+                <span class="o">...</span>
+            <span class="o">}</span>
+        <span class="o">});</span>
+<span class="n">eposSDK</span><span class="o">.</span><span class="na">methodReturnsSingle</span><span class="o">().</span><span class="na">subscribe</span><span class="o">(</span><span class="k">new</span> <span class="n">Consumer</span><span class="o">&lt;</span><span class="n">Response</span><span class="o">&gt;()</span> <span class="o">{</span>
+            <span class="nd">@Override</span>
+            <span class="kd">public</span> <span class="kt">void</span> <span class="nf">accept</span><span class="o">(</span><span class="n">Response</span> <span class="n">response</span><span class="o">)</span> <span class="kd">throws</span> <span class="n">Exception</span> <span class="o">{</span>
+                <span class="o">...</span>
+            <span class="o">}</span>
+        <span class="o">},</span> <span class="k">new</span> <span class="n">Consumer</span><span class="o">&lt;</span><span class="n">Throwable</span><span class="o">&gt;()</span> <span class="o">{</span>
+            <span class="nd">@Override</span>
+            <span class="kd">public</span> <span class="kt">void</span> <span class="nf">accept</span><span class="o">(</span><span class="n">Throwable</span> <span class="n">throwable</span><span class="o">)</span> <span class="kd">throws</span> <span class="n">Exception</span> <span class="o">{</span>
+                <span class="o">...</span>
+            <span class="o">}</span>
+        <span class="o">});</span>
+<span class="n">eposSDK</span><span class="o">.</span><span class="na">methodReturnsSingle</span><span class="o">().</span><span class="na">subscribe</span><span class="o">(</span><span class="k">new</span> <span class="n">SingleObserver</span><span class="o">&lt;</span><span class="n">Response</span><span class="o">&gt;()</span> <span class="o">{</span>
+            <span class="nd">@Override</span>
+            <span class="kd">public</span> <span class="kt">void</span> <span class="nf">onSubscribe</span><span class="o">(</span><span class="n">Disposable</span> <span class="n">disposable</span><span class="o">)</span> <span class="o">{</span>
+                <span class="o">...</span>
+            <span class="o">}</span>
+
+            <span class="nd">@Override</span>
+            <span class="kd">public</span> <span class="kt">void</span> <span class="nf">onSuccess</span><span class="o">(</span><span class="n">Response</span> <span class="n">response</span><span class="o">)</span> <span class="o">{</span>
+                <span class="o">...</span>
+            <span class="o">}</span>
+                <span class="o">...</span>
+            <span class="nd">@Override</span>
+            <span class="kd">public</span> <span class="kt">void</span> <span class="nf">onError</span><span class="o">(</span><span class="n">Throwable</span> <span class="n">e</span><span class="o">)</span> <span class="o">{</span>
+
+            <span class="o">}</span>
+        <span class="o">});</span>
 </pre></div>
                 
                   
