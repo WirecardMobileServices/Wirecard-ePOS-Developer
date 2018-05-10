@@ -952,8 +952,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../int-terminal-update/" title="Update Firmware" class="md-nav__link">
-      Update Firmware
+    <a href="../int-terminal-avail/" title="Check Available Updates" class="md-nav__link">
+      Check Available Updates
     </a>
   </li>
 
@@ -964,8 +964,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../int-terminal-avail/" title="Check Available Updates" class="md-nav__link">
-      Check Available Updates
+    <a href="../int-terminal-update/" title="Update Firmware" class="md-nav__link">
+      Update Firmware
     </a>
   </li>
 
@@ -1321,37 +1321,39 @@
                 
                 <p><img alt="" src="../assets/salesmanager.png" /></p>
 <h1 id="sales-manager-overview">Sales Manager Overview</h1>
-<p>The objective of every merchant is to complete sales and make a profit so the Sale Managers component is probably the most important API in the Wirecard ePOS SDK. This topic provides a general introduction to the Sales Manager component and the key object it uses: Sale Request. The next chapter describes how to use Sales Manager to handle a <a href="../int-salerequest-cash/">cash sale request</a>. The chapter after that describes how to handle a <a href="../int-salerequest-card/">card sale request</a>.</p>
+<p>The objective of every merchant is to complete sales and make a profit so the Sale Managers component is probably the most important API in the Wirecard ePOS SDK. This topic provides a general introduction to the Sales Manager component and the key object it uses: Sale Request. The next chapter describes how to use Sales Manager to handle a <a href="../int-salerequest-cash/">cash sale request</a>. The chapter after that describes how to handle a <a href="../int-salerequest-card/">card sale request</a>.
+Combination of payment methods is currently not supported.</p>
 <h2 id="a-sample-user-interface">A Sample User Interface</h2>
 <p>To help you visualize the end-user functionality that needs to be created, the picture below shows a simple example of a user interface that we will use throughout this documentation. Of course, you are responsible for creating the UI on your own platform and in your programming language of choice, but this gives a feel for what the user interaction might look like before your code takes over and processes the sale request.</p>
 <p><img alt="" src="../assets/mockup.png" /></p>
 <h2 id="minimum-information-for-a-sales-request">Minimum Information for a Sales Request</h2>
 <p>Most importantly, the UI picture above highlights the kind of information that you need to provide to the Sale Request object:</p>
 <ul>
-<li>payment method (i.e. the buttons at the bottom of the UI), with the supported payment methods that you can include being:<ul>
+<li>total <strong>amount</strong> of sale</li>
+<li><strong>currency</strong></li>
+<li>inclusive / exclusive <strong>tax</strong> indicator</li>
+<li><strong>payment method</strong> (i.e. the buttons at the bottom of the UI), with the supported payment methods that you can include being:<ul>
 <li>Card (i.e. Visa and Mastercard)</li>
 <li>Cash</li>
-<li>SEPA</li>
 <li>Alipay</li>
 <li>WeChat Pay</li>
 </ul>
 </li>
+<li><strong>sale items</strong> are conditional. Required if you have enabled cash management, optional otherwise. For each individual item, you need to provide at least:<ul>
+<li>Type of item</li>
+<li>Price</li>
+<li>Quantity</li>
+<li>Tax to be charged</li>
+<li>Total amount of item (basically price multiplied by quantity with respect to discount and tax)</li>
+</ul>
+</li>
+<li>id of <strong>cash register</strong> is also conditional. Required if you have enabled cash management, optional otherwise.</li>
+<li>rest of parameters are optional</li>
 </ul>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>SEPA, Alipay and WeChat Pay are <em>alternative payment methods</em>. Implementing them is optional. You only need to implement them if they are required by the merchant for whom you are implementing.</p>
-</div>
-<ul>
-<li>For each individual item that is part of a sale, you need to provide:<ul>
-<li>Item Description</li>
-<li>Price</li>
-<li>Quantity</li>
-<li>Currency</li>
-<li>Tax to be charged</li>
-</ul>
-</li>
-</ul>
 <p>For simplicity, in the Integrate section of this documentation website we use a sale example with just one item. Most of the code samples also use just a single item.</p>
+</div>
                 
                   
                 

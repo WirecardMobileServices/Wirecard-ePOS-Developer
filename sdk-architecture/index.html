@@ -365,6 +365,33 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#error-management" title="Error management" class="md-nav__link">
+    Error management
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ios-errors" title="iOS Errors" class="md-nav__link">
+    iOS Errors
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#android-exceptions" title="Android Exceptions" class="md-nav__link">
+    Android Exceptions
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
       
       
       
@@ -1025,8 +1052,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../int-terminal-update/" title="Update Firmware" class="md-nav__link">
-      Update Firmware
+    <a href="../int-terminal-avail/" title="Check Available Updates" class="md-nav__link">
+      Check Available Updates
     </a>
   </li>
 
@@ -1037,8 +1064,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../int-terminal-avail/" title="Check Available Updates" class="md-nav__link">
-      Check Available Updates
+    <a href="../int-terminal-update/" title="Update Firmware" class="md-nav__link">
+      Update Firmware
     </a>
   </li>
 
@@ -1450,6 +1477,33 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#error-management" title="Error management" class="md-nav__link">
+    Error management
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ios-errors" title="iOS Errors" class="md-nav__link">
+    iOS Errors
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#android-exceptions" title="Android Exceptions" class="md-nav__link">
+    Android Exceptions
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
       
       
       
@@ -1534,6 +1588,203 @@
 <li>Reminder User of Password</li>
 <li>Change Password</li>
 </ul>
+<h2 id="error-management">Error management</h2>
+<p>Almost all Wirecard ePOS SDK calls can have two results. First is positive, when everything is happy and second, something less-happy is the error result. See in categories below, which errors could appear.</p>
+<h3 id="ios-errors">iOS Errors</h3>
+<div class="codehilite"><pre><span></span>WDErrorBackendReturnedJSONDoesNotMatchMappedClass
+WDErrorUnauthorizedUser
+WDErrorUserPasswordExpired
+WDErrorUserPasswordChangeRequired
+WDErrorUserAccessForbidden
+WDErrorResourceNotFound
+WDErrorSessionExpired
+WDErrorRequestTimeOut
+WDErrorRequestNoProperResponse
+WDErrorRequestParameterRequired
+WDErrorRequestedResourceNotFound
+WDErrorRequestFailedValidation
+WDErrorPlugInTimeout
+WDErrorSignatureTimeout
+WDErrorInitialization
+WDErrorLowBatteryLevel
+WDErrorSwipeTimeout
+WDErrorBadSwipe
+WDErrorNotSupportedCardType
+WDErrorDataProcessing
+WDErrorOnlineProcessing
+WDErrorTransactionNotApproved
+WDErrorHardwareAccessPermission
+WDErrorTokenExpired
+WDErrorConnection
+WDErrorSignatureRequired
+WDErrorCantLoadTerminalConfiguration
+WDErrorTerminalDamaged
+WDErrorNoDUKPT
+WDErrorFailedToStartEMV
+WDErrorFailedToSendOfflineEMV
+WDErrorFailedToSendOnlineEMV
+WDErrorTerminalNotSetInMerchant
+WDErrorResponseLost
+WDErrorTransactionTerminated
+WDErrorTransactionDeclined
+WDErrorTransactionFailure
+WDErrorBlockedCardType
+WDErrorFailedBluetoothConnection
+WDErrorFailedPrinterBluetoothConnection
+WDErrorFailedTerminalBluetoothConnection
+WDErrorFailedDrawerBluetoothConnection
+WDErrorFailedPistolBluetoothConnection
+
+WDErrorTerminalNotReady
+WDErrorTerminalCommunication
+WDErrorTerminalTimeoutApplicationSelection
+WDErrorTerminalFailedToGetICCApplicationsList
+WDErrorTerminalFailedToTerminateCurrentTerminalPaymentFlow
+WDErrorLowPowerInAudioJack
+WDErrorMonoAudioEnabled
+WDErrorTerminalCommandTimeOut
+WDErrorTerminalTimeOut
+WDErrorTerminalWaitingUserTimeOut
+WDErrorTerminalCancelledFileUpload
+
+WDErrorWrongUserNameOrPassword
+WDErrorVendorNotFound
+WDErrorExternalAccessoriesProtocolInvalid application .plist file.
+WDErrorExternalIdNotFound
+WDErrorChangePasswordCriteriaNotMet
+WDErrorQueryStatsTokenExpired
+WDErrorForgotExternalIdNotFound
+
+WDErrorConfigFilesInfoTimeout
+WDErrorConfigFilesZipDownload
+WDErrorTerminalDisconnected
+WDErrorConfigFilesTerminalMayNotBeSet
+WDErrorConfigFilesTerminalCancelledFileDownload
+WDErrorConfigFilesProductionFirmwareOnDevelopmentTerminal
+WDErrorConfigFilesDevelopmentFirmwareOnProductionTerminal
+WDErrorConfigFilesTerminalUnsupported
+WDErrorConfigFilesTokenExpired
+WDErrorInventoryNoData
+WDErrorTerminalFirmwareDoesNotExist
+WDErrorTerminalConfigDoesNotExist
+
+WDErrorConfigFilesReading
+
+WDErrorPrinterTimeout
+WDErrorPrinterInitialization
+WDErrorPrinterLowBatteryLevel
+WDErrorPrinterNotConnected
+WDErrorPrinterOperation
+WDErrorPrinterUnsupportedDevice
+WDErrorDeviceDoesNotSupportPrinting
+WDErrorPrinterPaperLow
+
+WDErrorSignatureRejectedFromTerminal
+WDErrorInvalidPaymentConfiguration
+WDErrorInvalidAIDConfiguration
+
+WDErrorTransactionReversalRequired
+WDErrorTransactionReversedByTerminal
+WDErrorTransactionReversalFailed
+WDErrorTransactionUpdateFailed
+
+WDErrorExtensionClassDoesNotExist
+WDErrorExtensionDoesNotSupportMethod
+WDErrorInvalidParameter
+WDErrorDeviceRooted
+
+WDErrorActiveTerminalNotSet
+WDErrorActiveScanPistolNotSet
+WDErrorActivePrinterNotSet
+WDErrorPinLocked
+WDErrorPinInvalid
+WDErrorGeneral
+WDErrorServerSSLCertificateExpired
+WDErrorFailedTerminalBluetoothConnectionNotInPayment
+
+WDErrorMissingMerchant
+WDErrorAnotherTransactionIsInProgress
+</pre></div>
+
+<h3 id="android-exceptions">Android Exceptions</h3>
+<p>SDK will usually returns exception, which extends from <code class="codehilite">EposException</code> and can also contain another exception in cause.</p>
+<p>Hierarchy of exceptions: <br />
+<div class="codehilite"><pre><span></span>EposException (de.wirecard.epos.exceptions)
+    NoInternetException (de.wirecard.epos.exceptions)
+    DeviceSelectingCanceled (de.wirecard.epos.exceptions.initialization)
+    EposBackendException (de.wirecard.epos.exceptions)
+    UnknownException (de.wirecard.epos.exceptions)
+    ValidationException (de.wirecard.epos.exceptions)
+        AmountTooLowException (de.wirecard.epos.exceptions.validation)
+        MissingParamException (de.wirecard.epos.exceptions.validation)
+        NoDeviceTypeException (de.wirecard.epos.exceptions.validation)
+        TerminalAidConfigurationException (de.wirecard.epos.exceptions.validation)
+        TipQuantityException (de.wirecard.epos.exceptions.validation)
+        TerminalProfileException (de.wirecard.epos.exceptions.validation)
+        MandatoryParametersException (de.wirecard.epos.exceptions.validation)
+        TerminalProfileForNetworkException (de.wirecard.epos.exceptions.validation)
+        ServiceChargeQuantityException (de.wirecard.epos.exceptions.validation)
+        SaleValidationException (de.wirecard.epos.exceptions.validation)
+        TerminalApplicationFileException (de.wirecard.epos.exceptions.validation)
+        InvalidTerminalUpdateException (de.wirecard.epos.exceptions.validation)
+        ThereIsNoAvailableDevice (de.wirecard.epos.exceptions.initialization)
+        NoNewTerminalUpdateException (de.wirecard.epos.exceptions.validation)
+        MissingCurrencyException (de.wirecard.epos.exceptions.validation)
+        ParallelSalesException (de.wirecard.epos.exceptions.validation)
+        MissingConfigurationException (de.wirecard.epos.exceptions.validation)
+        MissingCallbackException (de.wirecard.epos.exceptions.validation)
+        MissingDeviceIdException (de.wirecard.epos.exceptions.validation)
+        AmountTooHighException (de.wirecard.epos.exceptions.validation)
+        MissingTerminalConfigurationException (de.wirecard.epos.exceptions.validation)
+        NoPaymentMethodException (de.wirecard.epos.exceptions.validation)
+        TerminalCapabilityException (de.wirecard.epos.exceptions.validation)
+        NoSelectedDeviceException (de.wirecard.epos.exceptions.validation)
+        MissingSaleException (de.wirecard.epos.exceptions.validation)
+        NoPaymentConfigurationException (de.wirecard.epos.exceptions.validation)
+        DeviceTypeMismatchException (de.wirecard.epos.exceptions.validation)
+        MissingBackendException (de.wirecard.epos.exceptions.validation)
+        ThereIsNoAvailableDeviceType (de.wirecard.epos.exceptions.initialization)
+        TerminalConfigurationException (de.wirecard.epos.exceptions.validation)
+        MissingContextException (de.wirecard.epos.exceptions.validation)
+        TerminalConfigUpdateException (de.wirecard.epos.exceptions.validation)
+            IncorrectUpdateFilesException (de.wirecard.epos.exceptions.extension.general)
+    SaleFailedException (de.wirecard.epos.exceptions)
+        UnknownSaleFailException (de.wirecard.epos.exceptions.sale)
+        SignatureRequestCanceledException (de.wirecard.epos.exceptions.sale)
+        SaleNotApprovedException (de.wirecard.epos.exceptions.sale)
+        SignatureConfirmationCanceledException (de.wirecard.epos.exceptions.sale)
+        PasswordConfirmationRequestCanceledException (de.wirecard.epos.exceptions.sale)
+    DeviceTypesSelectingCanceled (de.wirecard.epos.exceptions.initialization)
+    ExtensionException (de.wirecard.epos.exceptions.extension)
+        TerminalApplicationMismatchException (de.wirecard.epos.exceptions.validation)
+        InvalidFirmwareVersionException (de.wirecard.epos.exceptions.extension.general)
+        UnknownExtensionException (de.wirecard.epos.exceptions.extension.general)
+        TerminatePaymentException (de.wirecard.epos.extension.terminal.exception)
+        CardEntryAbortException (de.wirecard.epos.exceptions.extension.general)
+        InvalidTerminalAppVersionException (de.wirecard.epos.exceptions.extension.general)
+        LoadTerminalUpdateException (de.wirecard.epos.exceptions.extension.general)
+        PinEntryAbortedByUserException (de.wirecard.epos.extension.bbpos.exceptions)
+        CommunicationException (de.wirecard.epos.exceptions.extension)
+            NoBluetoothPermissionException (de.wirecard.epos.exceptions.extension.communication)
+            ConnectionAfterRestartDeviceException (de.wirecard.epos.exceptions.extension.communication)
+            NoBluetoothException (de.wirecard.epos.exceptions.extension.communication)
+            BluetoothConnectionException (de.wirecard.epos.exceptions.extension.communication)
+            UsbConnectionException (de.wirecard.epos.exceptions.extension.communication)
+            CommunicationTimeoutException (de.wirecard.epos.exceptions.extension.communication)
+                AmountConfirmationTimedOutException (de.wirecard.epos.exceptions.extension.communication)
+            NoUsbException (de.wirecard.epos.exceptions.extension.communication)
+            TerminateAfterConfirmException (de.wirecard.epos.exceptions.extension.communication)
+            NoBluetoothAdminPermissionException (de.wirecard.epos.exceptions.extension.communication)
+            UnknownCommunicationException (de.wirecard.epos.exceptions.extension.communication)
+            WrongBluetoothDeviceAddressException (de.wirecard.epos.exceptions.extension.communication)
+            ConnectionFailedException (de.wirecard.epos.exceptions.extension.communication)
+            DeviceDisconnectedException (de.wirecard.epos.exceptions.extension.communication)
+            PairingToTerminalException (de.wirecard.epos.exceptions.extension.communication)
+            UsbPermissionDeniedException (de.wirecard.epos.exceptions.extension.communication)
+        TerminalUpdateFileException (de.wirecard.epos.exceptions.extension.general)
+        CardEntryAbortedByUserException (de.wirecard.epos.extension.bbpos.exceptions)
+    UnauthorizedException (de.wirecard.epos.exceptions)
+</pre></div></p>
                 
                   
                 

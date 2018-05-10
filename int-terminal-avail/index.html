@@ -905,18 +905,6 @@
           
           
 
-
-  <li class="md-nav__item">
-    <a href="../int-terminal-update/" title="Update Firmware" class="md-nav__link">
-      Update Firmware
-    </a>
-  </li>
-
-        
-          
-          
-          
-
   
 
 
@@ -946,6 +934,13 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#update-types" title="Update types" class="md-nav__link">
+    Update types
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#the-code" title="The Code" class="md-nav__link">
     The Code
   </a>
@@ -960,6 +955,18 @@
   
 </nav>
     
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../int-terminal-update/" title="Update Firmware" class="md-nav__link">
+      Update Firmware
+    </a>
   </li>
 
         
@@ -1282,6 +1289,13 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#update-types" title="Update types" class="md-nav__link">
+    Update types
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#the-code" title="The Code" class="md-nav__link">
     The Code
   </a>
@@ -1308,6 +1322,18 @@
                 <h1 id="check-available-updates">Check Available Updates</h1>
 <p>You can check for available updates before performing an <a href="../int-terminal-update/">Update Firmware</a>. This sample code discovers connected devices and for the first one found, checks for any available updates.</p>
 <p>Typically, you should provide the user with an information notice and option to update if there is new firmware available.</p>
+<h2 id="update-types">Update types</h2>
+<p>Wirecard ePOS SDK provides 3 types of terminal updates.</p>
+<ul>
+<li>firmware</li>
+<li>application</li>
+<li>configuration</li>
+</ul>
+<p>Every terminal can handle different types of update. For example, Spire's SPm2 uses application and configuration updates. </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You can specify which update type you can check, or you can leave parameter empty, and SDK will check all available update types for the selected terminal.</p>
+</div>
 <h2 id="the-code">The Code</h2>
 <div class="tabbed">
 <input name="tabbed1" id="tabbed10" type="radio" checked>
@@ -1374,7 +1400,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../int-terminal-update/" title="Update Firmware" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../int-terminal-discovery/" title="Terminal Discovery" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -1383,19 +1409,19 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Update Firmware
+                Terminal Discovery
               </span>
             </div>
           </a>
         
         
-          <a href="../int-cashdrawer-overview/" title="Cash Drawer Overview" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../int-terminal-update/" title="Update Firmware" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Cash Drawer Overview
+                Update Firmware
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
