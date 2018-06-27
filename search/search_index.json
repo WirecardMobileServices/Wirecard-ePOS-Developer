@@ -1416,24 +1416,14 @@
             "title": "The Sample Code"
         }, 
         {
-            "location": "/androidref/", 
-            "text": "Android Class Reference\n\n\nReplace with javadoc index.", 
-            "title": "Reference - Android SDK"
+            "location": "/fake-external-link/", 
+            "text": "", 
+            "title": "Reference - Android SDK &#x1F5D7|androidref/"
         }, 
         {
-            "location": "/androidref/#android-class-reference", 
-            "text": "Replace with javadoc index.", 
-            "title": "Android Class Reference"
-        }, 
-        {
-            "location": "/iosref/", 
-            "text": "iOS Class Reference\n\n\nReplace with doxygen index.", 
-            "title": "Reference - iOS SDK"
-        }, 
-        {
-            "location": "/iosref/#ios-class-reference", 
-            "text": "Replace with doxygen index.", 
-            "title": "iOS Class Reference"
+            "location": "/fake-external-link/", 
+            "text": "", 
+            "title": "Reference - iOS SDK &#x1F5D7|iosref/"
         }, 
         {
             "location": "/glossary/", 
