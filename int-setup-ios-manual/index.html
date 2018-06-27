@@ -72,7 +72,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search">
     <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
     
-      <a href="#set-up-manually-not-recommended" tabindex="1" class="md-skip">
+      <a href="#set-up-using-carthage" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -1167,6 +1167,18 @@
   </li>
 
         
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../int-ui/" title="Sale UI" class="md-nav__link">
+      Sale UI
+    </a>
+  </li>
+
+        
       </ul>
     </nav>
   </li>
@@ -1260,14 +1272,20 @@
               
                 
                 
-                <h1 id="set-up-manually-not-recommended">Set up Manually (Not Recommended)</h1>
+                <h1 id="set-up-using-carthage">Set up using Carthage</h1>
+<p>The SDK supports installation using the <a href="https://github.com/Carthage/Carthage">Carthage dependency manager</a>.
+Just run the carthage update command in the SDK root directory and get the WDePOS and related frameworks from <code class="codehilite">Carthage/Build/&lt;platform&gt;</code> directory</p>
+<div class="codehilite"><pre><span></span>carthage update
+</pre></div>
+
+<h1 id="set-up-manually-not-recommended">Set up Manually (Not Recommended)</h1>
 <p>To manually install the SDK:</p>
 <ol>
 <li>
 <p>Make sure you have <a href="https://cocoapods.org">cocoapods</a> installed. </p>
 </li>
 <li>
-<p>Download the SDK from <a href="https://github.com/mposSVK/AcceptSDK2-iOS">Wirecard ePOS SDK for iOS repository on Github</a>.</p>
+<p>Download the SDK from <a href="https://github.com/WirecardMobileServices/Wirecard-ePOS-iOS">Wirecard ePOS SDK for iOS repository on Github</a>.</p>
 </li>
 <li>Unzip it and run 'pod install' within "unzipped_SDK/Example" folder.</li>
 <li>After the pods are installed, copy the Pods.xcodeproj from "unzipped_SDK/Example/Pods" into your own project. Make sure you are copying the xcodeproj and <strong>not</strong> the Pods folder; otherwise you may enter into duplicated definitions problems.</li>

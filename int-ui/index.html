@@ -36,7 +36,7 @@
     
     
       
-        <title>Shift Report - Wirecard ePOS SDK</title>
+        <title>Sale UI - Wirecard ePOS SDK</title>
       
     
     
@@ -72,7 +72,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search">
     <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
     
-      <a href="#shift-report" tabindex="1" class="md-skip">
+      <a href="#sale-ui" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -98,7 +98,7 @@
                 Wirecard ePOS SDK
               </span>
               <span class="md-header-nav__topic">
-                Shift Report
+                Sale UI
               </span>
             
           
@@ -608,12 +608,10 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-2" type="checkbox" id="nav-4-2" checked>
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-2" type="checkbox" id="nav-4-2">
     
     <label class="md-nav__link" for="nav-4-2">
       Cash Manager
@@ -701,49 +699,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
-    
-      
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="toc">
-        Shift Report
-      </label>
-    
-    <a href="./" title="Shift Report" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../int-cash-shift-report/" title="Shift Report" class="md-nav__link">
       Shift Report
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#the-sample-code" title="The Sample Code" class="md-nav__link">
-    The Sample Code
-  </a>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
-</nav>
-    
   </li>
 
         
@@ -1200,11 +1160,49 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../int-ui/" title="Sale UI" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        Sale UI
+      </label>
+    
+    <a href="./" title="Sale UI" class="md-nav__link md-nav__link--active">
       Sale UI
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#the-sample-code" title="The Sample Code" class="md-nav__link">
+    The Sample Code
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
         
@@ -1317,65 +1315,57 @@
               
                 
                 
-                <h1 id="shift-report">Shift Report</h1>
-<p>After a shift is <a href="../int-cash-shift-close/">closed</a>, cash operations performed during the shift can be reported in the Shift Report. Data included in the Shift Report includes:</p>
+                <h1 id="sale-ui">Sale UI</h1>
+<p>The SDK comes with the standard UI covering the whole payment flow*:</p>
 <ul>
-<li>opening and closing times</li>
-<li>opening and closing amounts</li>
-<li>cashier names</li>
-<li>sale categories (cash, card or coupon)</li>
-<li>net amount</li>
-<li>gross amount per sale (for purchases and returns)</li>
-<li>tax charged</li>
+<li>Sale Amount entry</li>
+<li>Cardholder Signature collection</li>
+<li>QR Payment scanner</li>
+<li>Terminal selection</li>
+<li>Cash Register selection</li>
+<li>Cash Shift management (Open/Close)</li>
 </ul>
-<p>The Shift identifier and Cash Register identifier are both required.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>A Shift Report is also known as a Z-Report.</p>
-</div>
+<p><i>*This feature is available for iOS only at the moment</i></p>
+<p>Please see the example application using the Sale UI. The example application can be found in <code class="codehilite">Wirecard-ePOS-iOS/eClear</code> directory.</p>
+<p>You can download the <a href="https://github.com/WirecardMobileServices/Wirecard-ePOS-iOS">Wirecard-ePOS-iOS</a> if you did not install it already through cocoapods.</p>
 <h2 id="the-sample-code">The Sample Code</h2>
-<p>On both platforms, the <code class="codehilite">cashShift</code> has all of the information needed to create the Shift Report. </p>
-<div class="admonition caution">
-<p class="admonition-title">Caution</p>
-<p>On both platforms, a shift must first be <a href="../int-cash-shift-close/">closed</a> before you can generate a shift report.</p>
-</div>
 <div class="tabbed">
-    <input name="tabbed101" id="tabbed101" type="radio" checked>
+    <input name="tabbed1" id="tabbed1" type="radio" checked>
     <section>
         <h1>
-            <label for="tabbed101"><img class="tabImageIOS" alt="iOS" src="../assets/apple60.png" src=""></label>
+            <label for="tabbed1"><img class="tabImageIOS" alt="iOS" src="../assets/apple60.png" src=""></label>
         </h1>
         <div>
             <div class="tabPanel-widget">
-                <label for="tab-101" tabindex="0"></label>
-                <input id="tab-101" type="radio" name="tabs11" checked aria-hidden="true">
+                <label for="tab-1" tabindex="0"></label>
+                <input id="tab-1" type="radio" name="tabs1" checked aria-hidden="true">
                 <h2>ObjC</h2>
                 <div>
-                    <script src="https://gist.github.com/WirecardMobileServices/327ba4503ae6ef0b2f7ad5d3092df77c.js"></script>
+                    <script src="https://gist.github.com/WirecardMobileServices/64027152150f3d73aac2be2dc69ae6a1.js"></script>
                 </div>
 
-                <label for="tab-201" tabindex="0"></label>
-                <input id="tab-201" type="radio" name="tabs11" aria-hidden="true">
+                <label for="tab-2" tabindex="0"></label>
+                <input id="tab-2" type="radio" name="tabs1" aria-hidden="true">
                 <h2>Swift</h2>
                 <div>
-                    <script src="https://gist.github.com/WirecardMobileServices/8579f3ef153ac2891e7e666249637724.js"></script>
+                    <script src="https://gist.github.com/WirecardMobileServices/dd09583ecd6f83a1011f56176306cd07.js"></script>
                 </div>
             </div>
         </div>
     </section>
-    <input name="tabbed101" id="tabbed201" type="radio">
+    <input name="tabbed1" id="tabbed2" type="radio">
     <section>
         <h1>
-            <label for="tabbed201"><img class="tabImageAndroid" alt="Android" src="../assets/android60.png"></label>
+            <label for="tabbed2"><img class="tabImageAndroid" alt="Android" src="../assets/android60.png"></label>
         </h1>
         <div>
-            <script src="https://gist.github.com/WirecardMobileServices/8b19eb9cf856e64e04b0331b467183c8.js"></script>
+            Coming soon ...
         </div>
     </section>
-    <input name="tabbed101" id="tabbed301" type="radio">
+    <input name="tabbed1" id="tabbed3" type="radio">
     <section>
         <h1>
-            <label for="tabbed301"><img class="tabImageWin" alt="Windows" src="../assets/winmo60.png"></label>
+            <label for="tabbed3"><img class="tabImageWin" alt="Windows" src="../assets/winmo60.png"></label>
         </h1>
         <div>
             Universal Windows Platform SDK coming soon
@@ -1404,7 +1394,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../int-cash-shift-activity/" title="Shift Activity" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../int-usermanager/" title="User Manager" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -1413,19 +1403,19 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Shift Activity
+                User Manager
               </span>
             </div>
           </a>
         
         
-          <a href="../int-cash-cashiers/" title="Cashiers" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../androidref/" title="Reference - Android SDK" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Cashiers
+                Reference - Android SDK
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
