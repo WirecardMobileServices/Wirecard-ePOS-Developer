@@ -1,5 +1,7 @@
 var anchors = document.getElementsByClassName("md-nav__list")[0].getElementsByTagName("a");
 var baseUrl = window.location.origin ? window.location.origin + '/' : window.location.protocol + '/' + window.location.host + '/';
+var firstPath = window.location.pathname.split('/')[1];
+var url = firstPath ? baseUrl + firstPath + '/' : baseUrl;
 for (i = 0; i < anchors.length; i++) {
     var anchor = anchors[i];
     var sep = anchor.title.indexOf("|");
@@ -8,7 +10,7 @@ for (i = 0; i < anchors.length; i++) {
 	if (sep != -1) {
 		var title = anchor.title.substring(0, sep);
 		var href = anchor.title.substring(sep + 1, anchor.title.length);
-		anchor.href = baseUrl + href;
+		anchor.href = url + href;
 		anchor.title = title;
 		anchor.innerText = title;
 	}
