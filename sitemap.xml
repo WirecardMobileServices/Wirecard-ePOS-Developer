@@ -1,402 +1,317 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-     <loc>/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/android-reference/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/appa-other/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/appb-emv/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/appc-payment/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/basics/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/fake-external-link/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/glossary/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/int-cash-cashiers-pin/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/int-cash-cashiers/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/int-cash-overview/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/int-cash-payinout/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/int-cash-register/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/int-cash-shift-activity/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/int-cash-shift-close/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/int-cash-shift-open/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/int-cash-shift-report/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/int-cashdrawer-connect/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/int-cashdrawer-discovery/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/int-cashdrawer-open/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/int-cashdrawer-overview/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/int-complete/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/int-customermanager/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/int-device-overview/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/int-initialization/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/int-inventory-overview/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/int-maint-prod-catalogues/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/int-maint-prod-categories/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/int-maint-product/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/int-ov-a/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/int-payment/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/int-print-paperstatus/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/int-print-receipt/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/int-print/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/int-printer-discovery/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/int-printer-overview/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/int-prod-changes-images/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/int-prod-changes/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/int-product-prices-erp/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/int-product-stocks-erp/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/int-sale-model/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/int-sale-overview/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/int-salereceipt/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/int-salerequest-alternativePayment/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/int-salerequest-card/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/int-salerequest-cash/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/int-salereturns/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/int-salereversals/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/int-saleshistory/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/int-salesstatistics/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/int-scanner-discovery/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/int-scanner-overview/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/int-scannermanager/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/int-setup-android-gradle/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/int-setup-android-manual/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/int-setup-ios-cocoa/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/int-setup-ios-manual/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/int-terminal-avail/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/int-terminal-discovery/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/int-terminal-overview/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/int-terminal-update/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/int-tests-a/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/int-tests-i/</loc>
-     <lastmod>2018-11-13</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>/int-ui/</loc>
-     <lastmod>2018-11-13</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>/int-usb/</loc>
-     <lastmod>2018-11-13</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>/int-usermanager/</loc>
-     <lastmod>2018-11-13</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>/integrating/</loc>
-     <lastmod>2018-11-13</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>/ios-reference/</loc>
-     <lastmod>2018-11-13</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>/mpos-architecture/</loc>
-     <lastmod>2018-11-13</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>/sdk-architecture/</loc>
-     <lastmod>2018-11-13</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>/setup-publictest/</loc>
-     <lastmod>2018-11-13</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>/setup-terminals/</loc>
-     <lastmod>2018-11-13</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>/start/</loc>
-     <lastmod>2018-11-13</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>/switch-reference/</loc>
-     <lastmod>2018-11-13</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>/using/</loc>
-     <lastmod>2018-11-13</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>/old/Developer Reference (Android)/</loc>
-     <lastmod>2018-11-13</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>/old/Developer Reference (iOS)/</loc>
-     <lastmod>2018-11-13</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>/old/allclasses-frame/</loc>
-     <lastmod>2018-11-13</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>/old/glossary-acronyms/</loc>
-     <lastmod>2018-11-13</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>/old/xxx 001 Overview of the Project/</loc>
+     <loc>None</loc>
      <lastmod>2018-11-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
