@@ -1664,34 +1664,50 @@ Similar usage is for "excludeResponseFields()" method where you will receive the
 <p>Pagination of request object can be achieved by using "page()" and "size()" methods. Imagine you have backend with 1000 users. You want to get only first 20 users. You need to use "page(1)" and "size(20)" and you will receive first 20 users. If you want to get 20 more users you will use "page(2)" and "size(20)".  </p>
 <p>Response results can be sorted also. There are "ASC" and "DESC" enumerators. "ASC" means ascending and "DESC" means descending order. There is possibility to combine multiple order params. To sort 
 your backend response object users by response object field "name" from A to Z you will need to use "sort("username", WithPagination.Order.ASC)". Imagine, at the same time you want to sort the same backend response object users by response object field "age" but from highest to lowest. You will use "sort("age", WithPagination.Order.DESC)". You have already applied two sorts in one backend request. The result object will contain users sorted by "name" alphabetically by fist and by "age" from highest to lowest as a second.</p>
-<p>There are three types of "With" parameters where you can use apply above mentioned params:
-* WithBase
-* WithFields
-* WithPagination</p>
+<p>There are three types of "With" parameters where you can use apply above mentioned params:</p>
+<ul>
+<li>WithBase</li>
+<li>WithFields</li>
+<li>WithPagination</li>
+</ul>
 <div class="codehilite"><pre><span></span><span class="n">epos</span><span class="o">.</span><span class="na">anyObservableMethod</span><span class="o">(</span><span class="n">With</span> <span class="n">with</span><span class="o">)</span>
   <span class="o">.</span><span class="na">observeOn</span><span class="o">(...)</span>
   <span class="o">.</span><span class="na">subscribe</span><span class="o">(...);</span>                                     
 </pre></div>
 
 <h3 id="withbase">WithBase</h3>
-<p>Methods:
-* scheduler(Scheduler scheduler)<br />
-You can set desired Scheduler upon which the request will run. </p>
+<p>Methods:</p>
+<ul>
+<li>scheduler(Scheduler scheduler)<br />
+You can set desired Scheduler upon which the request will run. </li>
+</ul>
 <div class="codehilite"><pre><span></span><span class="n">WithBase</span> <span class="n">withBase</span> <span class="o">=</span> <span class="n">With</span><span class="o">.</span><span class="na">base</span><span class="o">().</span><span class="na">scheduler</span><span class="o">(</span><span class="n">Schedulers</span><span class="o">.</span><span class="na">io</span><span class="o">());</span>
 </pre></div>
 
 <h3 id="withfields">WithFields</h3>
-<p>Methods:
-* scheduler(Scheduler scheduler)<br />
-You can set desired Scheduler upon which the request will run. 
-* includeResponseFields(String[] includeResponseFields)<br />
-Fields that will be retrieved from original response object so the response object will contain only "includeResponseFields". 
-* excludeResponseFields(String[] excludeResponseFields)<br />
-Fields that will be omitted from original response object (original response object minus excludeResponseFields).
-* param(String name, String value)<br />
-Optional request parameter that will be included in backend request.
-* params(Pair<String, String> values)<br />
+<p>Methods:</p>
+<ul>
+<li>
+<p>scheduler(Scheduler scheduler)<br />
+You can set desired Scheduler upon which the request will run. </p>
+</li>
+<li>
+<p>includeResponseFields(String[] includeResponseFields)<br />
+Fields that will be retrieved from original response object so the response object will contain only "includeResponseFields". </p>
+</li>
+<li>
+<p>excludeResponseFields(String[] excludeResponseFields)<br />
+Fields that will be omitted from original response object (original response object minus excludeResponseFields).</p>
+</li>
+<li>
+<p>param(String name, String value)<br />
+Optional request parameter that will be included in backend request.</p>
+</li>
+<li>
+<p>params(Pair<String, String> values)<br />
 Optional request parameters that will be included in backend request.</p>
+</li>
+</ul>
 <div class="codehilite"><pre><span></span><span class="n">WithFields</span> <span class="n">withFields</span> <span class="o">=</span> <span class="n">With</span><span class="o">.</span><span class="na">fields</span><span class="o">()</span>
                             <span class="o">.</span><span class="na">scheduler</span><span class="o">(</span><span class="n">Schedulers</span><span class="o">.</span><span class="na">newThread</span><span class="o">())</span>
                             <span class="o">.</span><span class="na">includeResponseFields</span><span class="o">(</span><span class="k">new</span> <span class="n">String</span><span class="o">[]{</span><span class="s">&quot;id&quot;</span><span class="o">,</span> <span class="s">&quot;type&quot;</span><span class="o">,</span> <span class="s">&quot;status&quot;</span><span class="o">,</span> <span class="s">&quot;currency&quot;</span><span class="o">})</span>
@@ -1702,23 +1718,41 @@ Optional request parameters that will be included in backend request.</p>
 </pre></div>
 
 <h3 id="withpagination">WithPagination</h3>
-<p>Methods:
-* scheduler(Scheduler scheduler)<br />
-You can set desired Scheduler upon which the request will run. 
-* includeResponseFields(String[] includeResponseFields)<br />
-Fields that will be retrieved from original response object so the response object will contain only "includeResponseFields". 
-* excludeResponseFields(String[] excludeResponseFields)<br />
-Fields that will be omitted from original response object (original response object minus excludeResponseFields).
-* param(String name, String value)<br />
-Optional request parameter that will be included in backend request.
-* params(Pair<String, String> values)<br />
-Optional request parameters that will be included in backend request.
-* page(Int page)<br />
-Pagination of results can be achieved by adding "page" and "size" into backend request parameters.
-* size(Int size) <strong>maximum 1000</strong><br />
-Number of response results.
-* sort(String property, WithPagination.Order order)<br />
+<p>Methods:</p>
+<ul>
+<li>
+<p>scheduler(Scheduler scheduler)<br />
+You can set desired Scheduler upon which the request will run. </p>
+</li>
+<li>
+<p>includeResponseFields(String[] includeResponseFields)<br />
+Fields that will be retrieved from original response object so the response object will contain only "includeResponseFields". </p>
+</li>
+<li>
+<p>excludeResponseFields(String[] excludeResponseFields)<br />
+Fields that will be omitted from original response object (original response object minus excludeResponseFields).</p>
+</li>
+<li>
+<p>param(String name, String value)<br />
+Optional request parameter that will be included in backend request.</p>
+</li>
+<li>
+<p>params(Pair<String, String> values)<br />
+Optional request parameters that will be included in backend request.</p>
+</li>
+<li>
+<p>page(Int page)<br />
+Pagination of results can be achieved by adding "page" and "size" into backend request parameters.</p>
+</li>
+<li>
+<p>size(Int size) <strong>maximum 1000</strong><br />
+Number of response results.</p>
+</li>
+<li>
+<p>sort(String property, WithPagination.Order order)<br />
 Response objects will be sorted according to "property" that will be added into backend request (there are two options: ASC, DESC).</p>
+</li>
+</ul>
 <div class="codehilite"><pre><span></span><span class="n">WithPagination</span> <span class="n">withPagination</span> <span class="o">=</span> <span class="n">With</span><span class="o">.</span><span class="na">pagination</span><span class="o">()</span>
                                     <span class="o">.</span><span class="na">scheduler</span><span class="o">(</span><span class="n">Schedulers</span><span class="o">.</span><span class="na">newThread</span><span class="o">())</span>
                                     <span class="o">.</span><span class="na">includeResponseFields</span><span class="o">(</span><span class="k">new</span> <span class="n">String</span><span class="o">[]{</span><span class="s">&quot;id&quot;</span><span class="o">,</span> <span class="s">&quot;name&quot;</span><span class="o">,</span> <span class="s">&quot;openTime&quot;</span><span class="o">})</span>
