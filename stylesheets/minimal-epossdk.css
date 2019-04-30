@@ -285,4 +285,5 @@ label:focus {
 
 .md-header{
    z-index:99999;
+   background-color:rgba(10,10,10,0.97);
 }
