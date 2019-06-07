@@ -281,6 +281,7 @@ label:focus {
 .md-sidebar--primary{
    overflow-y: auto;
   max-height: 100%;
+  /*width:26rem;*/
 }
 
 .md-header{
