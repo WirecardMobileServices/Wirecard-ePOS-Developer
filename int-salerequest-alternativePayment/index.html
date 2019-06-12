@@ -1610,6 +1610,10 @@
 <p>At this point, the <strong>Sales Manager</strong> component has everything it needs to process the payment in the sale property, and the next steps are described in <a href="../int-payment/">The Payment Flow</a> chapter. </p>
 <h2 id="the-sample-code">The Sample Code</h2>
 <p>Before jumping ahead, you should look at the sample code that demonstrates exactly how this is implemented, using the example of a single item shown in the picture of the UI.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Wechat and Alipay payments <strong>must</strong> include a sale <strong>note</strong> (only mandatory for these alternative payment methods) that can be used for storing details about the sale. While the content of this note is not validated by Wirecard (as soon as it is not empty), both Wechat and Alipay demands a brief description of the sale (ie. nature of it, or products sold) for regulatory reasons.</p>
+</div>
 <div class="tabbed">
                 <input name="tabbed1" id="tabbed1" type="radio" checked>
                 <section>
