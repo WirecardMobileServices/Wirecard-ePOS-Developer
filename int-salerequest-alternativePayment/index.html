@@ -1603,6 +1603,10 @@
 <p class="admonition-title">Note</p>
 <p>The object and method names above are shown in simplified pseudo-code to make it easier to read for both developers and non-developers. Generally speaking, we remove the <code class="codehilite">WDePos</code>, which is the prefix at the beginning of all class names, and we add in some spaces. For example, the actual class name is <code class="codehilite">WDSaleRequest</code> but that is tough to read, so we display it as <strong>Sale Request</strong> instead. We do the same with method names. For example, the method <strong>add Alipay payment</strong>, shown above, is implemented in Objective-C and Swift as <code class="codehilite">addAlipayPayment</code>. The similar is true for <strong>add WeChat payment</strong>.</p>
 </div>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>When adding a payment method (<code class="codehilite">addCashPayment</code>, <code class="codehilite">addCardPayment</code>, etc.), you can <strong>optionally</strong> include a notification callback URL in your payment request (<code class="codehilite">notifyUrl</code>). This URL will then be called once the payment is completed, if you chose to set it. </p>
+</div>
 <h3 id="the-ios-process-flow">The iOS Process Flow</h3>
 <p>The process flow in the code is as follows:</p>
 <ul class="task-list">

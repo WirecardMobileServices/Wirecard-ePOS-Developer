@@ -1580,6 +1580,10 @@
 <p class="admonition-title">Tip</p>
 <p>If you are a little overwhelmed at this point, don't worry about it. The <a href="../int-payment/">Payment Flow</a> chapter provides a good review which covers card and cash payments on iOS a second time. </p>
 </div>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>When adding a payment method (<code class="codehilite">addCashPayment</code>, <code class="codehilite">addCardPayment</code>, etc.), you can <strong>optionally</strong> include a notification callback URL in your payment request (<code class="codehilite">notifyUrl</code>). This URL will then be called once the payment is completed, if you chose to set it. </p>
+</div>
 <h2 id="the-android-object-model">The Android Object Model</h2>
 <p>The Android sample code is structured somewhat differently from the iOS code. The device discovery, sample sale request building and adding of a card payment are similar, but after that, the <code class="codehilite">eventRelay</code> takes over and handles various events that can take place on the terminal, such as <strong>Signature Request</strong>, <strong>Signature Confirmation</strong> and so forth.</p>
 <p><img alt="" src="../assets/objectmodel-card-java.png" /></p>
