@@ -1,7 +1,11 @@
 <map id="WDSaleItemCore" name="WDSaleItemCore">
-<area shape="rect" id="node6" href="$interface_w_d_sale_coupon.html" title="WDSaleCoupon" alt="" coords="5,225,122,251"/>
-<area shape="rect" id="node7" href="$interface_w_d_sale_flat_discount.html" title="WDSaleFlatDiscount" alt="" coords="146,225,291,251"/>
-<area shape="rect" id="node8" href="$interface_w_d_sale_item.html" title="WDSaleItem" alt="" coords="314,225,411,251"/>
-<area shape="rect" id="node9" href="$interface_w_d_sale_service_charge.html" title="WDSaleServiceCharge" alt="" coords="434,225,592,251"/>
-<area shape="rect" id="node2" href="$interface_w_d_object.html" title="WDePOS custom object &#160;WDePOS Generic Object &#45; supports runtime object [property/values] description..." alt="" coords="132,79,214,104"/>
+<area shape="rect" id="node1" title=" " alt="" coords="228,152,353,177"/>
+<area shape="rect" id="node6" href="$interface_w_d_sale_coupon.html" title=" " alt="" coords="5,225,122,251"/>
+<area shape="rect" id="node7" href="$interface_w_d_sale_flat_discount.html" title=" " alt="" coords="146,225,291,251"/>
+<area shape="rect" id="node8" href="$interface_w_d_sale_item.html" title="Payment item info." alt="" coords="314,225,411,251"/>
+<area shape="rect" id="node9" href="$interface_w_d_sale_service_charge.html" title=" " alt="" coords="434,225,592,251"/>
+<area shape="rect" id="node2" href="$interface_w_d_object.html" title="WDePOS custom object @discussion WDePOS Generic Object &#45; supports runtime object [property/values] de..." alt="" coords="132,79,214,104"/>
+<area shape="rect" id="node3" title=" " alt="" coords="134,5,212,31"/>
+<area shape="rect" id="node4" title=" " alt="" coords="238,79,343,104"/>
+<area shape="rect" id="node5" title=" " alt="" coords="367,79,465,104"/>
 </map>

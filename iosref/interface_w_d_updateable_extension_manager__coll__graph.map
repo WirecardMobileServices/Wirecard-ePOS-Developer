@@ -1,3 +1,5 @@
 <map id="WDUpdateableExtensionManager" name="WDUpdateableExtensionManager">
-<area shape="rect" id="node2" href="$interface_w_d_extension_manager.html" title="Extension Manager (terminals | printers | scanners) " alt="" coords="39,79,194,104"/>
+<area shape="rect" id="node1" title="Extension Manager &#45; updateable devices." alt="" coords="5,152,228,177"/>
+<area shape="rect" id="node2" href="$interface_w_d_extension_manager.html" title="Extension Manager (terminals | printers | scanners)" alt="" coords="39,79,194,104"/>
+<area shape="rect" id="node3" title=" " alt="" coords="78,5,156,31"/>
 </map>

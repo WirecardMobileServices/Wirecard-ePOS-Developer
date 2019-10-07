@@ -2,10 +2,11 @@ var interface_w_de_p_o_s =
 [
     [ "addDelegate:", "interface_w_de_p_o_s.html#addf10c065f2a84b46e0a64609060cf56", null ],
     [ "init", "interface_w_de_p_o_s.html#a97546e837d9d2f822381e19360be1125", null ],
+    [ "logout", "interface_w_de_p_o_s.html#abd55612ea80871bd74dc39436e237134", null ],
     [ "removeDelegate:", "interface_w_de_p_o_s.html#a9f5b4d9e84d88a0dc3a00700b423e5ec", null ],
     [ "setDevMode:", "interface_w_de_p_o_s.html#a8154ffb2538f37d9ff6f699aa34f1317", null ],
-    [ "setupWithCustomURL:username:password:completion:", "interface_w_de_p_o_s.html#a34e3a723669c905452f27769a2911667", null ],
-    [ "setupWithEnvironment:username:password:completion:", "interface_w_de_p_o_s.html#a3ddb1e8a37e7aebc973d718c46b553fd", null ],
+    [ "setupWithCustomURL:username:password:completion:", "interface_w_de_p_o_s.html#a6d8b49d8332cd118dbca3bd5faaa2474", null ],
+    [ "setupWithEnvironment:username:password:completion:", "interface_w_de_p_o_s.html#aabe194fcbe36873075ec28083858f4a0", null ],
     [ "authenticatedUser", "interface_w_de_p_o_s.html#afbf0e93ea6dcb75268c52c068062dfec", null ],
     [ "cashDrawerManager", "interface_w_de_p_o_s.html#abf33859d0bd23256b5ad7d396217c0e1", null ],
     [ "cashier", "interface_w_de_p_o_s.html#a3caf7f16e5e7fb36146f0d37555cf067", null ],

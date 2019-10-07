@@ -8,15 +8,16 @@ var dir_47cd7cdb35cbe3cde72d9475b2cf3b7d =
     [ "WDCustomerManager.h", "_w_d_customer_manager_8h.html", [
       [ "WDCustomerManager", "interface_w_d_customer_manager.html", "interface_w_d_customer_manager" ]
     ] ],
+    [ "WDDataTypes.h", "_w_d_data_types_8h.html", "_w_d_data_types_8h" ],
     [ "WDEnvironment.h", "_w_d_environment_8h.html", "_w_d_environment_8h" ],
     [ "WDePosSDK.h", "_w_de_pos_s_d_k_8h.html", [
-      [ "<WDePOSDelegate >", "protocol_w_de_p_o_s_delegate_01-p.html", "protocol_w_de_p_o_s_delegate_01-p" ],
+      [ "<WDePOSDelegate>", "protocol_w_de_p_o_s_delegate-p.html", "protocol_w_de_p_o_s_delegate-p" ],
       [ "WDePOS", "interface_w_de_p_o_s.html", "interface_w_de_p_o_s" ]
     ] ],
     [ "WDExtensionManager.h", "_w_d_extension_manager_8h.html", [
       [ "WDExtensionManager", "interface_w_d_extension_manager.html", "interface_w_d_extension_manager" ],
       [ "WDUpdateableExtensionManager", "interface_w_d_updateable_extension_manager.html", "interface_w_d_updateable_extension_manager" ],
-      [ "WDTerminalManager", "interface_w_d_terminal_manager.html", "interface_w_d_terminal_manager" ],
+      [ "WDTerminalManager", "interface_w_d_terminal_manager.html", null ],
       [ "WDPrinterManager", "interface_w_d_printer_manager.html", "interface_w_d_printer_manager" ],
       [ "WDScannerManager", "interface_w_d_scanner_manager.html", "interface_w_d_scanner_manager" ],
       [ "WDCashDrawerManager", "interface_w_d_cash_drawer_manager.html", "interface_w_d_cash_drawer_manager" ]
@@ -32,6 +33,7 @@ var dir_47cd7cdb35cbe3cde72d9475b2cf3b7d =
       [ "WDProductCatalogueProduct", "interface_w_d_product_catalogue_product.html", "interface_w_d_product_catalogue_product" ],
       [ "WDProductAvailability", "interface_w_d_product_availability.html", "interface_w_d_product_availability" ],
       [ "WDProductStock", "interface_w_d_product_stock.html", "interface_w_d_product_stock" ],
+      [ "WDProductStockMaintain", "interface_w_d_product_stock_maintain.html", "interface_w_d_product_stock_maintain" ],
       [ "WDProductCatalogueDiscount", "interface_w_d_product_catalogue_discount.html", "interface_w_d_product_catalogue_discount" ],
       [ "WDProductPrice", "interface_w_d_product_price.html", "interface_w_d_product_price" ]
     ] ],
@@ -39,33 +41,15 @@ var dir_47cd7cdb35cbe3cde72d9475b2cf3b7d =
       [ "WDProductCatalogueManager", "interface_w_d_product_catalogue_manager.html", "interface_w_d_product_catalogue_manager" ]
     ] ],
     [ "WDProtocols.h", "_w_d_protocols_8h.html", [
-      [ "<WDManagerDelegate >", "protocol_w_d_manager_delegate_01-p.html", "protocol_w_d_manager_delegate_01-p" ],
-      [ "<WDPrinting >", "protocol_w_d_printing_01-p.html", "protocol_w_d_printing_01-p" ],
-      [ "<WDScanning >", "protocol_w_d_scanning_01-p.html", "protocol_w_d_scanning_01-p" ],
-      [ "<WDPaymentDelegate >", "protocol_w_d_payment_delegate_01-p.html", "protocol_w_d_payment_delegate_01-p" ]
-    ] ],
-    [ "WDReceipt.h", "_w_d_receipt_8h.html", [
-      [ "WDReceiptAlipayDetails", "interface_w_d_receipt_alipay_details.html", "interface_w_d_receipt_alipay_details" ],
-      [ "WDReceiptWeChatDetails", "interface_w_d_receipt_we_chat_details.html", "interface_w_d_receipt_we_chat_details" ],
-      [ "WDReceiptMerchant", "interface_w_d_receipt_merchant.html", "interface_w_d_receipt_merchant" ],
-      [ "WDReceipt", "interface_w_d_receipt.html", "interface_w_d_receipt" ],
-      [ "WDZReportCategoryItem", "interface_w_d_z_report_category_item.html", "interface_w_d_z_report_category_item" ],
-      [ "WDZReportCategory", "interface_w_d_z_report_category.html", "interface_w_d_z_report_category" ],
-      [ "WDZReport", "interface_w_d_z_report.html", "interface_w_d_z_report" ],
-      [ "WDReceiptTaxSummary", "interface_w_d_receipt_tax_summary.html", "interface_w_d_receipt_tax_summary" ],
-      [ "WDReceiptPaymentItem", "interface_w_d_receipt_payment_item.html", "interface_w_d_receipt_payment_item" ]
-    ] ],
-    [ "WDReceiptData.h", "_w_d_receipt_data_8h.html", "_w_d_receipt_data_8h" ],
-    [ "WDReceiptItem.h", "_w_d_receipt_item_8h.html", [
-      [ "WDReceiptItem", "interface_w_d_receipt_item.html", "interface_w_d_receipt_item" ]
+      [ "<WDManagerDelegate>", "protocol_w_d_manager_delegate-p.html", "protocol_w_d_manager_delegate-p" ],
+      [ "<WDPrinting>", "protocol_w_d_printing-p.html", "protocol_w_d_printing-p" ],
+      [ "<WDScanning>", "protocol_w_d_scanning-p.html", "protocol_w_d_scanning-p" ],
+      [ "<WDPaymentDelegate>", "protocol_w_d_payment_delegate-p.html", "protocol_w_d_payment_delegate-p" ]
     ] ],
     [ "WDSale.h", "_w_d_sale_8h.html", "_w_d_sale_8h" ],
     [ "WDSaleItem.h", "_w_d_sale_item_8h.html", "_w_d_sale_item_8h" ],
     [ "WDSaleManager.h", "_w_d_sale_manager_8h.html", [
       [ "WDSaleManager", "interface_w_d_sale_manager.html", "interface_w_d_sale_manager" ]
-    ] ],
-    [ "WDSSessionManagerCredentials.h", "_w_d_s_session_manager_credentials_8h.html", [
-      [ "WDSSessionManagerCredentials", "interface_w_d_s_session_manager_credentials.html", "interface_w_d_s_session_manager_credentials" ]
     ] ],
     [ "WDUserManager.h", "_w_d_user_manager_8h.html", [
       [ "WDUserManager", "interface_w_d_user_manager.html", "interface_w_d_user_manager" ]

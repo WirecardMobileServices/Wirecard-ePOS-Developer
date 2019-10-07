@@ -1,4 +1,4 @@
 var interface_w_d_cash_drawer_manager =
 [
-    [ "openCashDrawer:completion:", "interface_w_d_cash_drawer_manager.html#a4b17ee47a0b8fa2e9b1d154ddb95c71c", null ]
+    [ "openCashDrawer:completion:", "interface_w_d_cash_drawer_manager.html#a7d0c6d9133ec1051719268075bde63b1", null ]
 ];

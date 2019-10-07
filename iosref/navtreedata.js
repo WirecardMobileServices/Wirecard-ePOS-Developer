@@ -1,3 +1,25 @@
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this file.
+
+Copyright (C) 1997-2019 by Dimitri van Heesch
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of version 2 of the GNU General Public License as published by
+the Free Software Foundation
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along
+with this program; if not, write to the Free Software Foundation, Inc.,
+51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+
+@licend  The above is the entire license notice
+for the JavaScript code in this file
+*/
 var NAVTREE =
 [
   [ "Wirecard-ePOS", "index.html", [
@@ -11,11 +33,15 @@ var NAVTREE =
         [ "Properties", "functions_prop.html", "functions_prop" ]
       ] ]
     ] ],
-    [ "Files", null, [
-      [ "File List", "files.html", "files" ],
+    [ "Files", "files.html", [
+      [ "File List", "files.html", "files_dup" ],
       [ "File Members", "globals.html", [
         [ "All", "globals.html", null ],
         [ "Functions", "globals_func.html", null ],
+        [ "Variables", "globals_vars.html", null ],
+        [ "Typedefs", "globals_type.html", null ],
+        [ "Enumerations", "globals_enum.html", null ],
+        [ "Enumerator", "globals_eval.html", null ],
         [ "Macros", "globals_defs.html", null ]
       ] ]
     ] ]
@@ -25,8 +51,9 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_w_d_a_error_8h.html",
-"interface_w_d_receipt.html#a0302580b4dd08c7f862ce775306987a5",
-"interface_w_d_sale_manager.html#a13fe93c2cd06103e0a463209fb9c3098"
+"interface_w_d_a_i_d.html#a9afe203d5b4cb12d4839fc62ffff0947",
+"interface_w_d_product_catalogue_manager.html#aa7d518a88665a2cdb92d607cebfe69fa",
+"interface_w_d_sale_statistics.html#af7bf3c3ca23f6977868c7853008bf477"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

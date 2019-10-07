@@ -1,5 +1,5 @@
 var interface_w_d_scanner_manager =
 [
-    [ "addScannerManagerDelegate:forScanner:", "interface_w_d_scanner_manager.html#ad835a0f5a497b94fe4ea8aaced7bea58", null ],
-    [ "removeScannerManagerDelegate:forScanner:", "interface_w_d_scanner_manager.html#abb04d008ffc161be9655f1ac29e64f6c", null ]
+    [ "addScannerManagerDelegate:forScanner:", "interface_w_d_scanner_manager.html#a1704ce28fc247a91adb522d834522aac", null ],
+    [ "removeScannerManagerDelegate:forScanner:", "interface_w_d_scanner_manager.html#ab740dac2d8067f60966be46f350c6067", null ]
 ];

@@ -1,5 +1,0 @@
-<map id="WDReceipt" name="WDReceipt">
-<area shape="rect" id="node2" href="$interface_w_d_receipt_merchant.html" title="Receipt Merchant Information. " alt="" coords="5,80,150,105"/>
-<area shape="rect" id="node4" href="$interface_w_d_receipt_alipay_details.html" title="Receipt content for Alipay payment &#45; to be used by Datecs printer. " alt="" coords="173,80,339,105"/>
-<area shape="rect" id="node5" href="$interface_w_d_receipt_we_chat_details.html" title="Receipt content for WeChat payment &#45; to be used by Datecs printer. " alt="" coords="363,80,541,105"/>
-</map>

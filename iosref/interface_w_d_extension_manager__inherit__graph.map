@@ -1,7 +1,9 @@
 <map id="WDExtensionManager" name="WDExtensionManager">
-<area shape="rect" id="node3" href="$interface_w_d_cash_drawer_manager.html" title="Cash Drawer Manager. " alt="" coords="5,152,176,177"/>
-<area shape="rect" id="node4" href="$interface_w_d_printer_manager.html" title="Printer Manager. " alt="" coords="200,152,336,177"/>
-<area shape="rect" id="node5" href="$interface_w_d_scanner_manager.html" title="Scanner Manager. " alt="" coords="359,152,505,177"/>
-<area shape="rect" id="node6" href="$interface_w_d_updateable_extension_manager.html" title="Extension Manager &#45; updateable devices. " alt="" coords="528,152,751,177"/>
-<area shape="rect" id="node7" href="$interface_w_d_terminal_manager.html" title="Terminal Manager. " alt="" coords="567,225,713,251"/>
+<area shape="rect" id="node1" title="Extension Manager (terminals | printers | scanners)" alt="" coords="272,79,426,104"/>
+<area shape="rect" id="node3" href="$interface_w_d_cash_drawer_manager.html" title="Cash Drawer Manager." alt="" coords="5,152,176,177"/>
+<area shape="rect" id="node4" href="$interface_w_d_printer_manager.html" title="Printer Manager." alt="" coords="200,152,336,177"/>
+<area shape="rect" id="node5" href="$interface_w_d_scanner_manager.html" title="Scanner Manager." alt="" coords="359,152,505,177"/>
+<area shape="rect" id="node6" href="$interface_w_d_updateable_extension_manager.html" title="Extension Manager &#45; updateable devices." alt="" coords="528,152,751,177"/>
+<area shape="rect" id="node2" title=" " alt="" coords="310,5,388,31"/>
+<area shape="rect" id="node7" href="$interface_w_d_terminal_manager.html" title="Terminal Manager." alt="" coords="567,225,713,251"/>
 </map>

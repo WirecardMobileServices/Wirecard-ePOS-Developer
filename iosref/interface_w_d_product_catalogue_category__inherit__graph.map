@@ -1,4 +1,7 @@
 <map id="WDProductCatalogueCategory" name="WDProductCatalogueCategory">
-<area shape="rect" id="node2" href="$interface_w_d_product_catalogue_core.html" title="Product Catalogue core object. " alt="" coords="19,152,198,177"/>
-<area shape="rect" id="node3" href="$interface_w_d_object.html" title="WDePOS custom object &#160;WDePOS Generic Object &#45; supports runtime object [property/values] description..." alt="" coords="11,79,93,104"/>
+<area shape="rect" id="node1" title="Product Catalogue Category object." alt="" coords="5,225,210,251"/>
+<area shape="rect" id="node2" href="$interface_w_d_product_catalogue_core.html" title="Product Catalogue core object." alt="" coords="18,152,197,177"/>
+<area shape="rect" id="node3" href="$interface_w_d_object.html" title="WDePOS custom object @discussion WDePOS Generic Object &#45; supports runtime object [property/values] de..." alt="" coords="10,79,93,104"/>
+<area shape="rect" id="node4" title=" " alt="" coords="12,5,91,31"/>
+<area shape="rect" id="node5" title=" " alt="" coords="116,79,214,104"/>
 </map>

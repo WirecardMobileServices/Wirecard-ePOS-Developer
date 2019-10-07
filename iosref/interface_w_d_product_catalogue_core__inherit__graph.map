@@ -1,5 +1,9 @@
 <map id="WDProductCatalogueCore" name="WDProductCatalogueCore">
-<area shape="rect" id="node5" href="$interface_w_d_product_catalogue.html" title="WDProductCatalogue" alt="" coords="5,225,156,251"/>
-<area shape="rect" id="node6" href="$interface_w_d_product_catalogue_category.html" title="Product Catalogue Category object. " alt="" coords="180,225,384,251"/>
-<area shape="rect" id="node2" href="$interface_w_d_object.html" title="WDePOS custom object &#160;WDePOS Generic Object &#45; supports runtime object [property/values] description..." alt="" coords="83,79,166,104"/>
+<area shape="rect" id="node1" title="Product Catalogue core object." alt="" coords="192,152,371,177"/>
+<area shape="rect" id="node5" href="$interface_w_d_product_catalogue.html" title="Product Catalogue object." alt="" coords="5,225,156,251"/>
+<area shape="rect" id="node6" href="$interface_w_d_product_catalogue_category.html" title="Product Catalogue Category object." alt="" coords="180,225,384,251"/>
+<area shape="rect" id="node7" href="$interface_w_d_product_catalogue_product.html" title="Product details." alt="" coords="408,225,604,251"/>
+<area shape="rect" id="node2" href="$interface_w_d_object.html" title="WDePOS custom object @discussion WDePOS Generic Object &#45; supports runtime object [property/values] de..." alt="" coords="185,79,267,104"/>
+<area shape="rect" id="node3" title=" " alt="" coords="187,5,265,31"/>
+<area shape="rect" id="node4" title=" " alt="" coords="290,79,388,104"/>
 </map>

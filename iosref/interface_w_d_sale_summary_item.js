@@ -14,7 +14,7 @@ var interface_w_d_sale_summary_item =
     [ "currency", "interface_w_d_sale_summary_item.html#a3e227ed5ad2f2f9ae0117db996508f20", null ],
     [ "discountRate", "interface_w_d_sale_summary_item.html#a2a6bd811bbf5f7e986ed8882f4942f48", null ],
     [ "inclusiveTaxes", "interface_w_d_sale_summary_item.html#a183b78d18317308f624a071043e260f3", null ],
-    [ "quantity", "interface_w_d_sale_summary_item.html#ac2406f1bcc9501ad44a2b9846c662de2", null ],
+    [ "quantity", "interface_w_d_sale_summary_item.html#ab380469bd9ec82614da6081356047256", null ],
     [ "taxRate", "interface_w_d_sale_summary_item.html#ace6e8610cdef11368eec553c0e89baba", null ],
     [ "total", "interface_w_d_sale_summary_item.html#a5950991d3a79747ee4cfa2aafd98c0cd", null ],
     [ "totalDiscounted", "interface_w_d_sale_summary_item.html#ac9f2aa87eac049362d26e99f120397eb", null ]

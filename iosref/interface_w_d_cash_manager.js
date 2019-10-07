@@ -1,14 +1,15 @@
 var interface_w_d_cash_manager =
 [
     [ "cashiers:", "interface_w_d_cash_manager.html#a90d1d5dc5f11ece80c9ec46372cd2fe3", null ],
-    [ "cashOperation:note:amount:currency:completion:", "interface_w_d_cash_manager.html#aaffd170c9d72b6057c05d39fbdf77954", null ],
-    [ "cashRegisters:shopId:cashDrawerVendor:completion:", "interface_w_d_cash_manager.html#aedfc49161bbb31a3a50d5f8ddfdd67c0", null ],
-    [ "closeShift:note:amount:completion:", "interface_w_d_cash_manager.html#a67bdd460607e46b8d7fa27385b1bae1b", null ],
-    [ "getOperationsForShift:query:belongingToCashRegister:completion:", "interface_w_d_cash_manager.html#ad16f22761699c26158d4abf64e7a478c", null ],
-    [ "openShift:note:amount:completion:", "interface_w_d_cash_manager.html#a117ece05f0ed0a84e61d0b7280e551d1", null ],
-    [ "shiftDetails:cashRegister:completion:", "interface_w_d_cash_manager.html#af6dfd66b242509a18b819226a267e26f", null ],
-    [ "shifts:query:completion:", "interface_w_d_cash_manager.html#a66a5f9e57656482a92cc3605565f499e", null ],
-    [ "updateCashier:completion:", "interface_w_d_cash_manager.html#a4f927f40d2e0c787bd88a6fe34cfecbf", null ],
-    [ "updateCashRegister:withSerialNumberFromTerminal:completion:", "interface_w_d_cash_manager.html#a11e14b429fc64e212fa39afcfc0dd1ac", null ],
-    [ "validatePin:cashierId:completion:", "interface_w_d_cash_manager.html#a8b3246b9796a23742acb45f0b2b159ee", null ]
+    [ "cashOperation:note:amount:currency:completion:", "interface_w_d_cash_manager.html#ad7237bbdf4216e844558ed6579ff3317", null ],
+    [ "cashRegisterDetails:completion:", "interface_w_d_cash_manager.html#a0aecf4c4a3232b314e08f110545e9eba", null ],
+    [ "cashRegisters:shopId:cashDrawerVendor:completion:", "interface_w_d_cash_manager.html#a60c2a79f96cccaddb0e9ae189a81c5d5", null ],
+    [ "closeShift:note:amount:completion:", "interface_w_d_cash_manager.html#a66d9b558fc3b5b4b38b8d97700100bb6", null ],
+    [ "getOperationsForShift:query:belongingToCashRegister:completion:", "interface_w_d_cash_manager.html#af287285ea078fce58d152a1bf0b88cd4", null ],
+    [ "openShift:note:amount:completion:", "interface_w_d_cash_manager.html#abf2c2a74f9d3a4bb452e08cef8eff1ee", null ],
+    [ "shiftDetails:cashRegister:completion:", "interface_w_d_cash_manager.html#a075567fa048dd6dfda7d07e08b40dbdb", null ],
+    [ "shifts:query:completion:", "interface_w_d_cash_manager.html#aa22747defdb8ea1bf7d6592845c76760", null ],
+    [ "updateCashier:completion:", "interface_w_d_cash_manager.html#acfead925bdb8de83de9f9fe0693f3a49", null ],
+    [ "updateCashRegister:withSerialNumberFromTerminal:completion:", "interface_w_d_cash_manager.html#a5163d62b077e5398aca2629645216d98", null ],
+    [ "validatePin:cashierId:completion:", "interface_w_d_cash_manager.html#ad074ef9d24c5a7f6863018bba6b4ea69", null ]
 ];

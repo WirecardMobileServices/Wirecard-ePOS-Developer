@@ -1,4 +1,12 @@
 <map id="WDSaleRequest" name="WDSaleRequest">
-<area shape="rect" id="node2" href="$interface_w_d_sale.html" title="The Sale object contains all necessary Sale information &#160;Sale to be performed (WDSaleRequest) ..." alt="" coords="73,152,143,177"/>
-<area shape="rect" id="node3" href="$interface_w_d_object.html" title="WDePOS custom object &#160;WDePOS Generic Object &#45; supports runtime object [property/values] description..." alt="" coords="11,79,93,104"/>
+<area shape="rect" id="node1" title="The Sale to be processed @discussion Contains all necessary information to perform the Sale." alt="" coords="227,299,347,324"/>
+<area shape="rect" id="node8" href="$interface_w_d_sale_request_purchase.html" title=" " alt="" coords="5,372,182,397"/>
+<area shape="rect" id="node9" href="$interface_w_d_sale_request_refund.html" title=" " alt="" coords="205,372,368,397"/>
+<area shape="rect" id="node10" href="$interface_w_d_sale_request_return.html" title=" " alt="" coords="392,372,552,397"/>
+<area shape="rect" id="node2" href="$interface_w_d_sale.html" title="The Sale object contains all necessary Sale information @discussion Sale to be performed (WDSaleReque..." alt="" coords="185,225,255,251"/>
+<area shape="rect" id="node3" href="$interface_w_d_sale_core.html" title="The Sale Core object is the base for all higher level Sale to be used for Sale operations." alt="" coords="171,152,270,177"/>
+<area shape="rect" id="node4" href="$interface_w_d_object.html" title="WDePOS custom object @discussion WDePOS Generic Object &#45; supports runtime object [property/values] de..." alt="" coords="123,79,205,104"/>
+<area shape="rect" id="node5" title=" " alt="" coords="125,5,203,31"/>
+<area shape="rect" id="node6" title=" " alt="" coords="229,79,326,104"/>
+<area shape="rect" id="node7" title=" " alt="" coords="279,225,431,251"/>
 </map>

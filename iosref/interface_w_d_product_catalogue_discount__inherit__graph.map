@@ -1,3 +1,6 @@
 <map id="WDProductCatalogueDiscount" name="WDProductCatalogueDiscount">
-<area shape="rect" id="node2" href="$interface_w_d_object.html" title="WDePOS custom object &#160;WDePOS Generic Object &#45; supports runtime object [property/values] description..." alt="" coords="11,79,93,104"/>
+<area shape="rect" id="node1" title="Product Catalogue discount &#45; flat discount." alt="" coords="5,152,207,177"/>
+<area shape="rect" id="node2" href="$interface_w_d_object.html" title="WDePOS custom object @discussion WDePOS Generic Object &#45; supports runtime object [property/values] de..." alt="" coords="9,79,91,104"/>
+<area shape="rect" id="node3" title=" " alt="" coords="11,5,90,31"/>
+<area shape="rect" id="node4" title=" " alt="" coords="115,79,213,104"/>
 </map>

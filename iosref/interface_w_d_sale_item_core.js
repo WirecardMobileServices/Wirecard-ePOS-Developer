@@ -6,7 +6,7 @@ var interface_w_d_sale_item_core =
     [ "itemDescription", "interface_w_d_sale_item_core.html#a5b18741107147db9f373bb5d5c0f2493", null ],
     [ "itemTotal", "interface_w_d_sale_item_core.html#a41d20a1274199fb8a293364a8672031a", null ],
     [ "itemType", "interface_w_d_sale_item_core.html#a3fe05ca94160467f7a9e7d563180aecc", null ],
-    [ "quantity", "interface_w_d_sale_item_core.html#a43d397977a2c1292b8f31f3d051b29cb", null ],
+    [ "quantity", "interface_w_d_sale_item_core.html#a722028a216c149f357730eb4494d54c1", null ],
     [ "taxRate", "interface_w_d_sale_item_core.html#a368f48eedb959ebe20d0b9c261978fed", null ],
     [ "unitPrice", "interface_w_d_sale_item_core.html#a32c47cc427b82c1e6a578934a6ff0994", null ]
 ];
