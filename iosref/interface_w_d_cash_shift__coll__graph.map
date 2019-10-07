@@ -1,0 +1,7 @@
+<map id="WDCashShift" name="WDCashShift">
+<area shape="rect" id="node1" title="Cash Register object &#45; Cash/Drawer Management." alt="" coords="62,241,164,267"/>
+<area shape="rect" id="node2" href="$interface_w_d_object.html" title="WDePOS custom object @discussion WDePOS Generic Object &#45; supports runtime object [property/values] de..." alt="" coords="142,80,225,105"/>
+<area shape="rect" id="node5" href="$interface_w_d_cash_register.html" title="Cash Register object &#45; Cash/Drawer Management." alt="" coords="52,155,176,180"/>
+<area shape="rect" id="node3" title=" " alt="" coords="144,5,223,31"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,80,103,105"/>
+</map>

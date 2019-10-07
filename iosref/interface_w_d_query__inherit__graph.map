@@ -1,0 +1,7 @@
+<map id="WDQuery" name="WDQuery">
+<area shape="rect" id="node1" title="Generic Query attributes." alt="" coords="178,79,258,104"/>
+<area shape="rect" id="node3" href="$interface_w_d_products_query.html" title="Products query class used in product searches." alt="" coords="5,152,138,177"/>
+<area shape="rect" id="node4" href="$interface_w_d_sales_query.html" title="Transaction query class used in payment searches." alt="" coords="162,152,275,177"/>
+<area shape="rect" id="node5" href="$interface_w_d_shift_query.html" title="Query the shifts." alt="" coords="298,152,405,177"/>
+<area shape="rect" id="node2" title=" " alt="" coords="179,5,257,31"/>
+</map>

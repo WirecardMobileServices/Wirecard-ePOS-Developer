@@ -1,0 +1,12 @@
+<map id="WDMerchant" name="WDMerchant">
+<area shape="rect" id="node1" title="Merchant object." alt="" coords="145,328,244,353"/>
+<area shape="rect" id="node2" href="$interface_w_d_object.html" title="WDePOS custom object @discussion WDePOS Generic Object &#45; supports runtime object [property/values] de..." alt="" coords="142,80,224,105"/>
+<area shape="rect" id="node6" href="$interface_w_d_currency_core.html" title="Currency core object." alt="" coords="132,155,258,180"/>
+<area shape="rect" id="node7" href="$interface_w_d_partner.html" title="Partner category object." alt="" coords="21,155,108,180"/>
+<area shape="rect" id="node8" href="$interface_w_d_address.html" title="Address object." alt="" coords="299,241,392,267"/>
+<area shape="rect" id="node10" href="$interface_w_d_country.html" title="Country object." alt="" coords="383,155,473,180"/>
+<area shape="rect" id="node3" title=" " alt="" coords="144,5,222,31"/>
+<area shape="rect" id="node4" title=" " alt="" coords="301,80,398,105"/>
+<area shape="rect" id="node5" href="$interface_w_d_currency.html" title="Currency object." alt="" coords="146,241,244,267"/>
+<area shape="rect" id="node9" title=" " alt="" coords="468,80,572,105"/>
+</map>

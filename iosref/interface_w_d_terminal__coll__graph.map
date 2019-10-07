@@ -1,0 +1,8 @@
+<map id="WDTerminal" name="WDTerminal">
+<area shape="rect" id="node1" title="Terminal information." alt="" coords="115,241,209,267"/>
+<area shape="rect" id="node2" href="$interface_w_d_object.html" title="WDePOS custom object @discussion WDePOS Generic Object &#45; supports runtime object [property/values] de..." alt="" coords="5,80,87,105"/>
+<area shape="rect" id="node6" href="$interface_w_d_vendor.html" title="Vendor information." alt="" coords="95,155,181,180"/>
+<area shape="rect" id="node3" title=" " alt="" coords="7,5,86,31"/>
+<area shape="rect" id="node4" title=" " alt="" coords="240,80,338,105"/>
+<area shape="rect" id="node5" title=" " alt="" coords="112,80,216,105"/>
+</map>

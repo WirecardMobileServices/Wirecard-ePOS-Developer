@@ -1,0 +1,5 @@
+<map id="WDRemindUsername" name="WDRemindUsername">
+<area shape="rect" id="node1" title="Remind username object to be used with credential management API." alt="" coords="23,79,174,104"/>
+<area shape="rect" id="node3" href="$interface_w_d_request_password_reset.html" title="Request Reset Password object to be used with credential management API." alt="" coords="5,152,192,177"/>
+<area shape="rect" id="node2" title=" " alt="" coords="59,5,138,31"/>
+</map>
