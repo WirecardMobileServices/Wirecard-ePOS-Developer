@@ -32,7 +32,7 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="../assets/images/favicon_black.ico">
-      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.0.1">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.3">
     
     
       
@@ -40,17 +40,17 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/application.982221ab.css">
+      <link rel="stylesheet" href="../assets/stylesheets/application.30686662.css">
       
       
     
     
-      <script src="../assets/javascripts/modernizr.1f0bcf2b.js"></script>
+      <script src="../assets/javascripts/modernizr.74668098.js"></script>
     
     
       
         <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono&display=fallback">
         <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
       
     
@@ -102,7 +102,9 @@
               Wirecard ePOS SDK
             </span>
             <span class="md-header-nav__topic">
-              User Manager
+              
+                User Manager
+              
             </span>
           
         </div>
@@ -145,7 +147,7 @@
         
       
       
-      <main class="md-main">
+      <main class="md-main" role="main">
         <div class="md-main__inner md-grid" data-md-component="container">
           
             
@@ -1358,14 +1360,14 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#the-user-interface" title="The User Interface" class="md-nav__link">
+  <a href="#the-user-interface" class="md-nav__link">
     The User Interface
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#the-sample-code" title="The Sample Code" class="md-nav__link">
+  <a href="#the-sample-code" class="md-nav__link">
     The Sample Code
   </a>
   
@@ -1379,6 +1381,18 @@
   
 </nav>
     
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../int-file-manager/" title="File Manager" class="md-nav__link">
+      File Manager
+    </a>
   </li>
 
         
@@ -1480,14 +1494,14 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#the-user-interface" title="The User Interface" class="md-nav__link">
+  <a href="#the-user-interface" class="md-nav__link">
     The User Interface
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#the-sample-code" title="The Sample Code" class="md-nav__link">
+  <a href="#the-sample-code" class="md-nav__link">
     The Sample Code
   </a>
   
@@ -1525,20 +1539,20 @@
 <h2 id="the-sample-code">The Sample Code</h2>
 <p>In the iOS code, there are three key methods that are used: </p>
 <ul>
-<li><code class="codehilite">passwordPolicy</code></li>
-<li><code class="codehilite">manageCredentials</code></li>
-<li><code class="codehilite">changePassword</code></li>
+<li><code class="codehilite"><span class="n">passwordPolicy</span></code></li>
+<li><code class="codehilite"><span class="n">manageCredentials</span></code></li>
+<li><code class="codehilite"><span class="n">changePassword</span></code></li>
 </ul>
-<p>The <code class="codehilite">manageCredentials</code> method used is in three different ways, which correspond to three parameters you can pass it:</p>
+<p>The <code class="codehilite"><span class="n">manageCredentials</span></code> method used is in three different ways, which correspond to three parameters you can pass it:</p>
 <ul>
-<li><code class="codehilite">remindUserName</code></li>
-<li><code class="codehilite">resetPassword</code></li>
-<li><code class="codehilite">changePassword</code></li>
+<li><code class="codehilite"><span class="n">remindUserName</span></code></li>
+<li><code class="codehilite"><span class="n">resetPassword</span></code></li>
+<li><code class="codehilite"><span class="n">changePassword</span></code></li>
 </ul>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 </div>
-<p>In the sample code, the SDK is instantiated with a name of <code class="codehilite">sdkNoUser</code>, in contrast with the usual object name of <code class="codehilite">sdk</code>. This makes sense because the operations are different when you do not have an authenticated user. See the Initialization chapters for information about instantiating the <code class="codehilite">Wirecard ePOS</code> SDK object when you have an authenticated user.</p>
+<p>In the sample code, the SDK is instantiated with a name of <code class="codehilite"><span class="n">sdkNoUser</span></code>, in contrast with the usual object name of <code class="codehilite"><span class="n">sdk</span></code>. This makes sense because the operations are different when you do not have an authenticated user. See the Initialization chapters for information about instantiating the <code class="codehilite"><span class="n">Wirecard</span> <span class="n">ePOS</span></code> SDK object when you have an authenticated user.</p>
 <div class="tabbed">
     <input name="tabbed" id="tabbed1" type="radio" checked>
     <section>
@@ -1621,13 +1635,13 @@
           </a>
         
         
-          <a href="../int-ui/" title="Sale UI" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../int-file-manager/" title="File Manager" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Sale UI
+                File Manager
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
@@ -1666,7 +1680,7 @@
       
     </div>
     
-      <script src="../assets/javascripts/application.b806dc00.js"></script>
+      <script src="../assets/javascripts/application.ac79c3b0.js"></script>
       
       <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
       

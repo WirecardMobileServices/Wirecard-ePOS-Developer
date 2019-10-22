@@ -32,7 +32,7 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="../assets/images/favicon_black.ico">
-      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.0.1">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.3">
     
     
       
@@ -40,17 +40,17 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/application.982221ab.css">
+      <link rel="stylesheet" href="../assets/stylesheets/application.30686662.css">
       
       
     
     
-      <script src="../assets/javascripts/modernizr.1f0bcf2b.js"></script>
+      <script src="../assets/javascripts/modernizr.74668098.js"></script>
     
     
       
         <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono&display=fallback">
         <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
       
     
@@ -102,7 +102,9 @@
               Wirecard ePOS SDK
             </span>
             <span class="md-header-nav__topic">
-              Cocoapods (Recommended)
+              
+                Cocoapods (Recommended)
+              
             </span>
           
         </div>
@@ -145,7 +147,7 @@
         
       
       
-      <main class="md-main">
+      <main class="md-main" role="main">
         <div class="md-main__inner md-grid" data-md-component="container">
           
             
@@ -1354,6 +1356,18 @@
 
 
   <li class="md-nav__item">
+    <a href="../int-file-manager/" title="File Manager" class="md-nav__link">
+      File Manager
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
     <a href="../int-ui/" title="Sale UI" class="md-nav__link">
       Sale UI
     </a>
@@ -1460,25 +1474,25 @@
 <ol>
 <li>Open the Podfile in a text editor.</li>
 <li>Add the below lines to the Podfile
-<div class="codehilite"><pre><span></span><span class="n">platform</span> <span class="o">:</span><span class="n">ios</span><span class="o">,</span> <span class="s1">&#39;9.0&#39;</span>
-<span class="n">use_frameworks</span><span class="o">!</span>
-<span class="n">target</span> <span class="s1">&#39;YourTarget&#39;</span> <span class="k">do</span>
-    <span class="n">pod</span> <span class="s1">&#39;WDePOS/All&#39;</span>
-<span class="n">end</span>
+<div class="codehilite"><pre><span></span><span class="nv">platform</span> :<span class="nv">ios</span>, <span class="s1">&#39;</span><span class="s">9.0</span><span class="s1">&#39;</span>
+<span class="nv">use_frameworks</span><span class="o">!</span>
+<span class="nv">target</span> <span class="s1">&#39;</span><span class="s">YourTarget</span><span class="s1">&#39;</span> <span class="k">do</span>
+    <span class="nv">pod</span> <span class="s1">&#39;</span><span class="s">WDePOS/All</span><span class="s1">&#39;</span>
+<span class="k">end</span>
 </pre></div>
 That's it. Only couple of lines are required to install the SDK into your app. Note: If you want to use more than one target then you must explicitly state this in your Podfile.<ul>
 <li>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
 If you encounter issues with pod install please run 'pod repo update' to upgrade your cocoapods
-<div class="codehilite"><pre><span></span>pod repo update
+<div class="codehilite"><pre><span></span><span class="n">pod</span> <span class="n">repo</span> <span class="k">update</span>
 </pre></div></div>
 </li>
 </ul>
 </li>
-<li>In the folder where your podfile is stored, run <code class="codehilite">pod install</code> to install a new pod. Or run <code class="codehilite">pod update</code> to update your current one.
+<li>In the folder where your podfile is stored, run <code class="codehilite"><span class="n">pod</span> <span class="n">install</span></code> to install a new pod. Or run <code class="codehilite"><span class="n">pod</span> <span class="k">update</span></code> to update your current one.
 This downloads and installs the SDK from Cocoapods and it creates the workspace for your application. 
-The <code class="codehilite">Example</code> folder is below the main project folder and it contains Integration Tests that you can use to check the usage of each public API. The <a href="../int-tests-i/">iOS Integration Tests</a> chapter has more information. </li>
+The <code class="codehilite"><span class="n">Example</span></code> folder is below the main project folder and it contains Integration Tests that you can use to check the usage of each public API. The <a href="../int-tests-i/">iOS Integration Tests</a> chapter has more information. </li>
 <li>Should you wish to use BlueTooth devices (Terminals, Printers, Cash Registers) you need to include UISupportedExternalAccessoryProtocols settings in your application plist file:</li>
 </ol>
 <table>
@@ -1504,14 +1518,6 @@ The <code class="codehilite">Example</code> folder is below the main project fol
 <tr>
 <td>SocketMobile</td>
 <td>com.socketmobile.chs</td>
-</tr>
-<tr>
-<td>Miura</td>
-<td>com.miura.shuttle, com.miura.rpi</td>
-</tr>
-<tr>
-<td>BBPOS</td>
-<td>com.bbpos.bt.wisepad</td>
 </tr>
 </tbody>
 </table>
@@ -1599,7 +1605,7 @@ The <code class="codehilite">Example</code> folder is below the main project fol
       
     </div>
     
-      <script src="../assets/javascripts/application.b806dc00.js"></script>
+      <script src="../assets/javascripts/application.ac79c3b0.js"></script>
       
       <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
       
