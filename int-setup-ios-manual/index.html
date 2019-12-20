@@ -32,7 +32,7 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="../assets/images/favicon_black.ico">
-      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.3">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.0.1">
     
     
       
@@ -40,17 +40,17 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/application.30686662.css">
+      <link rel="stylesheet" href="../assets/stylesheets/application.982221ab.css">
       
       
     
     
-      <script src="../assets/javascripts/modernizr.74668098.js"></script>
+      <script src="../assets/javascripts/modernizr.1f0bcf2b.js"></script>
     
     
       
         <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono&display=fallback">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
         <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
       
     
@@ -102,9 +102,7 @@
               Wirecard ePOS SDK
             </span>
             <span class="md-header-nav__topic">
-              
-                Manually
-              
+              Manually
             </span>
           
         </div>
@@ -147,7 +145,7 @@
         
       
       
-      <main class="md-main" role="main">
+      <main class="md-main">
         <div class="md-main__inner md-grid" data-md-component="container">
           
             
@@ -1529,8 +1527,8 @@
                 
                 <h1 id="set-up-using-carthage">Set up using Carthage</h1>
 <p>The SDK supports installation using the <a href="https://github.com/Carthage/Carthage">Carthage dependency manager</a>.
-Just run the carthage update command in the SDK root directory and get the WDePOS and related frameworks from <code class="codehilite"><span class="n">Carthage</span><span class="o">/</span><span class="n">Build</span><span class="o">/&lt;</span><span class="n">platform</span><span class="o">&gt;</span></code> directory</p>
-<div class="codehilite"><pre><span></span><span class="n">carthage</span> <span class="k">update</span>
+Just run the carthage update command in the SDK root directory and get the WDePOS and related frameworks from <code class="codehilite">Carthage/Build/&lt;platform&gt;</code> directory</p>
+<div class="codehilite"><pre><span></span>carthage update
 </pre></div>
 
 <h1 id="set-up-manually-not-recommended">Set up Manually (Not Recommended)</h1>
@@ -1615,36 +1613,36 @@ Together with the steps above, it will look like:
 <img alt="" src="../assets/appleframeworks.png" />  </li>
 <li>Make sure your project Build Settings/Build Options has “Always Embed Swift Standard Libraries” set to YES:
 <img alt="" src="../assets/buildoptions.png" />  </li>
-<li>And the last step: edit your project's info.plist (the faster way is as a text file) and copy paste the lines below. That way your project will include all needed keys/values and protocols for enabling hardware communication, permissions, etc. Make sure you don't have the following keys already defined with different values, and that you are going to use the <em>UISupportedExternalAccessoryProtocols</em> into your app (do not include the ones for hardware you don't plan on supporting, see point .6).  <div class="codehilite"><pre><span></span>        <span class="o">&lt;</span><span class="nv">key</span><span class="o">&gt;</span><span class="nv">NSAppTransportSecurity</span><span class="o">&lt;/</span><span class="nv">key</span><span class="o">&gt;</span>
-         <span class="o">&lt;</span><span class="nv">dict</span><span class="o">&gt;</span>  
-                        <span class="o">&lt;</span><span class="nv">key</span><span class="o">&gt;</span><span class="nv">NSAllowsArbitraryLoads</span><span class="o">&lt;/</span><span class="nv">key</span><span class="o">&gt;</span>  
-                        <span class="o">&lt;</span><span class="nv">true</span><span class="o">/&gt;</span>  
-        <span class="o">&lt;/</span><span class="nv">dict</span><span class="o">&gt;</span>  
-                        <span class="o">&lt;</span><span class="nv">key</span><span class="o">&gt;</span><span class="nv">UIBackgroundModes</span><span class="o">&lt;/</span><span class="nv">key</span><span class="o">&gt;</span>  
-        <span class="o">&lt;</span><span class="nv">array</span><span class="o">&gt;</span>  
-                        <span class="o">&lt;</span><span class="nv">string</span><span class="o">&gt;</span><span class="nv">audio</span><span class="o">&lt;/</span><span class="nv">string</span><span class="o">&gt;</span>  
-                        <span class="o">&lt;</span><span class="nv">string</span><span class="o">&gt;</span><span class="nv">fetch</span><span class="o">&lt;/</span><span class="nv">string</span><span class="o">&gt;</span>  
-                        <span class="o">&lt;</span><span class="nv">string</span><span class="o">&gt;</span><span class="nv">external</span><span class="o">-</span><span class="nv">accessory</span><span class="o">&lt;/</span><span class="nv">string</span><span class="o">&gt;</span>  
-                        <span class="o">&lt;</span><span class="nv">string</span><span class="o">&gt;</span><span class="nv">bluetooth</span><span class="o">-</span><span class="nv">peripheral</span><span class="o">&lt;/</span><span class="nv">string</span><span class="o">&gt;</span>  
-                        <span class="o">&lt;</span><span class="nv">string</span><span class="o">&gt;</span><span class="nv">bluetooth</span><span class="o">-</span><span class="nv">central</span><span class="o">&lt;/</span><span class="nv">string</span><span class="o">&gt;</span>  
-        <span class="o">&lt;/</span><span class="nv">array</span><span class="o">&gt;</span>  
-        <span class="o">&lt;</span><span class="nv">key</span><span class="o">&gt;</span><span class="nv">NSBluetoothPeripheralUsageDescription</span><span class="o">&lt;/</span><span class="nv">key</span><span class="o">&gt;</span>  
-        <span class="o">&lt;</span><span class="nv">string</span><span class="o">&gt;</span><span class="nv">BlueTooth</span> <span class="nv">is</span> <span class="nv">required</span> <span class="k">for</span> <span class="nv">Terminal</span> <span class="nv">and</span> <span class="nv">Printer</span> <span class="nv">communication</span><span class="o">&lt;/</span><span class="nv">string</span><span class="o">&gt;</span>  
-        <span class="o">&lt;</span><span class="nv">key</span><span class="o">&gt;</span><span class="nv">NSCameraUsageDescription</span><span class="o">&lt;/</span><span class="nv">key</span><span class="o">&gt;</span>  
-        <span class="o">&lt;</span><span class="nv">string</span><span class="o">&gt;</span><span class="nv">Camera</span> <span class="nv">will</span> <span class="nv">be</span> <span class="nv">used</span> <span class="k">for</span> <span class="nv">barcode</span> <span class="nv">scanning</span> <span class="nv">and</span> <span class="nv">taking</span> <span class="nv">Photos</span> <span class="k">for</span> <span class="nv">product</span> <span class="nv">catalogue</span><span class="o">&lt;/</span><span class="nv">string</span><span class="o">&gt;</span>  
-        <span class="o">&lt;</span><span class="nv">key</span><span class="o">&gt;</span><span class="nv">NSLocationWhenInUseUsageDescription</span><span class="o">&lt;/</span><span class="nv">key</span><span class="o">&gt;</span>  
-        <span class="o">&lt;</span><span class="nv">string</span><span class="o">&gt;</span><span class="nv">The</span> <span class="nv">terminal</span> <span class="nv">location</span> <span class="nv">will</span> <span class="nv">be</span> <span class="nv">used</span> <span class="k">for</span> <span class="nv">all</span> <span class="nv">payments</span><span class="o">&lt;/</span><span class="nv">string</span><span class="o">&gt;</span>  
-        <span class="o">&lt;</span><span class="nv">key</span><span class="o">&gt;</span><span class="nv">NSMicrophoneUsageDescription</span><span class="o">&lt;/</span><span class="nv">key</span><span class="o">&gt;</span>
-        <span class="o">&lt;</span><span class="nv">string</span><span class="o">&gt;</span><span class="nv">Audio</span> <span class="nv">jack</span> <span class="nv">is</span> <span class="nv">used</span> <span class="k">for</span> <span class="nv">payment</span> <span class="nv">terminals</span> <span class="nv">such</span> <span class="nv">as</span> <span class="nv">BBPOS</span> <span class="nv">Chippers</span><span class="o">/</span><span class="nv">Swippers</span><span class="o">&lt;/</span><span class="nv">string</span><span class="o">&gt;</span>  
-        <span class="o">&lt;</span><span class="nv">key</span><span class="o">&gt;</span><span class="nv">NSPhotoLibraryUsageDescription</span><span class="o">&lt;/</span><span class="nv">key</span><span class="o">&gt;</span>  
-        <span class="o">&lt;</span><span class="nv">string</span><span class="o">&gt;</span><span class="nv">Media</span> <span class="nv">Library</span> <span class="nv">will</span> <span class="nv">be</span> <span class="nv">used</span> <span class="k">for</span> <span class="nv">adding</span> <span class="nv">pictures</span> <span class="nv">to</span> <span class="nv">catalogue</span> <span class="nv">products</span> <span class="nv">of</span> <span class="nv">your</span> <span class="nv">own</span><span class="o">&lt;/</span><span class="nv">string</span><span class="o">&gt;</span>  
-                        <span class="o">&lt;</span><span class="nv">key</span><span class="o">&gt;</span><span class="nv">UISupportedExternalAccessoryProtocols</span><span class="o">&lt;/</span><span class="nv">key</span><span class="o">&gt;</span>  
-        <span class="o">&lt;</span><span class="nv">array</span><span class="o">&gt;</span>  
-                        <span class="o">&lt;</span><span class="nv">string</span><span class="o">&gt;</span><span class="nv">com</span>.<span class="nv">socketmobile</span>.<span class="nv">chs</span><span class="o">&lt;/</span><span class="nv">string</span><span class="o">&gt;</span>  
-                        <span class="o">&lt;</span><span class="nv">string</span><span class="o">&gt;</span><span class="nv">com</span>.<span class="nv">thyron</span><span class="o">&lt;/</span><span class="nv">string</span><span class="o">&gt;</span>  
-                        <span class="o">&lt;</span><span class="nv">string</span><span class="o">&gt;</span><span class="nv">com</span>.<span class="nv">datecs</span>.<span class="nv">printer</span>.<span class="nv">escpos</span><span class="o">&lt;/</span><span class="nv">string</span><span class="o">&gt;</span>  
-                        <span class="o">&lt;</span><span class="nv">string</span><span class="o">&gt;</span><span class="nv">jp</span>.<span class="nv">star</span><span class="o">-</span><span class="nv">m</span>.<span class="nv">starpro</span><span class="o">&lt;/</span><span class="nv">string</span><span class="o">&gt;</span>  
-        <span class="o">&lt;/</span><span class="nv">array</span><span class="o">&gt;</span>
+<li>And the last step: edit your project's info.plist (the faster way is as a text file) and copy paste the lines below. That way your project will include all needed keys/values and protocols for enabling hardware communication, permissions, etc. Make sure you don't have the following keys already defined with different values, and that you are going to use the <em>UISupportedExternalAccessoryProtocols</em> into your app (do not include the ones for hardware you don't plan on supporting, see point .6).  <div class="codehilite"><pre><span></span>        &amp;lt;key&amp;gt;NSAppTransportSecurity&amp;lt;/key&amp;gt;
+         &amp;lt;dict&amp;gt;  
+                        &amp;lt;key&amp;gt;NSAllowsArbitraryLoads&amp;lt;/key&amp;gt;  
+                        &amp;lt;true/&amp;gt;  
+        &amp;lt;/dict&amp;gt;  
+                        &amp;lt;key&amp;gt;UIBackgroundModes&amp;lt;/key&amp;gt;  
+        &amp;lt;array&amp;gt;  
+                        &amp;lt;string&amp;gt;audio&amp;lt;/string&amp;gt;  
+                        &amp;lt;string&amp;gt;fetch&amp;lt;/string&amp;gt;  
+                        &amp;lt;string&amp;gt;external-accessory&amp;lt;/string&amp;gt;  
+                        &amp;lt;string&amp;gt;bluetooth-peripheral&amp;lt;/string&amp;gt;  
+                        &amp;lt;string&amp;gt;bluetooth-central&amp;lt;/string&amp;gt;  
+        &amp;lt;/array&amp;gt;  
+        &amp;lt;key&amp;gt;NSBluetoothPeripheralUsageDescription&amp;lt;/key&amp;gt;  
+        &amp;lt;string&amp;gt;BlueTooth is required for Terminal and Printer communication&amp;lt;/string&amp;gt;  
+        &amp;lt;key&amp;gt;NSCameraUsageDescription&amp;lt;/key&amp;gt;  
+        &amp;lt;string&amp;gt;Camera will be used for barcode scanning and taking Photos for product catalogue&amp;lt;/string&amp;gt;  
+        &amp;lt;key&amp;gt;NSLocationWhenInUseUsageDescription&amp;lt;/key&amp;gt;  
+        &amp;lt;string&amp;gt;The terminal location will be used for all payments&amp;lt;/string&amp;gt;  
+        &amp;lt;key&amp;gt;NSMicrophoneUsageDescription&amp;lt;/key&amp;gt;
+        &amp;lt;string&amp;gt;Audio jack is used for payment terminals such as BBPOS Chippers/Swippers&amp;lt;/string&amp;gt;  
+        &amp;lt;key&amp;gt;NSPhotoLibraryUsageDescription&amp;lt;/key&amp;gt;  
+        &amp;lt;string&amp;gt;Media Library will be used for adding pictures to catalogue products of your own&amp;lt;/string&amp;gt;  
+                        &amp;lt;key&amp;gt;UISupportedExternalAccessoryProtocols&amp;lt;/key&amp;gt;  
+        &amp;lt;array&amp;gt;  
+                        &amp;lt;string&amp;gt;com.socketmobile.chs&amp;lt;/string&amp;gt;  
+                        &amp;lt;string&amp;gt;com.thyron&amp;lt;/string&amp;gt;  
+                        &amp;lt;string&amp;gt;com.datecs.printer.escpos&amp;lt;/string&amp;gt;  
+                        &amp;lt;string&amp;gt;jp.star-m.starpro&amp;lt;/string&amp;gt;  
+        &amp;lt;/array&amp;gt;
 </pre></div>
 
 
@@ -1730,7 +1728,7 @@ Together with the steps above, it will look like:
       
     </div>
     
-      <script src="../assets/javascripts/application.ac79c3b0.js"></script>
+      <script src="../assets/javascripts/application.b806dc00.js"></script>
       
       <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
       
