@@ -290,7 +290,7 @@ Instance Methods</h2></td></tr>
 <p>In case of payment which requires customer payment confirmation. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">confirmationType</td><td>designates the type of customer's confirmation Signature | WeChat password ... </td></tr>
+    <tr><td class="paramname">confirmationType</td><td>designates the type of customer's confirmation Signature | WeChat password ... If the signature approval is done on the terminal this event is still called with paymentConfirmationResult set to nil </td></tr>
     <tr><td class="paramname">paymentConfirmationResult</td><td>is provided by caller and carries the customer's confirmation Yes/No </td></tr>
   </table>
   </dd>

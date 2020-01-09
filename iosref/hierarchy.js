@@ -45,6 +45,7 @@ var hierarchy =
         [ "WDSaleItem", "interface_w_d_sale_item.html", null ],
         [ "WDSaleServiceCharge", "interface_w_d_sale_service_charge.html", null ]
       ] ],
+      [ "WDSaleMaintain", "interface_w_d_sale_maintain.html", null ],
       [ "WDShiftReport", "interface_w_d_shift_report.html", null ],
       [ "WDShiftReportCategory", "interface_w_d_shift_report_category.html", null ],
       [ "WDShiftReportCategoryItem", "interface_w_d_shift_report_category_item.html", null ],
@@ -82,6 +83,7 @@ var hierarchy =
           [ "WDTerminalManager", "interface_w_d_terminal_manager.html", null ]
         ] ]
       ] ],
+      [ "WDFileDownload", "interface_w_d_file_download.html", null ],
       [ "WDObject", "interface_w_d_object.html", [
         [ "WDAddress", "interface_w_d_address.html", null ],
         [ "WDAID", "interface_w_d_a_i_d.html", null ],
@@ -109,6 +111,7 @@ var hierarchy =
         [ "WDProductStockMaintain", "interface_w_d_product_stock_maintain.html", null ],
         [ "WDSaleCore", "interface_w_d_sale_core.html", null ],
         [ "WDSaleItemCore", "interface_w_d_sale_item_core.html", null ],
+        [ "WDSaleMaintain", "interface_w_d_sale_maintain.html", null ],
         [ "WDSaleSummaryItem", "interface_w_d_sale_summary_item.html", null ],
         [ "WDShiftReport", "interface_w_d_shift_report.html", null ],
         [ "WDShiftReportCategory", "interface_w_d_shift_report_category.html", null ],

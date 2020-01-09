@@ -12,6 +12,7 @@ var interface_w_de_p_o_s =
     [ "cashier", "interface_w_de_p_o_s.html#a3caf7f16e5e7fb36146f0d37555cf067", null ],
     [ "cashManager", "interface_w_de_p_o_s.html#ac89dc693cc95a2382c74ed35bb0c9002", null ],
     [ "customerManager", "interface_w_de_p_o_s.html#ac131ffa6767eca3519f0c916d5b5c6d4", null ],
+    [ "fileManager", "interface_w_de_p_o_s.html#a1e322fb1597c8d1dfca0326fa87320f3", null ],
     [ "inventoryManager", "interface_w_de_p_o_s.html#ad5a15e2c73972aa48fa1bd186fb6b94b", null ],
     [ "printerManager", "interface_w_de_p_o_s.html#a0858ff67072308c8b9f1c8da6301b534", null ],
     [ "saleManager", "interface_w_de_p_o_s.html#a6835afe91d0b43d52f840af4f8c235c6", null ],

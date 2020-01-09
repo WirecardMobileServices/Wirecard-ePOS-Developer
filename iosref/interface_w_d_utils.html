@@ -160,6 +160,9 @@ Class Methods</h2></td></tr>
 <tr class="memitem:a9b8931db2fc9e55129c8e856a1dec986"><td class="memItemLeft" align="right" valign="top">(NSString *)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="interface_w_d_utils.html#a9b8931db2fc9e55129c8e856a1dec986">uniqueID</a></td></tr>
 <tr class="memdesc:a9b8931db2fc9e55129c8e856a1dec986"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate the Unique ID.  <a href="interface_w_d_utils.html#a9b8931db2fc9e55129c8e856a1dec986">More...</a><br /></td></tr>
 <tr class="separator:a9b8931db2fc9e55129c8e856a1dec986"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a1f6badd8df8c6ae35822c1ddd15b9c"><td class="memItemLeft" align="right" valign="top">(BOOL)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="interface_w_d_utils.html#a8a1f6badd8df8c6ae35822c1ddd15b9c">unzip:toPath:deletingOriginalFile:</a></td></tr>
+<tr class="memdesc:a8a1f6badd8df8c6ae35822c1ddd15b9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unzip the archive into the specified path.  <a href="interface_w_d_utils.html#a8a1f6badd8df8c6ae35822c1ddd15b9c">More...</a><br /></td></tr>
+<tr class="separator:a8a1f6badd8df8c6ae35822c1ddd15b9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The package of <a class="el" href="interface_w_de_p_o_s.html" title="Wirecard Payment Acceptance SDK.">WDePOS</a> Utility functions. </p>
@@ -581,6 +584,51 @@ Class Methods</h2></td></tr>
 
 <p>Generate the Unique ID. </p>
 <dl class="section return"><dt>Returns</dt><dd>Unique ID </dd></dl>
+
+</div>
+</div>
+<a id="a8a1f6badd8df8c6ae35822c1ddd15b9c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a1f6badd8df8c6ae35822c1ddd15b9c">&#9670;&nbsp;</a></span>unzip:toPath:deletingOriginalFile:()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">+ (BOOL) unzip: </td>
+          <td></td>
+          <td class="paramtype">(NSString *)&#160;</td>
+          <td class="paramname"><em>filePath</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">toPath:</td>
+          <td></td>
+          <td class="paramtype">(NSString *)&#160;</td>
+          <td class="paramname"><em>path</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">deletingOriginalFile:</td>
+          <td></td>
+          <td class="paramtype">(BOOL)&#160;</td>
+          <td class="paramname"><em>deleteOriginalFile</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Unzip the archive into the specified path. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filePath</td><td>file to unzip </td></tr>
+    <tr><td class="paramname">path</td><td>path to unzip files into </td></tr>
+    <tr><td class="paramname">deleteOriginalFile</td><td>if original archive file should be deleted </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if success </dd></dl>
 
 </div>
 </div>

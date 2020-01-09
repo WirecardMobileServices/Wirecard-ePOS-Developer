@@ -1,12 +1,12 @@
 <map id="Pod/Classes/frameworks/WDePos.framework/Headers/WDSale.h" name="Pod/Classes/frameworks/WDePos.framework/Headers/WDSale.h">
-<area shape="rect" id="node1" title=" " alt="" coords="2057,5,2255,57"/>
-<area shape="rect" id="node2" title=" " alt="" coords="132,325,301,351"/>
+<area shape="rect" id="node1" title=" " alt="" coords="2205,5,2403,57"/>
+<area shape="rect" id="node2" title=" " alt="" coords="126,325,296,351"/>
 <area shape="rect" id="node3" href="$_w_d_sale_item_8h.html" title=" " alt="" coords="5,179,113,204"/>
-<area shape="rect" id="node5" title=" " alt="" coords="2059,105,2254,131"/>
-<area shape="rect" id="node6" href="$_w_d_data_types_8h.html" title=" " alt="" coords="1494,105,1613,131"/>
-<area shape="rect" id="node20" title=" " alt="" coords="2752,105,2899,131"/>
-<area shape="rect" id="node4" href="$_w_d_object_8h.html" title=" " alt="" coords="111,252,204,277"/>
-<area shape="rect" id="node7" title=" " alt="" coords="1436,252,1530,277"/>
+<area shape="rect" id="node5" title=" " alt="" coords="2207,105,2402,131"/>
+<area shape="rect" id="node6" href="$_w_d_data_types_8h.html" title=" " alt="" coords="1592,105,1710,131"/>
+<area shape="rect" id="node21" title=" " alt="" coords="2853,105,3001,131"/>
+<area shape="rect" id="node4" href="$_w_d_object_8h.html" title=" " alt="" coords="106,252,199,277"/>
+<area shape="rect" id="node7" title=" " alt="" coords="1493,252,1587,277"/>
 <area shape="rect" id="node8" href="$_w_d_product_catalogue_8h.html" title=" " alt="" coords="188,179,349,204"/>
 <area shape="rect" id="node9" title=" " alt="" coords="373,179,577,204"/>
 <area shape="rect" id="node10" title=" " alt="" coords="601,179,787,204"/>
@@ -19,4 +19,5 @@
 <area shape="rect" id="node17" title=" " alt="" coords="2072,179,2262,204"/>
 <area shape="rect" id="node18" title=" " alt="" coords="2285,179,2462,204"/>
 <area shape="rect" id="node19" title=" " alt="" coords="2486,179,2627,204"/>
+<area shape="rect" id="node20" title=" " alt="" coords="2652,179,2728,204"/>
 </map>

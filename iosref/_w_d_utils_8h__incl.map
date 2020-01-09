@@ -1,10 +1,10 @@
 <map id="Pod/Classes/frameworks/WDePos.framework/Headers/WDUtils.h" name="Pod/Classes/frameworks/WDePos.framework/Headers/WDUtils.h">
 <area shape="rect" id="node1" title=" " alt="" coords="427,5,624,57"/>
 <area shape="rect" id="node2" title=" " alt="" coords="74,325,244,351"/>
-<area shape="rect" id="node3" href="$_w_d_data_types_8h.html" title=" " alt="" coords="1002,105,1121,131"/>
+<area shape="rect" id="node3" href="$_w_d_data_types_8h.html" title=" " alt="" coords="1113,105,1231,131"/>
 <area shape="rect" id="node4" title=" " alt="" coords="28,252,122,277"/>
-<area shape="rect" id="node5" href="$_w_d_product_catalogue_8h.html" title=" " alt="" coords="79,179,241,204"/>
-<area shape="rect" id="node6" href="$_w_d_object_8h.html" title=" " alt="" coords="196,252,289,277"/>
+<area shape="rect" id="node5" href="$_w_d_product_catalogue_8h.html" title=" " alt="" coords="80,179,241,204"/>
+<area shape="rect" id="node6" href="$_w_d_object_8h.html" title=" " alt="" coords="196,252,290,277"/>
 <area shape="rect" id="node7" title=" " alt="" coords="316,179,519,204"/>
 <area shape="rect" id="node8" title=" " alt="" coords="543,179,729,204"/>
 <area shape="rect" id="node9" title=" " alt="" coords="753,179,941,204"/>
@@ -16,4 +16,5 @@
 <area shape="rect" id="node15" title=" " alt="" coords="2015,179,2204,204"/>
 <area shape="rect" id="node16" title=" " alt="" coords="2228,179,2405,204"/>
 <area shape="rect" id="node17" title=" " alt="" coords="2428,179,2570,204"/>
+<area shape="rect" id="node18" title=" " alt="" coords="2594,179,2670,204"/>
 </map>

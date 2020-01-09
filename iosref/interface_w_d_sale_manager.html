@@ -165,6 +165,9 @@ Instance Methods</h2></td></tr>
 <tr class="memitem:a86b31ccc7b9d76f32384355c20c333b8"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_w_d_sale_manager.html#a86b31ccc7b9d76f32384355c20c333b8">sendReceiptForSale:saleState:byEmailOrPhone:completion:</a></td></tr>
 <tr class="memdesc:a86b31ccc7b9d76f32384355c20c333b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send Receipt to Email or Phone.  <a href="interface_w_d_sale_manager.html#a86b31ccc7b9d76f32384355c20c333b8">More...</a><br /></td></tr>
 <tr class="separator:a86b31ccc7b9d76f32384355c20c333b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d7e0055445c47a7e657a06b996fc45e"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_w_d_sale_manager.html#a7d7e0055445c47a7e657a06b996fc45e">maintainSale:completion:</a></td></tr>
+<tr class="memdesc:a7d7e0055445c47a7e657a06b996fc45e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maintain a sale.  <a href="interface_w_d_sale_manager.html#a7d7e0055445c47a7e657a06b996fc45e">More...</a><br /></td></tr>
+<tr class="separator:a7d7e0055445c47a7e657a06b996fc45e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Sale Management. </p>
@@ -307,6 +310,43 @@ Instance Methods</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">internalId</td><td>transaction Id </td></tr>
     <tr><td class="paramname">completion</td><td>TransactionsQueryResponse block executed at the end of the method - provides Array of WDSales </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a7d7e0055445c47a7e657a06b996fc45e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d7e0055445c47a7e657a06b996fc45e">&#9670;&nbsp;</a></span>maintainSale:completion:()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) maintainSale: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_w_d_sale_maintain.html">WDSaleMaintain</a> *)&#160;</td>
+          <td class="paramname"><em>maintainSale</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">completion:</td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="_w_d_data_types_8h.html#aad535243bb06aa87a6ca2e3046e7738f">SaleUpdateCompletion</a>)&#160;</td>
+          <td class="paramname"><em>completion</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Maintain a sale. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">maintainSale</td><td>It includes the original sale id we want to maintain, and editable properties such as items, total amount, tax mode, description, etc. </td></tr>
+    <tr><td class="paramname">completion</td><td>Block executed at the end of the method </td></tr>
   </table>
   </dd>
 </dl>

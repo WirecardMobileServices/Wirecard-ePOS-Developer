@@ -1,6 +1,7 @@
 var interface_w_d_sales_query =
 [
     [ "initWithPage:pageSize:orderBy:orderSort:statuses:saleTypes:paymentMethods:", "interface_w_d_sales_query.html#a6171e8ffefa660b038a39b0a3b1531a6", null ],
+    [ "initWithPage:pageSize:orderBy:orderSort:statuses:saleTypes:supportedPaymentTypes:", "interface_w_d_sales_query.html#a4ccbc7196ffcf7e987563c7b03daa6de", null ],
     [ "amount", "interface_w_d_sales_query.html#aec859e32f5bdf9d4e6ae06f494d32f9b", null ],
     [ "cardNumber", "interface_w_d_sales_query.html#af96566c830327b38e43483b19b18c85d", null ],
     [ "fullTextSearch", "interface_w_d_sales_query.html#adba15b436ac781b43f552f64fd77cb95", null ],
@@ -15,5 +16,6 @@ var interface_w_d_sales_query =
     [ "receiptId", "interface_w_d_sales_query.html#a3c6f0c2a156cc7b9103f4dba67c0a278", null ],
     [ "saleId", "interface_w_d_sales_query.html#a8b27b3c7fa5bcf34f72893e95cc95e12", null ],
     [ "saleTypes", "interface_w_d_sales_query.html#ac63114b4fd2e9bb0285607a69623a8fd", null ],
-    [ "statuses", "interface_w_d_sales_query.html#a04c4efe6969b0b53fc960dcf423342a2", null ]
+    [ "statuses", "interface_w_d_sales_query.html#a04c4efe6969b0b53fc960dcf423342a2", null ],
+    [ "supportedPaymentTypes", "interface_w_d_sales_query.html#a0515de9a9624cb8cbdb522604994e70c", null ]
 ];

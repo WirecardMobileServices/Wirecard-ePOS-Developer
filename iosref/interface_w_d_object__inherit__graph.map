@@ -1,5 +1,5 @@
 <map id="WDObject" name="WDObject">
-<area shape="rect" id="node1" title="WDePOS custom object @discussion WDePOS Generic Object &#45; supports runtime object [property/values] de..." alt="" coords="132,1067,214,1092"/>
+<area shape="rect" id="node1" title="WDePOS custom object @discussion WDePOS Generic Object &#45; supports runtime object [property/values] de..." alt="" coords="132,1091,214,1116"/>
 <area shape="rect" id="node3" href="$interface_w_d_address.html" title="Address object." alt="" coords="325,5,417,31"/>
 <area shape="rect" id="node4" href="$interface_w_d_a_i_d.html" title="AID template." alt="" coords="338,55,404,80"/>
 <area shape="rect" id="node5" href="$interface_w_d_a_i_d_configuration.html" title="AID Configuration." alt="" coords="298,104,444,129"/>
@@ -20,32 +20,32 @@
 <area shape="rect" id="node21" href="$interface_w_d_partner.html" title="Partner category object." alt="" coords="327,844,415,869"/>
 <area shape="rect" id="node22" href="$interface_w_d_product_availability.html" title="Product availability." alt="" coords="295,893,447,919"/>
 <area shape="rect" id="node23" href="$interface_w_d_product_catalogue_core.html" title="Product Catalogue core object." alt="" coords="281,943,461,968"/>
-<area shape="rect" id="node26" href="$interface_w_d_product_catalogue_discount.html" title="Product Catalogue discount &#45; flat discount." alt="" coords="270,992,472,1017"/>
-<area shape="rect" id="node27" href="$interface_w_d_product_price.html" title="ERP product price information." alt="" coords="311,1041,431,1067"/>
-<area shape="rect" id="node28" href="$interface_w_d_product_stock.html" title="Product stocks." alt="" coords="310,1091,432,1116"/>
-<area shape="rect" id="node29" href="$interface_w_d_product_stock_maintain.html" title=" " alt="" coords="284,1140,458,1165"/>
-<area shape="rect" id="node30" href="$interface_w_d_sale_core.html" title="The Sale Core object is the base for all higher level Sale to be used for Sale operations." alt="" coords="321,1189,421,1215"/>
-<area shape="rect" id="node31" href="$interface_w_d_sale_item_core.html" title=" " alt="" coords="308,1239,434,1264"/>
-<area shape="rect" id="node32" href="$interface_w_d_sale_summary_item.html" title="Tax Summary item." alt="" coords="294,1288,448,1313"/>
-<area shape="rect" id="node33" href="$interface_w_d_shift_report.html" title="Report for a Cash Shift." alt="" coords="316,1337,426,1363"/>
-<area shape="rect" id="node34" href="$interface_w_d_shift_report_category.html" title="Category received in the Cash Shift Report." alt="" coords="289,1387,453,1412"/>
-<area shape="rect" id="node35" href="$interface_w_d_shift_report_category_item.html" title="Item of a category received in the Cash Shift Report." alt="" coords="276,1436,466,1461"/>
-<area shape="rect" id="node36" href="$interface_w_d_shop.html" title="Shop object." alt="" coords="334,1485,408,1511"/>
-<area shape="rect" id="node37" href="$interface_w_d_tax_category.html" title="Tax category object." alt="" coords="312,1535,430,1560"/>
-<area shape="rect" id="node38" href="$interface_w_d_tax_rate.html" title="Tax rate object." alt="" coords="325,1584,417,1609"/>
-<area shape="rect" id="node39" href="$interface_w_d_terminal.html" title="Terminal information." alt="" coords="324,1633,418,1659"/>
-<area shape="rect" id="node40" href="$interface_w_d_terminal_a_i_d_configuration.html" title="Terminal AID Configuration." alt="" coords="273,1683,469,1708"/>
-<area shape="rect" id="node41" href="$interface_w_d_terminal_capabilities.html" title="Terminal Capabilities template." alt="" coords="290,1732,452,1757"/>
-<area shape="rect" id="node42" href="$interface_w_d_terminal_hardware_information.html" title="Terminal Hardware information &#45; firmware version, configuration version, serial number." alt="" coords="262,1781,480,1807"/>
-<area shape="rect" id="node43" href="$interface_w_d_terminal_profile.html" title="Terminal Profile." alt="" coords="305,1831,437,1856"/>
-<area shape="rect" id="node44" href="$interface_w_d_terminal_r_k_i.html" title="Terminal Remote Key Injection values." alt="" coords="313,1880,429,1905"/>
-<area shape="rect" id="node45" href="$interface_w_d_terminal_r_k_i_request.html" title="Terminal Remote Key Injection values." alt="" coords="288,1929,454,1955"/>
-<area shape="rect" id="node46" href="$interface_w_d_terminal_update.html" title="Update information for the terminal." alt="" coords="303,1979,439,2004"/>
-<area shape="rect" id="node47" href="$interface_w_d_terminal_updates.html" title="Set of updates information for the terminal APPLICATION + CONFIGURATION + FIRMWARE." alt="" coords="299,2028,443,2053"/>
-<area shape="rect" id="node48" href="$interface_w_d_unit_price.html" title="Unit Price object." alt="" coords="322,2077,420,2103"/>
-<area shape="rect" id="node49" href="$interface_w_d_vendor.html" title="Vendor information." alt="" coords="328,2127,414,2152"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,1067,84,1092"/>
-<area shape="rect" id="node14" href="$interface_w_d_currency.html" title="Currency object." alt="" coords="582,499,679,524"/>
-<area shape="rect" id="node24" href="$interface_w_d_product_catalogue.html" title="Product Catalogue object." alt="" coords="555,917,706,943"/>
-<area shape="rect" id="node25" href="$interface_w_d_product_catalogue_category.html" title="Product Catalogue Category object." alt="" coords="528,967,733,992"/>
+<area shape="rect" id="node25" href="$interface_w_d_product_catalogue_discount.html" title="Product Catalogue discount &#45; flat discount." alt="" coords="270,992,472,1017"/>
+<area shape="rect" id="node26" href="$interface_w_d_product_price.html" title="ERP product price information." alt="" coords="311,1041,431,1067"/>
+<area shape="rect" id="node27" href="$interface_w_d_product_stock.html" title="Product stocks." alt="" coords="310,1091,432,1116"/>
+<area shape="rect" id="node28" href="$interface_w_d_product_stock_maintain.html" title=" " alt="" coords="284,1140,458,1165"/>
+<area shape="rect" id="node29" href="$interface_w_d_sale_core.html" title="The Sale Core object is the base for all higher level Sale to be used for Sale operations." alt="" coords="321,1189,421,1215"/>
+<area shape="rect" id="node30" href="$interface_w_d_sale_item_core.html" title=" " alt="" coords="308,1239,434,1264"/>
+<area shape="rect" id="node31" href="$interface_w_d_sale_maintain.html" title=" " alt="" coords="311,1288,431,1313"/>
+<area shape="rect" id="node32" href="$interface_w_d_sale_summary_item.html" title="Tax Summary item." alt="" coords="294,1337,448,1363"/>
+<area shape="rect" id="node33" href="$interface_w_d_shift_report.html" title="Report for a Cash Shift." alt="" coords="316,1387,426,1412"/>
+<area shape="rect" id="node34" href="$interface_w_d_shift_report_category.html" title="Category received in the Cash Shift Report." alt="" coords="289,1436,453,1461"/>
+<area shape="rect" id="node35" href="$interface_w_d_shift_report_category_item.html" title="Item of a category received in the Cash Shift Report." alt="" coords="276,1485,466,1511"/>
+<area shape="rect" id="node36" href="$interface_w_d_shop.html" title="Shop object." alt="" coords="334,1535,408,1560"/>
+<area shape="rect" id="node37" href="$interface_w_d_tax_category.html" title="Tax category object." alt="" coords="312,1584,430,1609"/>
+<area shape="rect" id="node38" href="$interface_w_d_tax_rate.html" title="Tax rate object." alt="" coords="325,1633,417,1659"/>
+<area shape="rect" id="node39" href="$interface_w_d_terminal.html" title="Terminal information." alt="" coords="324,1683,418,1708"/>
+<area shape="rect" id="node40" href="$interface_w_d_terminal_a_i_d_configuration.html" title="Terminal AID Configuration." alt="" coords="273,1732,469,1757"/>
+<area shape="rect" id="node41" href="$interface_w_d_terminal_capabilities.html" title="Terminal Capabilities template." alt="" coords="290,1781,452,1807"/>
+<area shape="rect" id="node42" href="$interface_w_d_terminal_hardware_information.html" title="Terminal Hardware information &#45; firmware version, configuration version, serial number." alt="" coords="262,1831,480,1856"/>
+<area shape="rect" id="node43" href="$interface_w_d_terminal_profile.html" title="Terminal Profile." alt="" coords="305,1880,437,1905"/>
+<area shape="rect" id="node44" href="$interface_w_d_terminal_r_k_i.html" title="Terminal Remote Key Injection values." alt="" coords="313,1929,429,1955"/>
+<area shape="rect" id="node45" href="$interface_w_d_terminal_r_k_i_request.html" title="Terminal Remote Key Injection values." alt="" coords="288,1979,454,2004"/>
+<area shape="rect" id="node46" href="$interface_w_d_terminal_update.html" title="Update information for the terminal." alt="" coords="303,2028,439,2053"/>
+<area shape="rect" id="node47" href="$interface_w_d_terminal_updates.html" title="Set of updates information for the terminal APPLICATION + CONFIGURATION + FIRMWARE." alt="" coords="299,2077,443,2103"/>
+<area shape="rect" id="node48" href="$interface_w_d_unit_price.html" title="Unit Price object." alt="" coords="322,2127,420,2152"/>
+<area shape="rect" id="node49" href="$interface_w_d_vendor.html" title="Vendor information." alt="" coords="328,2176,414,2201"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,1091,84,1116"/>
+<area shape="rect" id="node14" href="$interface_w_d_currency.html" title="Currency object." alt="" coords="555,499,652,524"/>
+<area shape="rect" id="node24" href="$interface_w_d_product_catalogue.html" title="Product Catalogue object." alt="" coords="528,943,679,968"/>
 </map>

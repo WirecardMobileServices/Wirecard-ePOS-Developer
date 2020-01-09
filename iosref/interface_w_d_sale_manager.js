@@ -4,6 +4,7 @@ var interface_w_d_sale_manager =
     [ "cancelSale:message:completion:", "interface_w_d_sale_manager.html#a63e8bf13929195aac1e485457306c3b3", null ],
     [ "failSale:message:completion:", "interface_w_d_sale_manager.html#a1995236efe0a26c179708f6d6b3534dd", null ],
     [ "getSale:completion:", "interface_w_d_sale_manager.html#aab89929f35903e0de57ddf1e00d36dbb", null ],
+    [ "maintainSale:completion:", "interface_w_d_sale_manager.html#a7d7e0055445c47a7e657a06b996fc45e", null ],
     [ "pay:delegate:", "interface_w_d_sale_manager.html#aeb8fbf542108135c4c0577239f2bfb86", null ],
     [ "pay:withDelegate:", "interface_w_d_sale_manager.html#ad20416b9bd4f44ff4a6c078b7a801b8b", null ],
     [ "querySales:completion:", "interface_w_d_sale_manager.html#ab9adaa5b0a81aeb4bba85ec05ff57086", null ],
