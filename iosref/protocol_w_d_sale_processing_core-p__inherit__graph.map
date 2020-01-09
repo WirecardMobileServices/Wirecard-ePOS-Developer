@@ -1,0 +1,12 @@
+<map id="&lt;WDSaleProcessingCore&gt;" name="&lt;WDSaleProcessingCore&gt;">
+<area shape="rect" id="node1" title=" " alt="" coords="488,79,669,104"/>
+<area shape="rect" id="node3" href="$protocol_w_d_sale_processing-p.html" title=" " alt="" coords="405,152,557,177"/>
+<area shape="rect" id="node10" href="$protocol_w_d_sale_return_processing-p.html" title=" " alt="" coords="581,152,773,177"/>
+<area shape="rect" id="node2" title=" " alt="" coords="532,5,626,31"/>
+<area shape="rect" id="node4" href="$protocol_w_d_reference_sale_processing-p.html" title=" " alt="" coords="92,225,305,251"/>
+<area shape="rect" id="node6" href="$interface_w_d_sale_request.html" title="The Sale to be processed @discussion Contains all necessary information to perform the Sale." alt="" coords="427,225,547,251"/>
+<area shape="rect" id="node5" href="$interface_w_d_reference_sale_request.html" title=" " alt="" coords="5,299,187,324"/>
+<area shape="rect" id="node7" href="$interface_w_d_sale_request_purchase.html" title=" " alt="" coords="211,299,387,324"/>
+<area shape="rect" id="node8" href="$interface_w_d_sale_request_refund.html" title=" " alt="" coords="411,299,573,324"/>
+<area shape="rect" id="node9" href="$interface_w_d_sale_request_return.html" title=" " alt="" coords="597,299,757,324"/>
+</map>

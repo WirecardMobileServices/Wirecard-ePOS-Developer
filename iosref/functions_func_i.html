@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="Icon.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Wirecard-ePOS
-   &#160;<span id="projectnumber">2.9.2</span>
+   &#160;<span id="projectnumber">2.11.0</span>
    </div>
    <div id="projectbrief">Acceptance of the Card payments and alternative payment methods</div>
   </td>
@@ -94,12 +94,39 @@ $(document).ready(function(){initNavTree('functions_func_i.html','');});
 <li>init
 : <a class="el" href="interface_w_d_environment_configuration.html#afe53580ca6a60f808155d7cb68aed95b">WDEnvironmentConfiguration</a>
 , <a class="el" href="interface_w_de_p_o_s.html#a97546e837d9d2f822381e19360be1125">WDePOS</a>
+, <a class="el" href="interface_w_d_html_receipt.html#a939709793b18030850e6545e02d3abe4">WDHtmlReceipt</a>
+, <a class="el" href="interface_w_d_html_receipt_data.html#a0d5124e769b946efaffa9766e55bc220">WDHtmlReceiptData</a>
+, <a class="el" href="interface_w_d_html_z_report.html#af4f04a0086047a2226b2caa27beb0559">WDHtmlZReport</a>
+, <a class="el" href="interface_w_d_payment_core.html#af490a7799715585d4c4923d2f4338bc0">WDPaymentCore</a>
 , <a class="el" href="interface_w_d_receipt_address.html#a2ef6c039fbe26c1d791414f264472747">WDReceiptAddress</a>
 , <a class="el" href="interface_w_d_sale_item_core.html#a2bac0514a2014ce0d15b7c70245a5839">WDSaleItemCore</a>
 , <a class="el" href="interface_w_d_sale_request.html#a047357405879fcb0f25f9745444fee6a">WDSaleRequest</a>
 </li>
+<li>initEFTCardWithAmount:terminal:
+: <a class="el" href="interface_w_d_payment_request_card.html#a6e8eb772c9242f698a3ec28210c50b29">WDPaymentRequestCard</a>
+</li>
+<li>initEFTCardWithAmount:terminal:notifyUrl:
+: <a class="el" href="interface_w_d_payment_request_card.html#aea83cebb7b86d8c76e69af9588b668c4">WDPaymentRequestCard</a>
+</li>
+<li>initEFTWithAmount:originalPaymentId:
+: <a class="el" href="interface_w_d_payment_refund_card.html#a28c10c59024eb3d22f9a406e070fe7a6">WDPaymentRefundCard</a>
+</li>
 <li>initForSale:
 : <a class="el" href="interface_w_d_sale_item_core.html#a37123e2d8ceca54fec578ca2cac28093">WDSaleItemCore</a>
+</li>
+<li>initFromSaleResponse:isForCardholder:includeReturns:locale:
+: <a class="el" href="interface_w_d_html_receipt.html#af1831f0ba7e6a2ac05f24cd943edc80c">WDHtmlReceipt</a>
+, <a class="el" href="interface_w_d_html_receipt_data.html#a93771be538d5e58a25fc2f89c77bcb47">WDHtmlReceiptData</a>
+</li>
+<li>initWithAmount:originalPaymentId:
+: <a class="el" href="interface_w_d_payment_refund_alipay.html#ab99667c50fe263bf6b3ae5e163df447a">WDPaymentRefundAlipay</a>
+, <a class="el" href="interface_w_d_payment_refund_card.html#a49dfc14b5623dc67340c8e7bbd0a7077">WDPaymentRefundCard</a>
+, <a class="el" href="interface_w_d_payment_refund_card_capture.html#a8babc0e7ea0120452c42c6b3100215ca">WDPaymentRefundCardCapture</a>
+, <a class="el" href="interface_w_d_payment_refund_cash.html#a9fe043f3c4665dfafa88bf0ec216c54b">WDPaymentRefundCash</a>
+, <a class="el" href="interface_w_d_payment_refund_we_chat.html#a0648768a2ddf51df8ecd301ce47fc072">WDPaymentRefundWeChat</a>
+</li>
+<li>initWithAmount:originalTransactionId:authorizationCode:
+: <a class="el" href="interface_w_d_payment_pre_authorize_supplement_card.html#a7949cc703db885850aba98dc85413fdc">WDPaymentPreAuthorizeSupplementCard</a>
 </li>
 <li>initWithCatalogueId:date:
 : <a class="el" href="interface_w_d_products_query.html#a318a763cfda6f10473fff9762232eb6b">WDProductsQuery</a>
@@ -208,6 +235,9 @@ $(document).ready(function(){initNavTree('functions_func_i.html','');});
 : <a class="el" href="interface_w_d_customer_manager.html#a3104375b68706bb448b018eb646ad4bc">WDCustomerManager</a>
 , <a class="el" href="interface_w_d_user_manager.html#a58fa4123410e84317528a9bef6eb01fa">WDUserManager</a>
 </li>
+<li>initWithShift:cashRegister:locale:
+: <a class="el" href="interface_w_d_html_z_report.html#a1a39ce9ec79974b0a202eda24e29e0ab">WDHtmlZReport</a>
+</li>
 <li>initWithShopId:quantityChange:notificationThreshold:reason:
 : <a class="el" href="interface_w_d_product_stock_maintain.html#a27af66e07ad0c0a0d92f0447443e89aa">WDProductStockMaintain</a>
 </li>
@@ -228,11 +258,23 @@ $(document).ready(function(){initNavTree('functions_func_i.html','');});
 <li>initWithWDAddress:
 : <a class="el" href="interface_w_d_receipt_address.html#a7dc0dc6ed1987b3f0e52a7038179dbe4">WDReceiptAddress</a>
 </li>
+<li>instr:
+: <a class="el" href="category_n_s_string_07_w_d_extras_08.html#a87c1d32b8ba5a5d2921d1b4fb41c8b21">NSString(WDExtras)</a>
+</li>
+<li>isDateLater:than:
+: <a class="el" href="category_n_s_date_07_utils_08.html#a457dd1cf8cd012bd2a49e60426e01a81">NSDate(Utils)</a>
+</li>
+<li>isDateSoonerThan:
+: <a class="el" href="category_n_s_date_07_utils_08.html#a6a7a5f1302c146cce7f0c3cde8fea982">NSDate(Utils)</a>
+</li>
 <li>isRefundable
 : <a class="el" href="interface_w_d_sale_response.html#aa5377c2d0b9d1ee5fcf59d7a962a7ec3">WDSaleResponse</a>
 </li>
 <li>isReversible
 : <a class="el" href="interface_w_d_sale_response.html#afbb56c993a968bc7a1fc36de04965be4">WDSaleResponse</a>
+</li>
+<li>isStillToday
+: <a class="el" href="category_n_s_date_07_utils_08.html#ae5c19882c3951ee2afcc1a920ec55cab">NSDate(Utils)</a>
 </li>
 <li>isVendorHavingBluetoothTerminals:
 : <a class="el" href="interface_w_d_utils.html#aa44cddf9ea85f62a6175b003554ceb85">WDUtils</a>

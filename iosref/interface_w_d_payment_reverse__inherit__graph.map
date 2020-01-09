@@ -1,0 +1,12 @@
+<map id="WDPaymentReverse" name="WDPaymentReverse">
+<area shape="rect" id="node1" title="Payment Request &#45; contains the information about the original Payment to be reversed." alt="" coords="450,104,596,129"/>
+<area shape="rect" id="node6" href="$interface_w_d_payment_reverse_alipay.html" title=" " alt="" coords="664,5,846,31"/>
+<area shape="rect" id="node7" href="$interface_w_d_payment_reverse_card.html" title=" " alt="" coords="668,55,843,80"/>
+<area shape="rect" id="node8" href="$interface_w_d_payment_reverse_card_capture.html" title=" " alt="" coords="644,104,866,129"/>
+<area shape="rect" id="node9" href="$interface_w_d_payment_reverse_cash.html" title=" " alt="" coords="667,153,844,179"/>
+<area shape="rect" id="node10" href="$interface_w_d_payment_reverse_we_chat.html" title=" " alt="" coords="658,203,852,228"/>
+<area shape="rect" id="node2" href="$interface_w_d_payment_core.html" title=" " alt="" coords="277,104,402,129"/>
+<area shape="rect" id="node3" href="$interface_w_d_object.html" title="WDePOS custom object @discussion WDePOS Generic Object &#45; supports runtime object [property/values] de..." alt="" coords="140,79,222,104"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,79,84,104"/>
+<area shape="rect" id="node5" title=" " alt="" coords="132,128,229,153"/>
+</map>

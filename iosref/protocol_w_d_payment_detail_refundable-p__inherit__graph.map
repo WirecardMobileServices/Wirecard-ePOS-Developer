@@ -1,0 +1,8 @@
+<map id="&lt;WDPaymentDetailRefundable&gt;" name="&lt;WDPaymentDetailRefundable&gt;">
+<area shape="rect" id="node1" title=" " alt="" coords="5,104,219,129"/>
+<area shape="rect" id="node2" href="$interface_w_d_payment_detail_alipay.html" title="Alipay Payment Detail &#45; contains the information specific to Alipay." alt="" coords="284,5,450,31"/>
+<area shape="rect" id="node3" href="$interface_w_d_payment_detail_card.html" title="Card Payment Detail &#45; contains the information specific to Card payment." alt="" coords="287,55,447,80"/>
+<area shape="rect" id="node4" href="$interface_w_d_payment_detail_cash.html" title="Cash Payment Detail &#45; contains the information specific to Cash payment." alt="" coords="286,104,448,129"/>
+<area shape="rect" id="node5" href="$interface_w_d_payment_detail_referenced_card_capture.html" title="Referenced Payment Detail &#45; contains the information specific to the payment." alt="" coords="267,153,467,192"/>
+<area shape="rect" id="node6" href="$interface_w_d_payment_detail_we_chat.html" title="WeChat Payment Detail &#45; contains the information specific to WeChat." alt="" coords="278,216,456,241"/>
+</map>

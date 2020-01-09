@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="Icon.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Wirecard-ePOS
-   &#160;<span id="projectnumber">2.9.2</span>
+   &#160;<span id="projectnumber">2.11.0</span>
    </div>
    <div id="projectbrief">Acceptance of the Card payments and alternative payment methods</div>
   </td>
@@ -100,11 +100,31 @@ $(document).ready(function(){initNavTree('functions_func_c.html','');});
 <li>cardApplication:
 : <a class="el" href="protocol_w_d_payment_delegate-p.html#a46a91ad1b801b1a438f462b202211d6c">&lt;WDPaymentDelegate&gt;</a>
 </li>
+<li>cardAuthorizationPaymentType
+: <a class="el" href="interface_w_d_payment_core.html#af0d80733630fcfb2d1b4e64a09b02e16">WDPaymentCore</a>
+, <a class="el" href="category_w_d_payment_core_07_extension_08.html#af0d80733630fcfb2d1b4e64a09b02e16">WDPaymentCore(Extension)</a>
+</li>
+<li>cardPreAuthorizationPaymentType
+: <a class="el" href="interface_w_d_payment_core.html#a7753af0bcdf01e3e39f4c803e99deb34">WDPaymentCore</a>
+, <a class="el" href="category_w_d_payment_core_07_extension_08.html#a7753af0bcdf01e3e39f4c803e99deb34">WDPaymentCore(Extension)</a>
+</li>
+<li>cardPreAuthorizationSupplementPaymentType
+: <a class="el" href="interface_w_d_payment_core.html#ae6b59e4410b4b47f126cd8624f6f8582">WDPaymentCore</a>
+, <a class="el" href="category_w_d_payment_core_07_extension_08.html#ae6b59e4410b4b47f126cd8624f6f8582">WDPaymentCore(Extension)</a>
+</li>
+<li>cardPurchasePaymentType
+: <a class="el" href="interface_w_d_payment_core.html#ac3c5e97f3f6c56e15e0f9d812e986b6a">WDPaymentCore</a>
+, <a class="el" href="category_w_d_payment_core_07_extension_08.html#ac3c5e97f3f6c56e15e0f9d812e986b6a">WDPaymentCore(Extension)</a>
+</li>
 <li>cashiers:
 : <a class="el" href="interface_w_d_cash_manager.html#a90d1d5dc5f11ece80c9ec46372cd2fe3">WDCashManager</a>
 </li>
 <li>cashOperation:note:amount:currency:completion:
 : <a class="el" href="interface_w_d_cash_manager.html#ad7237bbdf4216e844558ed6579ff3317">WDCashManager</a>
+</li>
+<li>cashPurchasePaymentType
+: <a class="el" href="interface_w_d_payment_core.html#a14884c026bda4f5c4656a6c6ba39888b">WDPaymentCore</a>
+, <a class="el" href="category_w_d_payment_core_07_extension_08.html#a14884c026bda4f5c4656a6c6ba39888b">WDPaymentCore(Extension)</a>
 </li>
 <li>cashRegisterDetails:completion:
 : <a class="el" href="interface_w_d_cash_manager.html#a0aecf4c4a3232b314e08f110545e9eba">WDCashManager</a>
@@ -114,6 +134,8 @@ $(document).ready(function(){initNavTree('functions_func_c.html','');});
 </li>
 <li>castTo:
 : <a class="el" href="interface_w_d_address.html#a2d43e347f023953252d81dc11f3290ff">WDAddress</a>
+, <a class="el" href="interface_w_d_payment_detail_alipay.html#a4f32bc3971a39cfca3c90b8eeaa4f54b">WDPaymentDetailAlipay</a>
+, <a class="el" href="interface_w_d_payment_detail_we_chat.html#abdab37c59411acbc6c3cfe473dc68f17">WDPaymentDetailWeChat</a>
 </li>
 <li>closeShift:note:amount:completion:
 : <a class="el" href="interface_w_d_cash_manager.html#a66d9b558fc3b5b4b38b8d97700100bb6">WDCashManager</a>
@@ -129,6 +151,9 @@ $(document).ready(function(){initNavTree('functions_func_c.html','');});
 </li>
 <li>connectionStatus:
 : <a class="el" href="interface_w_d_extension_manager.html#acf72d755c6b80524a09a504631587731">WDExtensionManager</a>
+</li>
+<li>convertHexToData
+: <a class="el" href="category_n_s_string_07_w_d_extras_08.html#a0c96a050cd93c6d3af0432f68e614854">NSString(WDExtras)</a>
 </li>
 <li>couponSummary
 : <a class="el" href="interface_w_d_sale.html#a45fdfaf53ae8a87e950096efba8a5c52">WDSale</a>

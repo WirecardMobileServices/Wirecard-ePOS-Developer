@@ -1,0 +1,7 @@
+<map id="WDHtmlReceipt" name="WDHtmlReceipt">
+<area shape="rect" id="node1" title="Receipt with Data, Images and also complete html based on the standard Wirecard Receipt template @dis..." alt="" coords="39,265,155,291"/>
+<area shape="rect" id="node2" title=" " alt="" coords="49,5,127,31"/>
+<area shape="rect" id="node3" href="$interface_w_d_html_receipt_data.html" title="Receipt Data @discussion Receipt Data containing all the details e.g. Address, Cashier detail,..." alt="" coords="25,179,169,204"/>
+<area shape="rect" id="node4" href="$interface_w_d_receipt_address.html" title="Merchant Address @discussion Receipt Merchant Address." alt="" coords="72,80,210,105"/>
+<area shape="rect" id="node5" href="$interface_w_d_html_receipt_images.html" title="Receipt Images &#45; header/footer logos, barcode @discussion Images to be printed on the receipt." alt="" coords="165,129,325,155"/>
+</map>

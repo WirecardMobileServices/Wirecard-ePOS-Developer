@@ -1,0 +1,8 @@
+<map id="WDPaymentRequestWeChat" name="WDPaymentRequestWeChat">
+<area shape="rect" id="node1" title="WeChat Payment Request &#45; contains the information specific to WeChat." alt="" coords="5,299,199,324"/>
+<area shape="rect" id="node2" href="$interface_w_d_payment.html" title="Payment &#45; contains the information about payment method, transaction type." alt="" coords="54,225,150,251"/>
+<area shape="rect" id="node3" href="$interface_w_d_payment_core.html" title=" " alt="" coords="40,152,165,177"/>
+<area shape="rect" id="node4" href="$interface_w_d_object.html" title="WDePOS custom object @discussion WDePOS Generic Object &#45; supports runtime object [property/values] de..." alt="" coords="5,79,87,104"/>
+<area shape="rect" id="node5" title=" " alt="" coords="7,5,86,31"/>
+<area shape="rect" id="node6" title=" " alt="" coords="111,79,209,104"/>
+</map>

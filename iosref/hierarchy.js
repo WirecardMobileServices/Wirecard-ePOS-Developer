@@ -1,5 +1,6 @@
 var hierarchy =
 [
+    [ "NSArray(Extension)", "category_n_s_array_07_extension_08.html", null ],
     [ "<NSCoding>", null, [
       [ "WDAddress", "interface_w_d_address.html", null ],
       [ "WDBarCodeType", "interface_w_d_bar_code_type.html", null ],
@@ -12,11 +13,53 @@ var hierarchy =
       [ "WDCurrencyCore", "interface_w_d_currency_core.html", [
         [ "WDCurrency", "interface_w_d_currency.html", null ]
       ] ],
+      [ "WDFile", "interface_w_d_file.html", null ],
       [ "WDMember", "interface_w_d_member.html", null ],
       [ "WDMerchant", "interface_w_d_merchant.html", null ],
       [ "WDMerchantCashier", "interface_w_d_merchant_cashier.html", null ],
       [ "WDMerchantUser", "interface_w_d_merchant_user.html", null ],
       [ "WDPartner", "interface_w_d_partner.html", null ],
+      [ "WDPaymentCore", "interface_w_d_payment_core.html", [
+        [ "WDPayment", "interface_w_d_payment.html", [
+          [ "WDPaymentCapture", "interface_w_d_payment_capture.html", [
+            [ "WDPaymentCaptureCard", "interface_w_d_payment_capture_card.html", null ]
+          ] ],
+          [ "WDPaymentDetail", "interface_w_d_payment_detail.html", [
+            [ "WDPaymentDetailAlipay", "interface_w_d_payment_detail_alipay.html", null ],
+            [ "WDPaymentDetailCard", "interface_w_d_payment_detail_card.html", null ],
+            [ "WDPaymentDetailCash", "interface_w_d_payment_detail_cash.html", null ],
+            [ "WDPaymentDetailCoupon", "interface_w_d_payment_detail_coupon.html", null ],
+            [ "WDPaymentDetailReferenced", "interface_w_d_payment_detail_referenced.html", [
+              [ "WDPaymentDetailReferencedCardCapture", "interface_w_d_payment_detail_referenced_card_capture.html", null ],
+              [ "WDPaymentDetailReferencedCardRefund", "interface_w_d_payment_detail_referenced_card_refund.html", null ]
+            ] ],
+            [ "WDPaymentDetailWeChat", "interface_w_d_payment_detail_we_chat.html", null ]
+          ] ],
+          [ "WDPaymentPreAuthorizeSupplement", "interface_w_d_payment_pre_authorize_supplement.html", [
+            [ "WDPaymentPreAuthorizeSupplementCard", "interface_w_d_payment_pre_authorize_supplement_card.html", null ]
+          ] ],
+          [ "WDPaymentRefund", "interface_w_d_payment_refund.html", [
+            [ "WDPaymentRefundAlipay", "interface_w_d_payment_refund_alipay.html", null ],
+            [ "WDPaymentRefundCard", "interface_w_d_payment_refund_card.html", null ],
+            [ "WDPaymentRefundCardCapture", "interface_w_d_payment_refund_card_capture.html", null ],
+            [ "WDPaymentRefundCash", "interface_w_d_payment_refund_cash.html", null ],
+            [ "WDPaymentRefundWeChat", "interface_w_d_payment_refund_we_chat.html", null ]
+          ] ],
+          [ "WDPaymentRequestAlipay", "interface_w_d_payment_request_alipay.html", null ],
+          [ "WDPaymentRequestCard", "interface_w_d_payment_request_card.html", null ],
+          [ "WDPaymentRequestCash", "interface_w_d_payment_request_cash.html", null ],
+          [ "WDPaymentRequestCoupon", "interface_w_d_payment_request_coupon.html", null ],
+          [ "WDPaymentRequestWeChat", "interface_w_d_payment_request_we_chat.html", null ]
+        ] ],
+        [ "WDPaymentReverse", "interface_w_d_payment_reverse.html", [
+          [ "WDPaymentReverseAlipay", "interface_w_d_payment_reverse_alipay.html", null ],
+          [ "WDPaymentReverseCard", "interface_w_d_payment_reverse_card.html", null ],
+          [ "WDPaymentReverseCardCapture", "interface_w_d_payment_reverse_card_capture.html", null ],
+          [ "WDPaymentReverseCash", "interface_w_d_payment_reverse_cash.html", null ],
+          [ "WDPaymentReverseWeChat", "interface_w_d_payment_reverse_we_chat.html", null ]
+        ] ]
+      ] ],
+      [ "WDPaymentReference", "interface_w_d_payment_reference.html", null ],
       [ "WDProductAvailability", "interface_w_d_product_availability.html", null ],
       [ "WDProductCatalogueCore", "interface_w_d_product_catalogue_core.html", [
         [ "WDProductCatalogue", "interface_w_d_product_catalogue.html", null ],
@@ -66,6 +109,8 @@ var hierarchy =
       [ "WDTerminal", "interface_w_d_terminal.html", null ],
       [ "WDVendor", "interface_w_d_vendor.html", null ]
     ] ],
+    [ "NSDate(Utils)", "category_n_s_date_07_utils_08.html", null ],
+    [ "NSFileManager(Helpers)", "category_n_s_file_manager_07_helpers_08.html", null ],
     [ "NSObject", null, [
       [ "WDAError", "interface_w_d_a_error.html", null ],
       [ "WDAppSelectionRequest", "interface_w_d_app_selection_request.html", null ],
@@ -84,6 +129,20 @@ var hierarchy =
         ] ]
       ] ],
       [ "WDFileDownload", "interface_w_d_file_download.html", null ],
+      [ "WDFileManager", "interface_w_d_file_manager.html", null ],
+      [ "WDHtmlReceipt", "interface_w_d_html_receipt.html", null ],
+      [ "WDHtmlReceiptData", "interface_w_d_html_receipt_data.html", null ],
+      [ "WDHtmlReceiptDetailRow", "interface_w_d_html_receipt_detail_row.html", null ],
+      [ "WDHtmlReceiptImages", "interface_w_d_html_receipt_images.html", null ],
+      [ "WDHtmlReceiptItemRow", "interface_w_d_html_receipt_item_row.html", null ],
+      [ "WDHtmlReceiptPaymentRow", "interface_w_d_html_receipt_payment_row.html", null ],
+      [ "WDHtmlReceiptTaxRow", "interface_w_d_html_receipt_tax_row.html", null ],
+      [ "WDHtmlZReport", "interface_w_d_html_z_report.html", null ],
+      [ "WDHtmlZReportCategoryItemRow", "interface_w_d_html_z_report_category_item_row.html", null ],
+      [ "WDHtmlZReportCategoryRow", "interface_w_d_html_z_report_category_row.html", null ],
+      [ "WDHtmlZReportDetailRow", "interface_w_d_html_z_report_detail_row.html", null ],
+      [ "WDHtmlZReportImages", "interface_w_d_html_z_report_images.html", null ],
+      [ "WDLocalizationManager", "interface_w_d_localization_manager.html", null ],
       [ "WDObject", "interface_w_d_object.html", [
         [ "WDAddress", "interface_w_d_address.html", null ],
         [ "WDAID", "interface_w_d_a_i_d.html", null ],
@@ -96,6 +155,7 @@ var hierarchy =
         [ "WDClientInformation", "interface_w_d_client_information.html", null ],
         [ "WDCountry", "interface_w_d_country.html", null ],
         [ "WDCurrencyCore", "interface_w_d_currency_core.html", null ],
+        [ "WDFile", "interface_w_d_file.html", null ],
         [ "WDICCApplication", "interface_w_d_i_c_c_application.html", null ],
         [ "WDMember", "interface_w_d_member.html", null ],
         [ "WDMerchant", "interface_w_d_merchant.html", null ],
@@ -103,6 +163,8 @@ var hierarchy =
         [ "WDMerchantUser", "interface_w_d_merchant_user.html", null ],
         [ "WDNetwork", "interface_w_d_network.html", null ],
         [ "WDPartner", "interface_w_d_partner.html", null ],
+        [ "WDPaymentCore", "interface_w_d_payment_core.html", null ],
+        [ "WDPaymentReference", "interface_w_d_payment_reference.html", null ],
         [ "WDProductAvailability", "interface_w_d_product_availability.html", null ],
         [ "WDProductCatalogueCore", "interface_w_d_product_catalogue_core.html", null ],
         [ "WDProductCatalogueDiscount", "interface_w_d_product_catalogue_discount.html", null ],
@@ -159,19 +221,45 @@ var hierarchy =
         [ "<WDPrinting>", "protocol_w_d_printing-p.html", null ],
         [ "<WDScanning>", "protocol_w_d_scanning-p.html", null ]
       ] ],
-      [ "<WDPaymentDelegate>", "protocol_w_d_payment_delegate-p.html", null ]
+      [ "<WDPaymentDelegate>", "protocol_w_d_payment_delegate-p.html", null ],
+      [ "<WDSaleProcessingCore>", "protocol_w_d_sale_processing_core-p.html", [
+        [ "<WDSaleProcessing>", "protocol_w_d_sale_processing-p.html", [
+          [ "<WDReferenceSaleProcessing>", "protocol_w_d_reference_sale_processing-p.html", [
+            [ "WDReferenceSaleRequest", "interface_w_d_reference_sale_request.html", null ]
+          ] ],
+          [ "WDSaleRequest", "interface_w_d_sale_request.html", null ]
+        ] ],
+        [ "<WDSaleReturnProcessing>", "protocol_w_d_sale_return_processing-p.html", [
+          [ "WDSaleRequestReturn", "interface_w_d_sale_request_return.html", null ]
+        ] ]
+      ] ]
     ] ],
+    [ "NSString(WDExtras)", "category_n_s_string_07_w_d_extras_08.html", null ],
     [ "WDError", "class_w_d_error.html", null ],
+    [ "WDFileCategory", "class_w_d_file_category.html", null ],
     [ "WDPaymentConfig", "class_w_d_payment_config.html", null ],
+    [ "WDPaymentCore(Extension)", "category_w_d_payment_core_07_extension_08.html", null ],
+    [ "WDPaymentDetailCardReferenced", "class_w_d_payment_detail_card_referenced.html", null ],
+    [ "<WDPaymentDetailRefundable>", "protocol_w_d_payment_detail_refundable-p.html", [
+      [ "WDPaymentDetailAlipay", "interface_w_d_payment_detail_alipay.html", null ],
+      [ "WDPaymentDetailCard", "interface_w_d_payment_detail_card.html", null ],
+      [ "WDPaymentDetailCash", "interface_w_d_payment_detail_cash.html", null ],
+      [ "WDPaymentDetailReferencedCardCapture", "interface_w_d_payment_detail_referenced_card_capture.html", null ],
+      [ "WDPaymentDetailWeChat", "interface_w_d_payment_detail_we_chat.html", null ]
+    ] ],
+    [ "<WDPaymentDetailReversable>", "protocol_w_d_payment_detail_reversable-p.html", [
+      [ "WDPaymentDetailAlipay", "interface_w_d_payment_detail_alipay.html", null ],
+      [ "WDPaymentDetailCard", "interface_w_d_payment_detail_card.html", null ],
+      [ "WDPaymentDetailCash", "interface_w_d_payment_detail_cash.html", null ],
+      [ "WDPaymentDetailReferencedCardCapture", "interface_w_d_payment_detail_referenced_card_capture.html", null ],
+      [ "WDPaymentDetailReferencedCardRefund", "interface_w_d_payment_detail_referenced_card_refund.html", null ],
+      [ "WDPaymentDetailWeChat", "interface_w_d_payment_detail_we_chat.html", null ]
+    ] ],
+    [ "WDPaymentreference", "class_w_d_paymentreference.html", null ],
+    [ "WDPaymentRequest", "class_w_d_payment_request.html", null ],
     [ "WDReferencedSaleRequest", "class_w_d_referenced_sale_request.html", null ],
-    [ "<WDReferenceSaleProcessing>", null, [
-      [ "WDReferenceSaleRequest", "interface_w_d_reference_sale_request.html", null ]
-    ] ],
-    [ "WDSaleCore< WDSaleProcessing >", "interface_w_d_sale_core.html", null ],
-    [ "<WDSaleProcessing>", null, [
-      [ "WDSaleRequest", "interface_w_d_sale_request.html", null ]
-    ] ],
-    [ "<WDSaleReturnProcessing>", null, [
-      [ "WDSaleRequestReturn", "interface_w_d_sale_request_return.html", null ]
-    ] ]
+    [ "WDSaleCore< WDSaleProcessing-p >", "interface_w_d_sale_core.html", null ],
+    [ "WDZReportCategoryItemRow", "class_w_d_z_report_category_item_row.html", null ],
+    [ "WDZReportCategoryRow", "class_w_d_z_report_category_row.html", null ],
+    [ "WDZReportNew", "class_w_d_z_report_new.html", null ]
 ];

@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="Icon.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Wirecard-ePOS
-   &#160;<span id="projectnumber">2.9.2</span>
+   &#160;<span id="projectnumber">2.11.0</span>
    </div>
    <div id="projectbrief">Acceptance of the Card payments and alternative payment methods</div>
   </td>
@@ -97,11 +97,65 @@ $(document).ready(function(){initNavTree('functions_func_a.html','');});
 <li>activeDevice:
 : <a class="el" href="interface_w_d_extension_manager.html#a4e4b35f2728c199d8defed6cbb6bfdf7">WDExtensionManager</a>
 </li>
+<li>addAlipayPayment:consumerId:
+: <a class="el" href="protocol_w_d_sale_processing-p.html#ab47ea86f075fa9d2b64ce272097b9a2b">&lt;WDSaleProcessing&gt;</a>
+</li>
+<li>addAlipayPayment:consumerId:notifyUrl:
+: <a class="el" href="protocol_w_d_sale_processing-p.html#a2596148b795230b8fb39641d94c2f3b0">&lt;WDSaleProcessing&gt;</a>
+</li>
+<li>addAlipayPayment:consumerId:originalPaymentId:
+: <a class="el" href="protocol_w_d_sale_return_processing-p.html#a96b418f7b750bb9001f5a9fb4e7743a1">&lt;WDSaleReturnProcessing&gt;</a>
+</li>
+<li>addCardAuthorization:terminal:
+: <a class="el" href="protocol_w_d_sale_processing-p.html#a21a9c22078a44dd890c6b49a92a7b97a">&lt;WDSaleProcessing&gt;</a>
+</li>
+<li>addCardAuthorization:terminal:notifyUrl:
+: <a class="el" href="protocol_w_d_sale_processing-p.html#a9f393416cddec64faad0d568f0fb3964">&lt;WDSaleProcessing&gt;</a>
+</li>
+<li>addCardCapture:originalPaymentId:
+: <a class="el" href="protocol_w_d_reference_sale_processing-p.html#a297dc0f5ecc5735720cbe1f2c95def7b">&lt;WDReferenceSaleProcessing&gt;</a>
+, <a class="el" href="protocol_w_d_sale_return_processing-p.html#a845be27bd25f64582e6df8410f52953f">&lt;WDSaleReturnProcessing&gt;</a>
+</li>
+<li>addCardPayment:originalPaymentId:
+: <a class="el" href="protocol_w_d_sale_return_processing-p.html#a4f8e9de2864873101f9f89bca346564a">&lt;WDSaleReturnProcessing&gt;</a>
+</li>
+<li>addCardPayment:terminal:
+: <a class="el" href="protocol_w_d_sale_processing-p.html#ab35785a1126becf06fe6cb2f796ee119">&lt;WDSaleProcessing&gt;</a>
+</li>
+<li>addCardPayment:terminal:notifyUrl:
+: <a class="el" href="protocol_w_d_sale_processing-p.html#a3d785f8abb51bdfde5a08d98816be0ac">&lt;WDSaleProcessing&gt;</a>
+</li>
+<li>addCardPreAuthorization:terminal:
+: <a class="el" href="protocol_w_d_sale_processing-p.html#ad6775ce36c7d75dcd611fd901aa55a80">&lt;WDSaleProcessing&gt;</a>
+</li>
+<li>addCardPreAuthorization:terminal:notifyUrl:
+: <a class="el" href="protocol_w_d_sale_processing-p.html#aef32d302880eb7aed680ffe626c79729">&lt;WDSaleProcessing&gt;</a>
+</li>
+<li>addCardPreAuthorizationSupplement:originalTransactionId:authorizationCode:
+: <a class="el" href="protocol_w_d_reference_sale_processing-p.html#aa52bbcb71569ee731ed2f7f5846f5e1c">&lt;WDReferenceSaleProcessing&gt;</a>
+, <a class="el" href="protocol_w_d_sale_processing-p.html#a983575c008d294b9723b8a52dce8e7f2">&lt;WDSaleProcessing&gt;</a>
+, <a class="el" href="protocol_w_d_sale_return_processing-p.html#a30523af75139bdf2585f6d5f51259029">&lt;WDSaleReturnProcessing&gt;</a>
+</li>
+<li>addCashPayment:
+: <a class="el" href="protocol_w_d_sale_processing-p.html#adc2b63c0fa6d7e89d97489f164bb1cd2">&lt;WDSaleProcessing&gt;</a>
+</li>
+<li>addCashPayment:notifyUrl:
+: <a class="el" href="protocol_w_d_sale_processing-p.html#a5a6fdac57e22808d81243b91468e58ee">&lt;WDSaleProcessing&gt;</a>
+</li>
 <li>addCoupon:couponId:
 : <a class="el" href="interface_w_d_sale_request.html#aa1ad5fc50f7a0f2362d8800de9543451">WDSaleRequest</a>
 </li>
 <li>addDelegate:
 : <a class="el" href="interface_w_de_p_o_s.html#addf10c065f2a84b46e0a64609060cf56">WDePOS</a>
+</li>
+<li>addEFTCardPayment:originalPaymentId:
+: <a class="el" href="protocol_w_d_sale_return_processing-p.html#ad3e9e3a6c81031fa9cb49b3ea3f3d391">&lt;WDSaleReturnProcessing&gt;</a>
+</li>
+<li>addEFTCardPayment:terminal:
+: <a class="el" href="protocol_w_d_sale_processing-p.html#a591e6e17884076eab522dd52235dcec3">&lt;WDSaleProcessing&gt;</a>
+</li>
+<li>addEFTCardPayment:terminal:notifyUrl:
+: <a class="el" href="protocol_w_d_sale_processing-p.html#a2d2ea4d31b7940a41f271a20395b6a79">&lt;WDSaleProcessing&gt;</a>
 </li>
 <li>addFlatDiscount:
 : <a class="el" href="interface_w_d_sale_request.html#a202eb5518f7ed689580c8afa70fc5daa">WDSaleRequest</a>
@@ -139,8 +193,27 @@ $(document).ready(function(){initNavTree('functions_func_a.html','');});
 <li>addServiceChargeRate:taxRate:
 : <a class="el" href="interface_w_d_sale_request.html#a00f4dbe73feefdfc3b11a85ea7fee0c7">WDSaleRequest</a>
 </li>
+<li>addWeChatPayment:consumerId:
+: <a class="el" href="protocol_w_d_sale_processing-p.html#a1983a21d75f0d31dfedab954dae93a3d">&lt;WDSaleProcessing&gt;</a>
+</li>
+<li>addWeChatPayment:consumerId:notifyUrl:
+: <a class="el" href="protocol_w_d_sale_processing-p.html#ac97b77d16a5a08164eb436316c0adf0c">&lt;WDSaleProcessing&gt;</a>
+</li>
+<li>addWeChatPayment:consumerId:originalPaymentId:
+: <a class="el" href="protocol_w_d_sale_return_processing-p.html#a656c3ec74541763d05fdefba2b3af334">&lt;WDSaleReturnProcessing&gt;</a>
+</li>
+<li>alipayPurchasePaymentType
+: <a class="el" href="interface_w_d_payment_core.html#a684777fe286ff6e3f760b4b174455419">WDPaymentCore</a>
+, <a class="el" href="category_w_d_payment_core_07_extension_08.html#a684777fe286ff6e3f760b4b174455419">WDPaymentCore(Extension)</a>
+</li>
 <li>allPaymentsApproved
 : <a class="el" href="interface_w_d_sale_response.html#a8fbd1bd0941c1d2e284b6d7438e06390">WDSaleResponse</a>
+</li>
+<li>asStringWithFormat:
+: <a class="el" href="category_n_s_date_07_utils_08.html#af5b7a26ca8f3dc028c473c9392ef9cfd">NSDate(Utils)</a>
+</li>
+<li>authorizedAmountCard
+: <a class="el" href="protocol_w_d_sale_processing_core-p.html#ad6c8da582e6951dac40ecfebb1d92ce0">&lt;WDSaleProcessingCore&gt;</a>
 </li>
 <li>availableCurrencies
 : <a class="el" href="interface_w_d_merchant.html#a46a2628f2948e67bfe9493ef1faf2108">WDMerchant</a>

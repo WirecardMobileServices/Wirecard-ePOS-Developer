@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="Icon.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Wirecard-ePOS
-   &#160;<span id="projectnumber">2.9.2</span>
+   &#160;<span id="projectnumber">2.11.0</span>
    </div>
    <div id="projectbrief">Acceptance of the Card payments and alternative payment methods</div>
   </td>
@@ -95,11 +95,17 @@ $(document).ready(function(){initNavTree('functions_prop_s.html','');});
 : <a class="el" href="interface_w_d_sale_core.html#a498ce7a1840aa6bdf331658eb1c29324">WDSaleCore</a>
 , <a class="el" href="interface_w_d_sales_query.html#a8b27b3c7fa5bcf34f72893e95cc95e12">WDSalesQuery</a>
 </li>
+<li>saleItems
+: <a class="el" href="interface_w_d_html_receipt_data.html#af3ad8ef50fee8ae8e478462565596cbf">WDHtmlReceiptData</a>
+</li>
 <li>saleManager
 : <a class="el" href="interface_w_de_p_o_s.html#a6835afe91d0b43d52f840af4f8c235c6">WDePOS</a>
 </li>
 <li>saleRequest
 : <a class="el" href="interface_w_d_sale_request_configuration.html#a2ba464eb010e27ff4e41afe0d41fedf8">WDSaleRequestConfiguration</a>
+</li>
+<li>saleStatus
+: <a class="el" href="interface_w_d_html_receipt_data.html#a6f60be5a367b77549ad19c838305f619">WDHtmlReceiptData</a>
 </li>
 <li>saleTypes
 : <a class="el" href="interface_w_d_sales_query.html#ac63114b4fd2e9bb0285607a69623a8fd">WDSalesQuery</a>
@@ -122,9 +128,18 @@ $(document).ready(function(){initNavTree('functions_prop_s.html','');});
 <li>serialNumber
 : <a class="el" href="interface_w_d_cash_register.html#a0f1029a6fa2ad5054a2146dbb1222859">WDCashRegister</a>
 </li>
+<li>serviceChargeAmount
+: <a class="el" href="interface_w_d_html_receipt_data.html#a50690e0b7fe9f25400f9e172d9cf7f7e">WDHtmlReceiptData</a>
+</li>
+<li>serviceChargeLabel
+: <a class="el" href="interface_w_d_html_receipt_data.html#a1c76da3692114d0f9b9d2088880e4ed1">WDHtmlReceiptData</a>
+</li>
 <li>serviceChargeRate
 : <a class="el" href="interface_w_d_merchant.html#aa6a5d3938a2a9a80a8a24faf03e88e57">WDMerchant</a>
 , <a class="el" href="interface_w_d_sale_service_charge.html#a4a901acc58087757ed57b8ed86ab65ef">WDSaleServiceCharge</a>
+</li>
+<li>serviceChargeTax
+: <a class="el" href="interface_w_d_html_receipt_data.html#a7efe4fd61895aabe3d56fb811c868ef4">WDHtmlReceiptData</a>
 </li>
 <li>serviceChargeTaxRate
 : <a class="el" href="interface_w_d_merchant.html#aa37e560a04ff9efa4ce8b9332125c597">WDMerchant</a>
@@ -132,12 +147,19 @@ $(document).ready(function(){initNavTree('functions_prop_s.html','');});
 <li>severity
 : <a class="el" href="interface_w_d_terminal_update.html#a8f1c3bc6e5d85f8be0971e6188a4ed18">WDTerminalUpdate</a>
 </li>
+<li>shiftDataLabel
+: <a class="el" href="interface_w_d_html_z_report.html#a1a92596ed4a6771bbbe203470dfb8c8c">WDHtmlZReport</a>
+</li>
 <li>shiftId
 : <a class="el" href="interface_w_d_sale_request.html#a55bdd65f20dbf6f7bb311702f0d20b3d">WDSaleRequest</a>
 , <a class="el" href="interface_w_d_sale_response.html#a68ca6c264ce23ce1e1ae88bd776f5a44">WDSaleResponse</a>
 </li>
 <li>shop
-: <a class="el" href="interface_w_d_sale_response.html#a687d74c085cf978d70199626a8910958">WDSaleResponse</a>
+: <a class="el" href="interface_w_d_html_receipt_data.html#a05db0ea2d3b53288ea41c602dd8d0ca8">WDHtmlReceiptData</a>
+, <a class="el" href="interface_w_d_sale_response.html#a687d74c085cf978d70199626a8910958">WDSaleResponse</a>
+</li>
+<li>shopAddress
+: <a class="el" href="interface_w_d_html_z_report.html#a72507c38f67633b22e4290ee893ae7e2">WDHtmlZReport</a>
 </li>
 <li>shopId
 : <a class="el" href="interface_w_d_product_stock_maintain.html#a7b7c6719fa23208be32ce32cde1e079a">WDProductStockMaintain</a>
@@ -146,11 +168,24 @@ $(document).ready(function(){initNavTree('functions_prop_s.html','');});
 <li>shopInternalId
 : <a class="el" href="interface_w_d_product_stock.html#a7c50c8f63a13c0fc05298babceb48a01">WDProductStock</a>
 </li>
+<li>shopLabel
+: <a class="el" href="interface_w_d_html_receipt_data.html#a7696495f0d7660fd70ffa8d33ff48540">WDHtmlReceiptData</a>
+</li>
 <li>shopName
-: <a class="el" href="interface_w_d_product_stock.html#a961742508f2aa82d6e95f6e38fc56607">WDProductStock</a>
+: <a class="el" href="interface_w_d_html_z_report.html#a71d91f56a1d43c382d7bdea6533e10f2">WDHtmlZReport</a>
+, <a class="el" href="interface_w_d_product_stock.html#a961742508f2aa82d6e95f6e38fc56607">WDProductStock</a>
 </li>
 <li>shopStatus
 : <a class="el" href="interface_w_d_product_stock.html#aeea45f3a36593a2a8f46d1258f4f6a21">WDProductStock</a>
+</li>
+<li>signature
+: <a class="el" href="interface_w_d_html_receipt_data.html#a7479221f911c88c31673acc52b99f550">WDHtmlReceiptData</a>
+</li>
+<li>signatureImage
+: <a class="el" href="interface_w_d_payment_detail_card.html#a5c5e7394d9fac723865fa573a50aa45b">WDPaymentDetailCard</a>
+</li>
+<li>signatureLabel
+: <a class="el" href="interface_w_d_html_receipt_data.html#a8d81afb8f44512de90c75144378b7450">WDHtmlReceiptData</a>
 </li>
 <li>siteId
 : <a class="el" href="interface_w_d_product_stock.html#a1ef7a7ca3f6f9b308a0232098be49171">WDProductStock</a>
@@ -175,6 +210,7 @@ $(document).ready(function(){initNavTree('functions_prop_s.html','');});
 <li>status
 : <a class="el" href="interface_w_d_merchant.html#a2c2bd247b96a0d62879ae528f97fe962">WDMerchant</a>
 , <a class="el" href="interface_w_d_merchant_user.html#a796c43848426fbc80eff59423d108005">WDMerchantUser</a>
+, <a class="el" href="interface_w_d_payment_detail.html#ae17a55a90ebbc61654ebfa11b459c4c8">WDPaymentDetail</a>
 , <a class="el" href="interface_w_d_result.html#a50a138ef4a61ebdca04136bfb1331aab">WDResult</a>
 , <a class="el" href="interface_w_d_sale_response.html#ad850a2afd56ff9e0b86bac0873338e3a">WDSaleResponse</a>
 , <a class="el" href="interface_w_d_sale_statistics.html#ad59f66b3a6510972e87c008740b66752">WDSaleStatistics</a>
@@ -197,6 +233,12 @@ $(document).ready(function(){initNavTree('functions_prop_s.html','');});
 </li>
 <li>subcategories
 : <a class="el" href="interface_w_d_product_catalogue_category.html#a83042cf5ff382a3c930ad897a6fa202e">WDProductCatalogueCategory</a>
+</li>
+<li>subTotalAmount
+: <a class="el" href="interface_w_d_html_receipt_data.html#a2a2bea272d9b30c20578ab1428bb1c2f">WDHtmlReceiptData</a>
+</li>
+<li>subTotalAmountLabel
+: <a class="el" href="interface_w_d_html_receipt_data.html#aca65ff239698dec9fcf19c0e83f8ce0a">WDHtmlReceiptData</a>
 </li>
 <li>suggestedIksn
 : <a class="el" href="interface_w_d_terminal_r_k_i_request.html#a41f63556e66172cfd49b7b7261070416">WDTerminalRKIRequest</a>

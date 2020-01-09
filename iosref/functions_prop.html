@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="Icon.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Wirecard-ePOS
-   &#160;<span id="projectnumber">2.9.2</span>
+   &#160;<span id="projectnumber">2.11.0</span>
    </div>
    <div id="projectbrief">Acceptance of the Card payments and alternative payment methods</div>
   </td>
@@ -104,19 +104,37 @@ $(document).ready(function(){initNavTree('functions_prop.html','');});
 : <a class="el" href="interface_w_d_terminal_capabilities.html#a92b7c4a242d7d2b3a9dfe0c00e1c3c6e">WDTerminalCapabilities</a>
 </li>
 <li>address
-: <a class="el" href="interface_w_d_merchant.html#a8b5098b82b27d01c31615dfd27c6b5ad">WDMerchant</a>
+: <a class="el" href="interface_w_d_html_receipt_data.html#a233e310570804f4cffb04bf7f4b4cae2">WDHtmlReceiptData</a>
+, <a class="el" href="interface_w_d_html_z_report.html#a0a2308ebbbf9147f7792a5baf0aac883">WDHtmlZReport</a>
+, <a class="el" href="interface_w_d_merchant.html#a8b5098b82b27d01c31615dfd27c6b5ad">WDMerchant</a>
 , <a class="el" href="interface_w_d_product_stock.html#a4769877dde597cefb3e2eb7169ac2434">WDProductStock</a>
 , <a class="el" href="interface_w_d_shop.html#a61048da0c6331c26938ccafbd4a6a167">WDShop</a>
 </li>
 <li>aid
 : <a class="el" href="interface_w_d_a_i_d.html#a311e2b73f893446f8833aa5810bfc28c">WDAID</a>
 , <a class="el" href="interface_w_d_i_c_c_application.html#a7d42c9e80b1ed95090d4fef7954dce5e">WDICCApplication</a>
+, <a class="el" href="interface_w_d_payment_detail_card.html#a34c095b710d85d7b404e991c0a8a21d4">WDPaymentDetailCard</a>
 </li>
 <li>aidConfigurationId
 : <a class="el" href="interface_w_d_a_i_d_configuration.html#a63ca8b91f90968374992473cfae76c7f">WDAIDConfiguration</a>
 </li>
 <li>aidConfigurations
 : <a class="el" href="interface_w_d_terminal_a_i_d_configuration.html#abd0b1eef1b4a25786f5bd5f299f1affe">WDTerminalAIDConfiguration</a>
+</li>
+<li>alipayBusinessName
+: <a class="el" href="interface_w_d_payment_detail_alipay.html#ab5ef9942d4bfcf4bddeed3251cc2d23b">WDPaymentDetailAlipay</a>
+</li>
+<li>alipayBuyerLoginId
+: <a class="el" href="interface_w_d_payment_detail_alipay.html#ad7033ef7285233b1b765c612387b94cf">WDPaymentDetailAlipay</a>
+</li>
+<li>alipayBuyerUserId
+: <a class="el" href="interface_w_d_payment_detail_alipay.html#a96f073fe4d5068b7ea7792f4793ece0f">WDPaymentDetailAlipay</a>
+</li>
+<li>alipayPayTime
+: <a class="el" href="interface_w_d_payment_detail_alipay.html#a8190b1e577cb17974b71c46be90fb6d8">WDPaymentDetailAlipay</a>
+</li>
+<li>alipayTransactionId
+: <a class="el" href="interface_w_d_payment_detail_alipay.html#afca15a231debf97f1b3c7835e8f09ad8">WDPaymentDetailAlipay</a>
 </li>
 <li>alpha2code
 : <a class="el" href="interface_w_d_country.html#af429ea491c54cb20fff684e14c62e2d8">WDCountry</a>
@@ -127,14 +145,21 @@ $(document).ready(function(){initNavTree('functions_prop.html','');});
 <li>alternativeDisplayName
 : <a class="el" href="interface_w_d_vendor.html#a6cb0bd617c3f5e7e9a219e1df32dc368">WDVendor</a>
 </li>
+<li>alternativePayments
+: <a class="el" href="interface_w_d_html_receipt_data.html#a130457d55cc52dac086f7ecedcee3472">WDHtmlReceiptData</a>
+</li>
 <li>amount
-: <a class="el" href="interface_w_d_sales_query.html#aec859e32f5bdf9d4e6ae06f494d32f9b">WDSalesQuery</a>
+: <a class="el" href="interface_w_d_payment.html#afe61e5851ebab8ac6f91ffe3085d761a">WDPayment</a>
+, <a class="el" href="interface_w_d_sales_query.html#aec859e32f5bdf9d4e6ae06f494d32f9b">WDSalesQuery</a>
 </li>
 <li>amountToPay
 : <a class="el" href="interface_w_d_signature_request.html#ad91d7f6138cd21191b6aa357e87d6a79">WDSignatureRequest</a>
 </li>
 <li>appId
 : <a class="el" href="interface_w_d_client_information.html#a4b26ba90d5eb86d385a791ca1385456a">WDClientInformation</a>
+</li>
+<li>applicationLabel
+: <a class="el" href="interface_w_d_payment_detail_card.html#a34002549392a172284456558cfd9558c">WDPaymentDetailCard</a>
 </li>
 <li>applicationVersion
 : <a class="el" href="interface_w_d_terminal_hardware_information.html#a716a11dab88a9861e62ed6555b0d1287">WDTerminalHardwareInformation</a>
@@ -162,6 +187,16 @@ $(document).ready(function(){initNavTree('functions_prop.html','');});
 </li>
 <li>authenticatedUser
 : <a class="el" href="interface_w_de_p_o_s.html#afbf0e93ea6dcb75268c52c068062dfec">WDePOS</a>
+</li>
+<li>authorizationCode
+: <a class="el" href="interface_w_d_payment_detail_card.html#ad3b0f2f37f203c0b35ade1109ced8cc4">WDPaymentDetailCard</a>
+, <a class="el" href="interface_w_d_payment_pre_authorize_supplement.html#a6e4454ff589a307d4b9936241d8ac7d2">WDPaymentPreAuthorizeSupplement</a>
+</li>
+<li>authorizationTransaction
+: <a class="el" href="interface_w_d_payment_detail_referenced_card_capture.html#aedda61f6c295fda3d0011ebbbddd026e">WDPaymentDetailReferencedCardCapture</a>
+</li>
+<li>autoResolveTransactions
+: <a class="el" href="interface_w_d_payment_detail.html#a401e54fb7faa82e9ee09cb6d5ef44987">WDPaymentDetail</a>
 </li>
 <li>avgAmount
 : <a class="el" href="interface_w_d_sale_statistics.html#ae364324d3900bf11547bbbea27a776ba">WDSaleStatistics</a>

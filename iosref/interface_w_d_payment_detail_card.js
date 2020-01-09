@@ -1,0 +1,25 @@
+var interface_w_d_payment_detail_card =
+[
+    [ "refund", "interface_w_d_payment_detail_card.html#a41f51b99cbe3ede273896785387ebcec", null ],
+    [ "reversal", "interface_w_d_payment_detail_card.html#ac40fe34dfc7d184020880755b386da96", null ],
+    [ "aid", "interface_w_d_payment_detail_card.html#a34c095b710d85d7b404e991c0a8a21d4", null ],
+    [ "applicationLabel", "interface_w_d_payment_detail_card.html#a34002549392a172284456558cfd9558c", null ],
+    [ "authorizationCode", "interface_w_d_payment_detail_card.html#ad3b0f2f37f203c0b35ade1109ced8cc4", null ],
+    [ "cardBrand", "interface_w_d_payment_detail_card.html#aeefb6a9f046746e5d2a68b6efae7f300", null ],
+    [ "cardHolderName", "interface_w_d_payment_detail_card.html#a218004d7e86e1557aa59c1471896076b", null ],
+    [ "customerEmailPresent", "interface_w_d_payment_detail_card.html#afac24c444aa7f37fbba2b9284ae4245b", null ],
+    [ "customerPhonePresent", "interface_w_d_payment_detail_card.html#a74c2fa2442c1c48825a269a4247dcbeb", null ],
+    [ "emvData", "interface_w_d_payment_detail_card.html#a36726f5efd7d33cb1ba5616eaa77a50c", null ],
+    [ "emvUpdateData", "interface_w_d_payment_detail_card.html#ac62aedaaf3eddee14fccf4b972968c4f", null ],
+    [ "issuerScript", "interface_w_d_payment_detail_card.html#aa223ee2cfe494c38d40da954989b1c57", null ],
+    [ "maskedCardNumber", "interface_w_d_payment_detail_card.html#a6b01f524efc9d73911b4cfa96e99bc76", null ],
+    [ "mid", "interface_w_d_payment_detail_card.html#a165872260f52984f129555a183ba2643", null ],
+    [ "posEntryMode", "interface_w_d_payment_detail_card.html#adbeb2f698c4cbfb651105f6306b0760a", null ],
+    [ "reasonCode", "interface_w_d_payment_detail_card.html#acdadca8e712c8209b433e4e6709248e1", null ],
+    [ "referenceId", "interface_w_d_payment_detail_card.html#a29b6029bee413bda37afdce6f57ecac8", null ],
+    [ "signatureImage", "interface_w_d_payment_detail_card.html#a5c5e7394d9fac723865fa573a50aa45b", null ],
+    [ "terminalModel", "interface_w_d_payment_detail_card.html#a05418e8e72e5eb386b12f9d95ece428d", null ],
+    [ "terminalSerialNo", "interface_w_d_payment_detail_card.html#a68bca3cea231dbd43e8de91f2a884210", null ],
+    [ "terminalVendor", "interface_w_d_payment_detail_card.html#a3eb02ee48565e79f197cfeda01397ec2", null ],
+    [ "tid", "interface_w_d_payment_detail_card.html#a0177d697b9e244bef8359b444ee1de07", null ]
+];

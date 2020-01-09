@@ -1,0 +1,11 @@
+<map id="WDPaymentRequestCard" name="WDPaymentRequestCard">
+<area shape="rect" id="node1" title="Card Payment Request &#45; contains the information specific to Card payment." alt="" coords="61,328,235,353"/>
+<area shape="rect" id="node2" href="$interface_w_d_payment.html" title="Payment &#45; contains the information about payment method, transaction type." alt="" coords="41,241,137,267"/>
+<area shape="rect" id="node3" href="$interface_w_d_payment_core.html" title=" " alt="" coords="5,155,130,180"/>
+<area shape="rect" id="node4" href="$interface_w_d_object.html" title="WDePOS custom object @discussion WDePOS Generic Object &#45; supports runtime object [property/values] de..." alt="" coords="231,80,313,105"/>
+<area shape="rect" id="node7" href="$interface_w_d_terminal.html" title="Terminal information." alt="" coords="168,241,261,267"/>
+<area shape="rect" id="node9" href="$interface_w_d_vendor.html" title="Vendor information." alt="" coords="205,155,291,180"/>
+<area shape="rect" id="node5" title=" " alt="" coords="233,5,311,31"/>
+<area shape="rect" id="node6" title=" " alt="" coords="110,80,207,105"/>
+<area shape="rect" id="node8" title=" " alt="" coords="341,80,445,105"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="WDPaymentPreAuthorizeSupplement" name="WDPaymentPreAuthorizeSupplement">
+<area shape="rect" id="node1" title="Payment Capture &#45; contains the information about the original Payment Authorization to be captured." alt="" coords="20,299,264,324"/>
+<area shape="rect" id="node7" href="$interface_w_d_payment_pre_authorize_supplement_card.html" title="Card Capture &#45; contains the information about the original Payment Pre&#45;Authorization." alt="" coords="5,372,279,397"/>
+<area shape="rect" id="node2" href="$interface_w_d_payment.html" title="Payment &#45; contains the information about payment method, transaction type." alt="" coords="94,225,190,251"/>
+<area shape="rect" id="node3" href="$interface_w_d_payment_core.html" title=" " alt="" coords="79,152,205,177"/>
+<area shape="rect" id="node4" href="$interface_w_d_object.html" title="WDePOS custom object @discussion WDePOS Generic Object &#45; supports runtime object [property/values] de..." alt="" coords="45,79,127,104"/>
+<area shape="rect" id="node5" title=" " alt="" coords="47,5,125,31"/>
+<area shape="rect" id="node6" title=" " alt="" coords="150,79,248,104"/>
+</map>

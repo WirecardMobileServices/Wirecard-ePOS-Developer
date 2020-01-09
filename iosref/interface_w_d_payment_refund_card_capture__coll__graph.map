@@ -1,0 +1,9 @@
+<map id="WDPaymentRefundCardCapture" name="WDPaymentRefundCardCapture">
+<area shape="rect" id="node1" title=" " alt="" coords="5,372,221,397"/>
+<area shape="rect" id="node2" href="$interface_w_d_payment_refund.html" title="Payment Refund &#45; contains the information about the original Payment to be refunded." alt="" coords="44,299,183,324"/>
+<area shape="rect" id="node3" href="$interface_w_d_payment.html" title="Payment &#45; contains the information about payment method, transaction type." alt="" coords="65,225,161,251"/>
+<area shape="rect" id="node4" href="$interface_w_d_payment_core.html" title=" " alt="" coords="51,152,176,177"/>
+<area shape="rect" id="node5" href="$interface_w_d_object.html" title="WDePOS custom object @discussion WDePOS Generic Object &#45; supports runtime object [property/values] de..." alt="" coords="16,79,98,104"/>
+<area shape="rect" id="node6" title=" " alt="" coords="18,5,96,31"/>
+<area shape="rect" id="node7" title=" " alt="" coords="122,79,219,104"/>
+</map>

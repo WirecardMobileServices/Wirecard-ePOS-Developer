@@ -1,0 +1,5 @@
+<map id="WDHtmlReceiptData" name="WDHtmlReceiptData">
+<area shape="rect" id="node1" title="Receipt Data @discussion Receipt Data containing all the details e.g. Address, Cashier detail,..." alt="" coords="5,167,150,192"/>
+<area shape="rect" id="node2" title=" " alt="" coords="33,5,111,31"/>
+<area shape="rect" id="node3" href="$interface_w_d_receipt_address.html" title="Merchant Address @discussion Receipt Merchant Address." alt="" coords="94,80,232,105"/>
+</map>

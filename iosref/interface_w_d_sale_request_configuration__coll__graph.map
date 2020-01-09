@@ -1,5 +1,5 @@
 <map id="WDSaleRequestConfiguration" name="WDSaleRequestConfiguration">
-<area shape="rect" id="node1" title="Sale configuration class. Content required to execute the payment flow." alt="" coords="36,92,235,117"/>
+<area shape="rect" id="node1" title="Sale configuration class. Content required to execute the payment flow." alt="" coords="38,92,237,117"/>
 <area shape="rect" id="node2" title=" " alt="" coords="5,5,84,31"/>
-<area shape="rect" id="node3" href="$interface_w_d_sale_core.html" title=" " alt="" coords="107,5,344,31"/>
+<area shape="rect" id="node3" href="$interface_w_d_sale_core.html" title=" " alt="" coords="108,5,357,31"/>
 </map>

@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="Icon.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Wirecard-ePOS
-   &#160;<span id="projectnumber">2.9.2</span>
+   &#160;<span id="projectnumber">2.11.0</span>
    </div>
    <div id="projectbrief">Acceptance of the Card payments and alternative payment methods</div>
   </td>
@@ -95,139 +95,246 @@ $(document).ready(function(){initNavTree('hierarchy.html','');});
 <div class="textblock">
 <p><a href="hierarchy.html">Go to the textual class hierarchy</a></p>
 </div><table border="0" cellspacing="10" cellpadding="0">
-<tr><td><img src="inherit_graph_0.png" border="0" usemap="#_3_w_de_p_o_s_delegate_4" alt=""/>
-<map name="_3_w_de_p_o_s_delegate_4" id="_3_w_de_p_o_s_delegate_4">
-<area shape="rect" title=" " alt="" coords="5,55,99,80"/>
-<area shape="rect" href="protocol_w_de_p_o_s_delegate-p.html" title="Implement it if you would like to receive HTTP errors from web services." alt="" coords="156,5,304,31"/>
-<area shape="rect" href="protocol_w_d_manager_delegate-p.html" title="Device Manager Delegation." alt="" coords="147,55,312,80"/>
-<area shape="rect" href="protocol_w_d_payment_delegate-p.html" title="Sale Manager Payment Delegation @discussion Implement Payment flow Delegate methods to receive events..." alt="" coords="147,104,312,129"/>
-<area shape="rect" href="protocol_w_d_printing-p.html" title="Print Manager Delegation." alt="" coords="366,31,470,56"/>
-<area shape="rect" href="protocol_w_d_scanning-p.html" title="Scanner Manager Delegation." alt="" coords="360,80,475,105"/>
+<tr><td><img src="inherit_graph_0.png" border="0" usemap="#_3_w_d_payment_detail_reversable_4" alt=""/>
+<map name="_3_w_d_payment_detail_reversable_4" id="_3_w_d_payment_detail_reversable_4">
+<area shape="rect" title=" " alt="" coords="196,995,293,1020"/>
+<area shape="rect" href="interface_w_d_address.html" title="Address object." alt="" coords="471,597,563,623"/>
+<area shape="rect" href="interface_w_d_bar_code_type.html" title="Bar Code type." alt="" coords="454,1833,580,1859"/>
+<area shape="rect" href="interface_w_d_cash_activity.html" title="Cash Register object &#45; Cash/Drawer Management." alt="" coords="459,1883,575,1908"/>
+<area shape="rect" href="interface_w_d_cash_drawer_type.html" title="Cash Drawer Type." alt="" coords="444,1932,590,1957"/>
+<area shape="rect" href="interface_w_d_cash_register.html" title="Cash Register object &#45; Cash/Drawer Management." alt="" coords="455,1981,579,2007"/>
+<area shape="rect" href="interface_w_d_cash_shift.html" title="Cash Register object &#45; Cash/Drawer Management." alt="" coords="466,2031,568,2056"/>
+<area shape="rect" href="interface_w_d_client_information.html" title="Client System information @discussion The client H/W and S/W information." alt="" coords="445,2080,589,2105"/>
+<area shape="rect" href="interface_w_d_country.html" title="Country object." alt="" coords="472,400,562,425"/>
+<area shape="rect" href="interface_w_d_currency_core.html" title="Currency core object." alt="" coords="454,2179,580,2204"/>
+<area shape="rect" href="interface_w_d_file.html" title=" " alt="" coords="484,2228,550,2253"/>
+<area shape="rect" href="interface_w_d_member.html" title="ERP Members information." alt="" coords="471,2277,563,2303"/>
+<area shape="rect" href="interface_w_d_merchant.html" title="Merchant object." alt="" coords="467,847,567,872"/>
+<area shape="rect" href="interface_w_d_merchant_cashier.html" title="Merchant Cashier object." alt="" coords="444,896,590,921"/>
+<area shape="rect" href="interface_w_d_merchant_user.html" title="Merchant user object." alt="" coords="453,995,581,1020"/>
+<area shape="rect" href="interface_w_d_partner.html" title="Partner category object." alt="" coords="473,945,561,971"/>
+<area shape="rect" href="interface_w_d_payment_core.html" title=" " alt="" coords="454,696,580,721"/>
+<area shape="rect" href="interface_w_d_payment_reference.html" title=" " alt="" coords="438,1093,596,1119"/>
+<area shape="rect" href="interface_w_d_product_availability.html" title="Product availability." alt="" coords="441,1044,593,1069"/>
+<area shape="rect" href="interface_w_d_product_catalogue_core.html" title="Product Catalogue core object." alt="" coords="427,797,607,823"/>
+<area shape="rect" href="interface_w_d_product_catalogue_product.html" title="Product details." alt="" coords="681,883,877,908"/>
+<area shape="rect" href="interface_w_d_product_catalogue_discount.html" title="Product Catalogue discount &#45; flat discount." alt="" coords="416,1192,618,1217"/>
+<area shape="rect" href="interface_w_d_product_price.html" title="ERP product price information." alt="" coords="457,1241,577,1267"/>
+<area shape="rect" href="interface_w_d_product_stock.html" title="Product stocks." alt="" coords="456,1291,578,1316"/>
+<area shape="rect" href="interface_w_d_product_stock_maintain.html" title=" " alt="" coords="430,1340,604,1365"/>
+<area shape="rect" href="interface_w_d_sale_core.html" title="The Sale Core object is the base for all higher level Sale to be used for Sale operations." alt="" coords="467,647,567,672"/>
+<area shape="rect" href="interface_w_d_sale_item_core.html" title=" " alt="" coords="454,449,580,475"/>
+<area shape="rect" href="interface_w_d_sale_maintain.html" title=" " alt="" coords="457,1439,577,1464"/>
+<area shape="rect" href="interface_w_d_shift_report.html" title="Report for a Cash Shift." alt="" coords="462,1488,572,1513"/>
+<area shape="rect" href="interface_w_d_shift_report_category.html" title="Category received in the Cash Shift Report." alt="" coords="435,1537,599,1563"/>
+<area shape="rect" href="interface_w_d_shift_report_category_item.html" title="Item of a category received in the Cash Shift Report." alt="" coords="422,1587,612,1612"/>
+<area shape="rect" href="interface_w_d_shop.html" title="Shop object." alt="" coords="480,1636,554,1661"/>
+<area shape="rect" href="interface_w_d_tax_category.html" title="Tax category object." alt="" coords="458,1685,576,1711"/>
+<area shape="rect" href="interface_w_d_tax_rate.html" title="Tax rate object." alt="" coords="471,1735,563,1760"/>
+<area shape="rect" href="interface_w_d_terminal.html" title="Terminal information." alt="" coords="470,548,564,573"/>
+<area shape="rect" href="interface_w_d_terminal_hardware_information.html" title="Terminal Hardware information &#45; firmware version, configuration version, serial number." alt="" coords="408,2129,626,2155"/>
+<area shape="rect" href="interface_w_d_terminal_update.html" title="Update information for the terminal." alt="" coords="449,1143,585,1168"/>
+<area shape="rect" href="interface_w_d_terminal_updates.html" title="Set of updates information for the terminal APPLICATION + CONFIGURATION + FIRMWARE." alt="" coords="445,1389,589,1415"/>
+<area shape="rect" href="interface_w_d_unit_price.html" title="Unit Price object." alt="" coords="468,1784,566,1809"/>
+<area shape="rect" href="interface_w_d_vendor.html" title="Vendor information." alt="" coords="474,499,560,524"/>
+<area shape="rect" href="interface_w_d_currency.html" title="Currency object." alt="" coords="730,2179,827,2204"/>
+<area shape="rect" href="interface_w_d_payment.html" title="Payment &#45; contains the information about payment method, transaction type." alt="" coords="731,648,827,673"/>
+<area shape="rect" href="interface_w_d_payment_reverse.html" title="Payment Request &#45; contains the information about the original Payment to be reversed." alt="" coords="706,833,852,859"/>
+<area shape="rect" href="interface_w_d_payment_capture.html" title="Payment Capture &#45; contains the information about the original Payment Authorization to be captured." alt="" coords="979,425,1123,451"/>
+<area shape="rect" href="interface_w_d_payment_detail.html" title="Complete information about performed Payment." alt="" coords="986,821,1116,847"/>
+<area shape="rect" href="interface_w_d_payment_pre_authorize_supplement.html" title="Payment Capture &#45; contains the information about the original Payment Authorization to be captured." alt="" coords="929,721,1173,747"/>
+<area shape="rect" href="interface_w_d_payment_refund.html" title="Payment Refund &#45; contains the information about the original Payment to be refunded." alt="" coords="981,771,1121,796"/>
+<area shape="rect" href="interface_w_d_payment_request_alipay.html" title="Alipay Payment Request &#45; contains the information specific to Alipay." alt="" coords="960,475,1142,500"/>
+<area shape="rect" href="interface_w_d_payment_request_card.html" title="Card Payment Request &#45; contains the information specific to Card payment." alt="" coords="964,524,1138,549"/>
+<area shape="rect" href="interface_w_d_payment_request_cash.html" title="Cash Payment Detail &#45; contains the information specific to Cash payment." alt="" coords="963,573,1140,599"/>
+<area shape="rect" href="interface_w_d_payment_request_coupon.html" title="Coupon Payment Request &#45; contains the information specific to Coupon payment." alt="" coords="955,623,1147,648"/>
+<area shape="rect" href="interface_w_d_payment_request_we_chat.html" title="WeChat Payment Request &#45; contains the information specific to WeChat." alt="" coords="954,672,1148,697"/>
+<area shape="rect" href="interface_w_d_payment_capture_card.html" title="Card Capture &#45; contains the information about the original Payment Authorization to be captured." alt="" coords="1272,425,1444,451"/>
+<area shape="rect" href="interface_w_d_payment_detail_alipay.html" title="Alipay Payment Detail &#45; contains the information specific to Alipay." alt="" coords="1275,1067,1441,1092"/>
+<area shape="rect" href="interface_w_d_payment_detail_card.html" title="Card Payment Detail &#45; contains the information specific to Card payment." alt="" coords="1278,1116,1437,1141"/>
+<area shape="rect" href="interface_w_d_payment_detail_cash.html" title="Cash Payment Detail &#45; contains the information specific to Cash payment." alt="" coords="1277,916,1439,941"/>
+<area shape="rect" href="interface_w_d_payment_detail_coupon.html" title="Coupon Payment Detail &#45; contains the information specific to Coupon payment." alt="" coords="1269,817,1446,843"/>
+<area shape="rect" href="interface_w_d_payment_detail_referenced.html" title=" " alt="" coords="1258,867,1458,892"/>
+<area shape="rect" href="interface_w_d_payment_detail_we_chat.html" title="WeChat Payment Detail &#45; contains the information specific to WeChat." alt="" coords="1269,1017,1447,1043"/>
+<area shape="rect" href="interface_w_d_payment_detail_referenced_card_capture.html" title="Referenced Payment Detail &#45; contains the information specific to the payment." alt="" coords="1543,960,1742,999"/>
+<area shape="rect" href="interface_w_d_payment_detail_referenced_card_refund.html" title="Referenced Payment Detail &#45; contains the information specific to the payment." alt="" coords="1543,1116,1742,1155"/>
+<area shape="rect" href="interface_w_d_payment_pre_authorize_supplement_card.html" title="Card Capture &#45; contains the information about the original Payment Pre&#45;Authorization." alt="" coords="1221,521,1495,547"/>
+<area shape="rect" href="interface_w_d_payment_refund_alipay.html" title=" " alt="" coords="1270,719,1446,744"/>
+<area shape="rect" href="interface_w_d_payment_refund_card.html" title=" " alt="" coords="1274,768,1442,793"/>
+<area shape="rect" href="interface_w_d_payment_refund_card_capture.html" title=" " alt="" coords="1250,571,1466,596"/>
+<area shape="rect" href="interface_w_d_payment_refund_cash.html" title=" " alt="" coords="1273,620,1443,645"/>
+<area shape="rect" href="interface_w_d_payment_refund_we_chat.html" title=" " alt="" coords="1264,669,1451,695"/>
+<area shape="rect" href="interface_w_d_payment_reverse_alipay.html" title=" " alt="" coords="960,1068,1142,1093"/>
+<area shape="rect" href="interface_w_d_payment_reverse_card.html" title=" " alt="" coords="964,1117,1138,1143"/>
+<area shape="rect" href="interface_w_d_payment_reverse_card_capture.html" title=" " alt="" coords="940,920,1162,945"/>
+<area shape="rect" href="interface_w_d_payment_reverse_cash.html" title=" " alt="" coords="963,969,1140,995"/>
+<area shape="rect" href="interface_w_d_payment_reverse_we_chat.html" title=" " alt="" coords="954,1019,1148,1044"/>
+<area shape="rect" href="interface_w_d_product_catalogue.html" title="Product Catalogue object." alt="" coords="704,932,854,957"/>
+<area shape="rect" href="interface_w_d_product_catalogue_category.html" title="Product Catalogue Category object." alt="" coords="676,981,881,1007"/>
+<area shape="rect" href="interface_w_d_reference_sale_request.html" title=" " alt="" coords="1267,229,1449,255"/>
+<area shape="rect" href="interface_w_d_sale.html" title="The Sale object contains all necessary Sale information @discussion Sale to be performed (WDSaleReque..." alt="" coords="744,499,814,524"/>
+<area shape="rect" href="interface_w_d_sale_request.html" title="The Sale to be processed @discussion Contains all necessary information to perform the Sale." alt="" coords="991,81,1111,107"/>
+<area shape="rect" href="interface_w_d_sale_response.html" title="The processed Sale @discussion Contains all details about performed Sale." alt="" coords="986,324,1116,349"/>
+<area shape="rect" href="interface_w_d_sale_request_purchase.html" title=" " alt="" coords="1270,131,1446,156"/>
+<area shape="rect" href="interface_w_d_sale_request_refund.html" title=" " alt="" coords="1276,81,1439,107"/>
+<area shape="rect" href="interface_w_d_sale_request_return.html" title=" " alt="" coords="1278,32,1438,57"/>
+<area shape="rect" href="interface_w_d_sale_coupon.html" title=" " alt="" coords="720,400,837,425"/>
+<area shape="rect" href="interface_w_d_sale_flat_discount.html" title=" " alt="" coords="706,449,851,475"/>
+<area shape="rect" href="interface_w_d_sale_item.html" title="Payment item info." alt="" coords="731,301,827,327"/>
+<area shape="rect" href="interface_w_d_sale_service_charge.html" title=" " alt="" coords="699,351,858,376"/>
+<area shape="rect" title=" " alt="" coords="192,548,297,573"/>
+<area shape="rect" title=" " alt="" coords="5,1415,84,1440"/>
+<area shape="rect" href="interface_w_d_a_error.html" title=" " alt="" coords="204,748,286,773"/>
+<area shape="rect" href="interface_w_d_app_selection_request.html" title="Used by the extension to notify the Payment Flow that the ICC application selection is to be performe..." alt="" coords="159,797,331,823"/>
+<area shape="rect" href="interface_w_d_cash_manager.html" title="Cash Management." alt="" coords="181,847,308,872"/>
+<area shape="rect" href="interface_w_d_change_password.html" title="Change Password object to be used with credential management API." alt="" coords="170,896,319,921"/>
+<area shape="rect" href="interface_w_d_customer_manager.html" title="Customer Management." alt="" coords="168,945,322,971"/>
+<area shape="rect" href="interface_w_d_encryption_parameters.html" title="Encryption parameters." alt="" coords="157,1044,332,1069"/>
+<area shape="rect" href="interface_w_d_environment_configuration.html" title="Wirecard WDePOS Environment configuration @discussion WDePOS Environment to be used for ReST services..." alt="" coords="146,1093,343,1119"/>
+<area shape="rect" href="interface_w_de_p_o_s.html" title="Wirecard Payment Acceptance SDK." alt="" coords="205,1143,284,1168"/>
+<area shape="rect" href="interface_w_d_extension_manager.html" title="Extension Manager (terminals | printers | scanners)" alt="" coords="167,325,322,351"/>
+<area shape="rect" href="interface_w_d_file_download.html" title="Downloaded file information." alt="" coords="182,1192,307,1217"/>
+<area shape="rect" href="interface_w_d_file_manager.html" title="File Management." alt="" coords="186,1241,303,1267"/>
+<area shape="rect" href="interface_w_d_html_receipt.html" title="Receipt with Data, Images and also complete html based on the standard Wirecard Receipt template @dis..." alt="" coords="187,1291,303,1316"/>
+<area shape="rect" href="interface_w_d_html_receipt_data.html" title="Receipt Data @discussion Receipt Data containing all the details e.g. Address, Cashier detail,..." alt="" coords="172,1340,317,1365"/>
+<area shape="rect" href="interface_w_d_html_receipt_detail_row.html" title="Receipt Detail data as label&#45;value @discussion Details of each payment method." alt="" coords="156,1389,333,1415"/>
+<area shape="rect" href="interface_w_d_html_receipt_images.html" title="Receipt Images &#45; header/footer logos, barcode @discussion Images to be printed on the receipt." alt="" coords="165,1439,325,1464"/>
+<area shape="rect" href="interface_w_d_html_receipt_item_row.html" title="Receipt Item @discussion Receipt Item containting description, total, unit price, discount." alt="" coords="160,1488,329,1513"/>
+<area shape="rect" href="interface_w_d_html_receipt_payment_row.html" title="Receipt Payment Method @discussion Receipt Payment Method &#45; contains payment method details and logo,..." alt="" coords="147,1537,342,1563"/>
+<area shape="rect" href="interface_w_d_html_receipt_tax_row.html" title="Receipt Taxes @discussion Receipt Tax item containting value, net amount and tax amount." alt="" coords="163,1587,326,1612"/>
+<area shape="rect" href="interface_w_d_html_z_report.html" title=" " alt="" coords="185,1636,304,1661"/>
+<area shape="rect" href="interface_w_d_html_z_report_category_item_row.html" title=" " alt="" coords="132,1685,358,1711"/>
+<area shape="rect" href="interface_w_d_html_z_report_category_row.html" title=" " alt="" coords="145,1735,345,1760"/>
+<area shape="rect" href="interface_w_d_html_z_report_detail_row.html" title="Receipt Detail data as label&#45;value @discussion Details of each payment method." alt="" coords="155,1784,335,1809"/>
+<area shape="rect" href="interface_w_d_html_z_report_images.html" title=" " alt="" coords="163,1833,326,1859"/>
+<area shape="rect" href="interface_w_d_localization_manager.html" title="Localize Receipt and Z&#45;Reports produced from SDK." alt="" coords="161,1883,328,1908"/>
+<area shape="rect" href="interface_w_d_object.html" title="WDePOS custom object @discussion WDePOS Generic Object &#45; supports runtime object [property/values] de..." alt="" coords="204,1932,286,1957"/>
+<area shape="rect" href="interface_w_d_password_policy_result.html" title="Result object for password policy." alt="" coords="157,1981,332,2007"/>
+<area shape="rect" href="interface_w_d_printer_config.html" title="Printer configuration class. Receipt Content or Receipt Image required to execute the printing flow." alt="" coords="184,2031,305,2056"/>
+<area shape="rect" href="interface_w_d_product_catalogue_manager.html" title="Product Catalogue Management." alt="" coords="143,2080,346,2105"/>
+<area shape="rect" href="interface_w_d_product_image.html" title="Product Image information." alt="" coords="181,2129,308,2155"/>
+<area shape="rect" href="interface_w_d_query.html" title="Generic Query attributes." alt="" coords="205,2179,285,2204"/>
+<area shape="rect" href="interface_w_d_receipt_address.html" title="Merchant Address @discussion Receipt Merchant Address." alt="" coords="176,2228,313,2253"/>
+<area shape="rect" href="interface_w_d_remind_username.html" title="Remind username object to be used with credential management API." alt="" coords="169,2277,320,2303"/>
+<area shape="rect" href="interface_w_d_result.html" title="Result object for credential management API." alt="" coords="204,2327,285,2352"/>
+<area shape="rect" href="interface_w_d_sale_manager.html" title="Sale Management." alt="" coords="183,2376,306,2401"/>
+<area shape="rect" href="interface_w_d_sale_request_configuration.html" title="Sale configuration class. Content required to execute the payment flow." alt="" coords="145,276,344,301"/>
+<area shape="rect" href="interface_w_d_sale_statistics.html" title="Transaction Statistics." alt="" coords="183,449,306,475"/>
+<area shape="rect" href="interface_w_d_signature_request.html" title="Used by extension to notify the Payment Flow that the Signature needs to be collected...." alt="" coords="169,499,320,524"/>
+<area shape="rect" href="interface_w_d_statistics_query.html" title="Transaction query class used in payment searches." alt="" coords="178,600,311,625"/>
+<area shape="rect" href="interface_w_d_user_manager.html" title="User Management." alt="" coords="182,649,307,675"/>
+<area shape="rect" href="interface_w_d_utils.html" title="The package of WDePOS Utility functions." alt="" coords="210,699,279,724"/>
+<area shape="rect" href="interface_w_d_cash_drawer_manager.html" title="Cash Drawer Manager." alt="" coords="432,301,602,327"/>
+<area shape="rect" href="interface_w_d_printer_manager.html" title="Printer Manager." alt="" coords="449,351,585,376"/>
+<area shape="rect" href="interface_w_d_scanner_manager.html" title="Scanner Manager." alt="" coords="444,203,590,228"/>
+<area shape="rect" href="interface_w_d_updateable_extension_manager.html" title="Extension Manager &#45; updateable devices." alt="" coords="406,252,628,277"/>
+<area shape="rect" href="interface_w_d_terminal_manager.html" title="Terminal Manager." alt="" coords="705,252,852,277"/>
+<area shape="rect" href="interface_w_d_a_i_d.html" title="AID template." alt="" coords="484,2425,550,2451"/>
+<area shape="rect" href="interface_w_d_a_i_d_configuration.html" title="AID Configuration." alt="" coords="444,2475,590,2500"/>
+<area shape="rect" href="interface_w_d_i_c_c_application.html" title="ICC Application template." alt="" coords="451,2524,583,2549"/>
+<area shape="rect" href="interface_w_d_network.html" title="Issuer Network detail." alt="" coords="471,2573,563,2599"/>
+<area shape="rect" href="interface_w_d_sale_summary_item.html" title="Tax Summary item." alt="" coords="440,2623,594,2648"/>
+<area shape="rect" href="interface_w_d_terminal_a_i_d_configuration.html" title="Terminal AID Configuration." alt="" coords="419,2672,615,2697"/>
+<area shape="rect" href="interface_w_d_terminal_capabilities.html" title="Terminal Capabilities template." alt="" coords="436,2721,598,2747"/>
+<area shape="rect" href="interface_w_d_terminal_profile.html" title="Terminal Profile." alt="" coords="451,2771,583,2796"/>
+<area shape="rect" href="interface_w_d_terminal_r_k_i.html" title="Terminal Remote Key Injection values." alt="" coords="459,2327,575,2352"/>
+<area shape="rect" href="interface_w_d_terminal_r_k_i_request.html" title="Terminal Remote Key Injection values." alt="" coords="434,2376,600,2401"/>
+<area shape="rect" href="interface_w_d_products_query.html" title="Products query class used in product searches." alt="" coords="451,2919,583,2944"/>
+<area shape="rect" href="interface_w_d_sales_query.html" title="Transaction query class used in payment searches." alt="" coords="460,2820,574,2845"/>
+<area shape="rect" href="interface_w_d_shift_query.html" title="Query the shifts." alt="" coords="464,2869,570,2895"/>
+<area shape="rect" href="interface_w_d_request_password_reset.html" title="Request Reset Password object to be used with credential management API." alt="" coords="424,2968,610,2993"/>
+<area shape="rect" title=" " alt="" coords="198,80,292,105"/>
+<area shape="rect" href="protocol_w_de_p_o_s_delegate-p.html" title="Implement it if you would like to receive HTTP errors from web services." alt="" coords="443,153,591,179"/>
+<area shape="rect" href="protocol_w_d_manager_delegate-p.html" title="Device Manager Delegation." alt="" coords="434,104,600,129"/>
+<area shape="rect" href="protocol_w_d_payment_delegate-p.html" title="Sale Manager Payment Delegation @discussion Implement Payment flow Delegate methods to receive events..." alt="" coords="434,5,600,31"/>
+<area shape="rect" href="protocol_w_d_sale_processing_core-p.html" title=" " alt="" coords="427,55,607,80"/>
+<area shape="rect" href="protocol_w_d_printing-p.html" title="Print Manager Delegation." alt="" coords="727,129,831,155"/>
+<area shape="rect" href="protocol_w_d_scanning-p.html" title="Scanner Manager Delegation." alt="" coords="721,179,836,204"/>
+<area shape="rect" href="protocol_w_d_sale_processing-p.html" title=" " alt="" coords="703,80,855,105"/>
+<area shape="rect" href="protocol_w_d_sale_return_processing-p.html" title=" " alt="" coords="683,31,875,56"/>
+<area shape="rect" href="protocol_w_d_reference_sale_processing-p.html" title=" " alt="" coords="944,155,1158,180"/>
+<area shape="rect" href="protocol_w_d_payment_detail_refundable-p.html" title=" " alt="" coords="944,871,1158,896"/>
+<area shape="rect" href="protocol_w_d_payment_detail_reversable-p.html" title=" " alt="" coords="944,1167,1158,1192"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_1.png" border="0" usemap="#_w_d_error" alt=""/>
+<tr><td><img src="inherit_graph_1.png" border="0" usemap="#_n_s_array_07_extension_08" alt=""/>
+<map name="_n_s_array_07_extension_08" id="_n_s_array_07_extension_08">
+<area shape="rect" href="category_n_s_array_07_extension_08.html" title=" " alt="" coords="5,5,144,31"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_2.png" border="0" usemap="#_n_s_date_07_utils_08" alt=""/>
+<map name="_n_s_date_07_utils_08" id="_n_s_date_07_utils_08">
+<area shape="rect" href="category_n_s_date_07_utils_08.html" title=" " alt="" coords="5,5,108,31"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_3.png" border="0" usemap="#_n_s_file_manager_07_helpers_08" alt=""/>
+<map name="_n_s_file_manager_07_helpers_08" id="_n_s_file_manager_07_helpers_08">
+<area shape="rect" href="category_n_s_file_manager_07_helpers_08.html" title=" " alt="" coords="5,5,174,31"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_4.png" border="0" usemap="#_n_s_string_07_w_d_extras_08" alt=""/>
+<map name="_n_s_string_07_w_d_extras_08" id="_n_s_string_07_w_d_extras_08">
+<area shape="rect" href="category_n_s_string_07_w_d_extras_08.html" title=" " alt="" coords="5,5,149,31"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_5.png" border="0" usemap="#_w_d_error" alt=""/>
 <map name="_w_d_error" id="_w_d_error">
 <area shape="rect" href="class_w_d_error.html" title="WDePOS Error object @discussion Error helper methods." alt="" coords="5,5,79,31"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_2.png" border="0" usemap="#_w_d_payment_config" alt=""/>
+<tr><td><img src="inherit_graph_6.png" border="0" usemap="#_w_d_file_category" alt=""/>
+<map name="_w_d_file_category" id="_w_d_file_category">
+<area shape="rect" href="class_w_d_file_category.html" title="FileManager file category." alt="" coords="5,5,124,31"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_7.png" border="0" usemap="#_w_d_payment_config" alt=""/>
 <map name="_w_d_payment_config" id="_w_d_payment_config">
 <area shape="rect" href="class_w_d_payment_config.html" title="Payment configuration class. Content required to execute the payment flow." alt="" coords="5,5,140,31"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_3.png" border="0" usemap="#_w_d_referenced_sale_request" alt=""/>
+<tr><td><img src="inherit_graph_8.png" border="0" usemap="#_w_d_payment_core_07_extension_08" alt=""/>
+<map name="_w_d_payment_core_07_extension_08" id="_w_d_payment_core_07_extension_08">
+<area shape="rect" href="category_w_d_payment_core_07_extension_08.html" title=" " alt="" coords="5,5,198,31"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_9.png" border="0" usemap="#_w_d_payment_detail_card_referenced" alt=""/>
+<map name="_w_d_payment_detail_card_referenced" id="_w_d_payment_detail_card_referenced">
+<area shape="rect" href="class_w_d_payment_detail_card_referenced.html" title="Referenced Payment Detail &#45; contains the information specific to the payment." alt="" coords="5,5,233,31"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_10.png" border="0" usemap="#_w_d_paymentreference" alt=""/>
+<map name="_w_d_paymentreference" id="_w_d_paymentreference">
+<area shape="rect" href="class_w_d_paymentreference.html" title="Payment &#45; contains the id of the referenced payments." alt="" coords="5,5,158,31"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_11.png" border="0" usemap="#_w_d_payment_request" alt=""/>
+<map name="_w_d_payment_request" id="_w_d_payment_request">
+<area shape="rect" href="class_w_d_payment_request.html" title="Payment Request &#45; contains the information about payment method, transaction type and amount." alt="" coords="5,5,151,31"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_12.png" border="0" usemap="#_w_d_referenced_sale_request" alt=""/>
 <map name="_w_d_referenced_sale_request" id="_w_d_referenced_sale_request">
 <area shape="rect" href="class_w_d_referenced_sale_request.html" title="EMV &#45; Amount, Authorised (Numeric) (9f02) for card payment request ‍/ &#45;(unsigned long long)authorized..." alt="" coords="5,5,194,31"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_4.png" border="0" usemap="#_w_d_sale_core_3_01_w_d_sale_processing_01_4" alt=""/>
-<map name="_w_d_sale_core_3_01_w_d_sale_processing_01_4" id="_w_d_sale_core_3_01_w_d_sale_processing_01_4">
-<area shape="rect" href="interface_w_d_sale_core.html" title=" " alt="" coords="5,5,242,31"/>
+<tr><td><img src="inherit_graph_13.png" border="0" usemap="#_w_d_sale_core_3_01_w_d_sale_processing-p_01_4" alt=""/>
+<map name="_w_d_sale_core_3_01_w_d_sale_processing-p_01_4" id="_w_d_sale_core_3_01_w_d_sale_processing-p_01_4">
+<area shape="rect" href="interface_w_d_sale_core.html" title=" " alt="" coords="5,5,254,31"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_5.png" border="0" usemap="#_w_d_sale_request_return" alt=""/>
-<map name="_w_d_sale_request_return" id="_w_d_sale_request_return">
-<area shape="rect" title=" " alt="" coords="184,872,282,897"/>
-<area shape="rect" href="interface_w_d_address.html" title="Address object." alt="" coords="448,203,540,228"/>
-<area shape="rect" href="interface_w_d_bar_code_type.html" title="Bar Code type." alt="" coords="432,1340,557,1365"/>
-<area shape="rect" href="interface_w_d_cash_activity.html" title="Cash Register object &#45; Cash/Drawer Management." alt="" coords="436,1389,553,1415"/>
-<area shape="rect" href="interface_w_d_cash_drawer_type.html" title="Cash Drawer Type." alt="" coords="421,1439,567,1464"/>
-<area shape="rect" href="interface_w_d_cash_register.html" title="Cash Register object &#45; Cash/Drawer Management." alt="" coords="432,1488,556,1513"/>
-<area shape="rect" href="interface_w_d_cash_shift.html" title="Cash Register object &#45; Cash/Drawer Management." alt="" coords="443,1537,545,1563"/>
-<area shape="rect" href="interface_w_d_client_information.html" title="Client System information @discussion The client H/W and S/W information." alt="" coords="422,1587,566,1612"/>
-<area shape="rect" href="interface_w_d_country.html" title="Country object." alt="" coords="449,5,539,31"/>
-<area shape="rect" href="interface_w_d_currency_core.html" title="Currency core object." alt="" coords="431,1636,557,1661"/>
-<area shape="rect" href="interface_w_d_member.html" title="ERP Members information." alt="" coords="448,896,540,921"/>
-<area shape="rect" href="interface_w_d_merchant.html" title="Merchant object." alt="" coords="445,945,544,971"/>
-<area shape="rect" href="interface_w_d_merchant_cashier.html" title="Merchant Cashier object." alt="" coords="422,1784,567,1809"/>
-<area shape="rect" href="interface_w_d_merchant_user.html" title="Merchant user object." alt="" coords="430,1093,558,1119"/>
-<area shape="rect" href="interface_w_d_partner.html" title="Partner category object." alt="" coords="450,1143,538,1168"/>
-<area shape="rect" href="interface_w_d_product_availability.html" title="Product availability." alt="" coords="418,403,570,428"/>
-<area shape="rect" href="interface_w_d_product_catalogue_core.html" title="Product Catalogue core object." alt="" coords="405,452,584,477"/>
-<area shape="rect" href="interface_w_d_product_catalogue_product.html" title="Product details." alt="" coords="658,303,854,328"/>
-<area shape="rect" href="interface_w_d_product_catalogue_discount.html" title="Product Catalogue discount &#45; flat discount." alt="" coords="393,551,595,576"/>
-<area shape="rect" href="interface_w_d_product_price.html" title="ERP product price information." alt="" coords="434,600,554,625"/>
-<area shape="rect" href="interface_w_d_product_stock.html" title="Product stocks." alt="" coords="433,649,556,675"/>
-<area shape="rect" href="interface_w_d_product_stock_maintain.html" title=" " alt="" coords="407,699,581,724"/>
-<area shape="rect" href="interface_w_d_sale_core.html" title="The Sale Core object is the base for all higher level Sale to be used for Sale operations." alt="" coords="445,748,544,773"/>
-<area shape="rect" href="interface_w_d_sale_item_core.html" title=" " alt="" coords="432,104,557,129"/>
-<area shape="rect" href="interface_w_d_sale_maintain.html" title=" " alt="" coords="434,847,554,872"/>
-<area shape="rect" href="interface_w_d_shift_report.html" title="Report for a Cash Shift." alt="" coords="439,1685,549,1711"/>
-<area shape="rect" href="interface_w_d_shift_report_category.html" title="Category received in the Cash Shift Report." alt="" coords="412,1735,576,1760"/>
-<area shape="rect" href="interface_w_d_shift_report_category_item.html" title="Item of a category received in the Cash Shift Report." alt="" coords="399,995,589,1020"/>
-<area shape="rect" href="interface_w_d_shop.html" title="Shop object." alt="" coords="457,304,531,329"/>
-<area shape="rect" href="interface_w_d_tax_category.html" title="Tax category object." alt="" coords="435,353,553,379"/>
-<area shape="rect" href="interface_w_d_tax_rate.html" title="Tax rate object." alt="" coords="448,1192,540,1217"/>
-<area shape="rect" href="interface_w_d_terminal.html" title="Terminal information." alt="" coords="447,153,541,179"/>
-<area shape="rect" href="interface_w_d_terminal_hardware_information.html" title="Terminal Hardware information &#45; firmware version, configuration version, serial number." alt="" coords="385,1291,603,1316"/>
-<area shape="rect" href="interface_w_d_terminal_update.html" title="Update information for the terminal." alt="" coords="426,501,563,527"/>
-<area shape="rect" href="interface_w_d_terminal_updates.html" title="Set of updates information for the terminal APPLICATION + CONFIGURATION + FIRMWARE." alt="" coords="422,797,566,823"/>
-<area shape="rect" href="interface_w_d_unit_price.html" title="Unit Price object." alt="" coords="445,1241,543,1267"/>
-<area shape="rect" href="interface_w_d_vendor.html" title="Vendor information." alt="" coords="451,55,537,80"/>
-<area shape="rect" href="interface_w_d_currency.html" title="Currency object." alt="" coords="707,1636,805,1661"/>
-<area shape="rect" href="interface_w_d_product_catalogue.html" title="Product Catalogue object." alt="" coords="681,501,831,527"/>
-<area shape="rect" href="interface_w_d_product_catalogue_category.html" title="Product Catalogue Category object." alt="" coords="654,452,858,477"/>
-<area shape="rect" href="interface_w_d_reference_sale_request.html" title=" " alt="" coords="665,896,846,921"/>
-<area shape="rect" href="interface_w_d_sale.html" title="The Sale object contains all necessary Sale information @discussion Sale to be performed (WDSaleReque..." alt="" coords="721,687,791,712"/>
-<area shape="rect" href="interface_w_d_sale_request.html" title="The Sale to be processed @discussion Contains all necessary information to perform the Sale." alt="" coords="942,465,1062,491"/>
-<area shape="rect" href="interface_w_d_sale_response.html" title="The processed Sale @discussion Contains all details about performed Sale." alt="" coords="937,687,1067,712"/>
-<area shape="rect" href="interface_w_d_sale_request_purchase.html" title=" " alt="" coords="1146,416,1322,441"/>
-<area shape="rect" href="interface_w_d_sale_request_refund.html" title=" " alt="" coords="1152,465,1315,491"/>
-<area shape="rect" href="interface_w_d_sale_request_return.html" title=" " alt="" coords="1154,515,1314,540"/>
-<area shape="rect" href="interface_w_d_sale_coupon.html" title=" " alt="" coords="697,31,814,56"/>
-<area shape="rect" href="interface_w_d_sale_flat_discount.html" title=" " alt="" coords="684,80,828,105"/>
-<area shape="rect" href="interface_w_d_sale_item.html" title="Payment item info." alt="" coords="708,129,804,155"/>
-<area shape="rect" href="interface_w_d_sale_service_charge.html" title=" " alt="" coords="677,179,835,204"/>
-<area shape="rect" title=" " alt="" coords="181,104,285,129"/>
-<area shape="rect" title=" " alt="" coords="5,2253,84,2279"/>
-<area shape="rect" href="interface_w_d_a_error.html" title=" " alt="" coords="192,1883,274,1908"/>
-<area shape="rect" href="interface_w_d_app_selection_request.html" title="Used by the extension to notify the Payment Flow that the ICC application selection is to be performe..." alt="" coords="147,1932,319,1957"/>
-<area shape="rect" href="interface_w_d_cash_manager.html" title="Cash Management." alt="" coords="170,1981,297,2007"/>
-<area shape="rect" href="interface_w_d_change_password.html" title="Change Password object to be used with credential management API." alt="" coords="159,2031,308,2056"/>
-<area shape="rect" href="interface_w_d_customer_manager.html" title="Customer Management." alt="" coords="156,2080,310,2105"/>
-<area shape="rect" href="interface_w_d_encryption_parameters.html" title="Encryption parameters." alt="" coords="145,2129,321,2155"/>
-<area shape="rect" href="interface_w_d_environment_configuration.html" title="Wirecard WDePOS Environment configuration @discussion WDePOS Environment to be used for ReST services..." alt="" coords="134,2179,332,2204"/>
-<area shape="rect" href="interface_w_de_p_o_s.html" title="Wirecard Payment Acceptance SDK." alt="" coords="194,2228,273,2253"/>
-<area shape="rect" href="interface_w_d_extension_manager.html" title="Extension Manager (terminals | printers | scanners)" alt="" coords="156,2277,311,2303"/>
-<area shape="rect" href="interface_w_d_file_download.html" title="Downloaded file information." alt="" coords="171,2327,295,2352"/>
-<area shape="rect" href="interface_w_d_object.html" title="WDePOS custom object @discussion WDePOS Generic Object &#45; supports runtime object [property/values] de..." alt="" coords="192,1316,274,1341"/>
-<area shape="rect" href="interface_w_d_password_policy_result.html" title="Result object for password policy." alt="" coords="145,2376,321,2401"/>
-<area shape="rect" href="interface_w_d_printer_config.html" title="Printer configuration class. Receipt Content or Receipt Image required to execute the printing flow." alt="" coords="172,2425,294,2451"/>
-<area shape="rect" href="interface_w_d_product_catalogue_manager.html" title="Product Catalogue Management." alt="" coords="132,2475,335,2500"/>
-<area shape="rect" href="interface_w_d_product_image.html" title="Product Image information." alt="" coords="170,2524,296,2549"/>
-<area shape="rect" href="interface_w_d_query.html" title="Generic Query attributes." alt="" coords="193,2573,273,2599"/>
-<area shape="rect" href="interface_w_d_receipt_address.html" title="Merchant Address @discussion Receipt Merchant Address." alt="" coords="164,2623,302,2648"/>
-<area shape="rect" href="interface_w_d_remind_username.html" title="Remind username object to be used with credential management API." alt="" coords="158,2672,309,2697"/>
-<area shape="rect" href="interface_w_d_result.html" title="Result object for credential management API." alt="" coords="193,2721,274,2747"/>
-<area shape="rect" href="interface_w_d_sale_manager.html" title="Sale Management." alt="" coords="172,2771,295,2796"/>
-<area shape="rect" href="interface_w_d_sale_request_configuration.html" title="Sale configuration class. Content required to execute the payment flow." alt="" coords="134,2820,333,2845"/>
-<area shape="rect" href="interface_w_d_sale_statistics.html" title="Transaction Statistics." alt="" coords="171,2869,295,2895"/>
-<area shape="rect" href="interface_w_d_signature_request.html" title="Used by extension to notify the Payment Flow that the Signature needs to be collected...." alt="" coords="158,1119,308,1144"/>
-<area shape="rect" href="interface_w_d_statistics_query.html" title="Transaction query class used in payment searches." alt="" coords="167,1168,300,1193"/>
-<area shape="rect" href="interface_w_d_user_manager.html" title="User Management." alt="" coords="171,1217,295,1243"/>
-<area shape="rect" href="interface_w_d_utils.html" title="The package of WDePOS Utility functions." alt="" coords="198,1267,268,1292"/>
-<area shape="rect" href="interface_w_d_cash_drawer_manager.html" title="Cash Drawer Manager." alt="" coords="409,2425,579,2451"/>
-<area shape="rect" href="interface_w_d_printer_manager.html" title="Printer Manager." alt="" coords="426,2475,562,2500"/>
-<area shape="rect" href="interface_w_d_scanner_manager.html" title="Scanner Manager." alt="" coords="421,2327,567,2352"/>
-<area shape="rect" href="interface_w_d_updateable_extension_manager.html" title="Extension Manager &#45; updateable devices." alt="" coords="383,2376,606,2401"/>
-<area shape="rect" href="interface_w_d_terminal_manager.html" title="Terminal Manager." alt="" coords="682,2376,829,2401"/>
-<area shape="rect" href="interface_w_d_a_i_d.html" title="AID template." alt="" coords="461,1833,527,1859"/>
-<area shape="rect" href="interface_w_d_a_i_d_configuration.html" title="AID Configuration." alt="" coords="422,1883,567,1908"/>
-<area shape="rect" href="interface_w_d_i_c_c_application.html" title="ICC Application template." alt="" coords="428,1932,560,1957"/>
-<area shape="rect" href="interface_w_d_network.html" title="Issuer Network detail." alt="" coords="448,1981,540,2007"/>
-<area shape="rect" href="interface_w_d_sale_summary_item.html" title="Tax Summary item." alt="" coords="417,2031,571,2056"/>
-<area shape="rect" href="interface_w_d_terminal_a_i_d_configuration.html" title="Terminal AID Configuration." alt="" coords="396,2080,592,2105"/>
-<area shape="rect" href="interface_w_d_terminal_capabilities.html" title="Terminal Capabilities template." alt="" coords="413,2129,576,2155"/>
-<area shape="rect" href="interface_w_d_terminal_profile.html" title="Terminal Profile." alt="" coords="428,2179,560,2204"/>
-<area shape="rect" href="interface_w_d_terminal_r_k_i.html" title="Terminal Remote Key Injection values." alt="" coords="436,2228,552,2253"/>
-<area shape="rect" href="interface_w_d_terminal_r_k_i_request.html" title="Terminal Remote Key Injection values." alt="" coords="411,2277,577,2303"/>
-<area shape="rect" href="interface_w_d_products_query.html" title="Products query class used in product searches." alt="" coords="428,2623,560,2648"/>
-<area shape="rect" href="interface_w_d_sales_query.html" title="Transaction query class used in payment searches." alt="" coords="437,2524,551,2549"/>
-<area shape="rect" href="interface_w_d_shift_query.html" title="Query the shifts." alt="" coords="441,2573,547,2599"/>
-<area shape="rect" href="interface_w_d_request_password_reset.html" title="Request Reset Password object to be used with credential management API." alt="" coords="401,2672,587,2697"/>
-<area shape="rect" title=" " alt="" coords="387,1044,601,1069"/>
-<area shape="rect" title=" " alt="" coords="680,403,832,428"/>
-<area shape="rect" title=" " alt="" coords="906,515,1098,540"/>
+<tr><td><img src="inherit_graph_14.png" border="0" usemap="#_w_d_z_report_category_item_row" alt=""/>
+<map name="_w_d_z_report_category_item_row" id="_w_d_z_report_category_item_row">
+<area shape="rect" href="class_w_d_z_report_category_item_row.html" title="ZReport Category Item." alt="" coords="5,5,204,31"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_15.png" border="0" usemap="#_w_d_z_report_category_row" alt=""/>
+<map name="_w_d_z_report_category_row" id="_w_d_z_report_category_row">
+<area shape="rect" href="class_w_d_z_report_category_row.html" title="ZReport Category." alt="" coords="5,5,178,31"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_16.png" border="0" usemap="#_w_d_z_report_new" alt=""/>
+<map name="_w_d_z_report_new" id="_w_d_z_report_new">
+<area shape="rect" href="class_w_d_z_report_new.html" title="ZReport." alt="" coords="5,5,124,31"/>
 </map>
 </td></tr>
 </table>

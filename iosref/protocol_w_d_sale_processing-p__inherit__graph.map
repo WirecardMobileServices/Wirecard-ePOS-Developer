@@ -1,0 +1,11 @@
+<map id="&lt;WDSaleProcessing&gt;" name="&lt;WDSaleProcessing&gt;">
+<area shape="rect" id="node1" title=" " alt="" coords="376,56,528,81"/>
+<area shape="rect" id="node4" href="$protocol_w_d_reference_sale_processing-p.html" title=" " alt="" coords="576,19,789,44"/>
+<area shape="rect" id="node6" href="$interface_w_d_sale_request.html" title="The Sale to be processed @discussion Contains all necessary information to perform the Sale." alt="" coords="622,80,742,105"/>
+<area shape="rect" id="node2" href="$protocol_w_d_sale_processing_core-p.html" title=" " alt="" coords="147,56,328,81"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,56,99,81"/>
+<area shape="rect" id="node5" href="$interface_w_d_reference_sale_request.html" title=" " alt="" coords="837,5,1018,31"/>
+<area shape="rect" id="node7" href="$interface_w_d_sale_request_purchase.html" title=" " alt="" coords="840,55,1016,80"/>
+<area shape="rect" id="node8" href="$interface_w_d_sale_request_refund.html" title=" " alt="" coords="846,104,1009,129"/>
+<area shape="rect" id="node9" href="$interface_w_d_sale_request_return.html" title=" " alt="" coords="848,153,1008,179"/>
+</map>

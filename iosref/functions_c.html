@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="Icon.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Wirecard-ePOS
-   &#160;<span id="projectnumber">2.9.2</span>
+   &#160;<span id="projectnumber">2.11.0</span>
    </div>
    <div id="projectbrief">Acceptance of the Card payments and alternative payment methods</div>
   </td>
@@ -103,15 +103,33 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 <li>cardApplication:
 : <a class="el" href="protocol_w_d_payment_delegate-p.html#a46a91ad1b801b1a438f462b202211d6c">&lt;WDPaymentDelegate&gt;</a>
 </li>
+<li>cardAuthorizationPaymentType
+: <a class="el" href="interface_w_d_payment_core.html#af0d80733630fcfb2d1b4e64a09b02e16">WDPaymentCore</a>
+, <a class="el" href="category_w_d_payment_core_07_extension_08.html#af0d80733630fcfb2d1b4e64a09b02e16">WDPaymentCore(Extension)</a>
+</li>
 <li>cardBrand
-: <a class="el" href="interface_w_d_sale_statistics.html#ac5695b614ce0c46d98a894c061491a71">WDSaleStatistics</a>
+: <a class="el" href="interface_w_d_payment_detail_card.html#aeefb6a9f046746e5d2a68b6efae7f300">WDPaymentDetailCard</a>
+, <a class="el" href="interface_w_d_sale_statistics.html#ac5695b614ce0c46d98a894c061491a71">WDSaleStatistics</a>
 </li>
 <li>cardHolderName
-: <a class="el" href="interface_w_d_signature_request.html#aac4779ab16a96f45c723f2065338bae0">WDSignatureRequest</a>
+: <a class="el" href="interface_w_d_payment_detail_card.html#a218004d7e86e1557aa59c1471896076b">WDPaymentDetailCard</a>
+, <a class="el" href="interface_w_d_signature_request.html#aac4779ab16a96f45c723f2065338bae0">WDSignatureRequest</a>
 </li>
 <li>cardNumber
 : <a class="el" href="interface_w_d_sales_query.html#af96566c830327b38e43483b19b18c85d">WDSalesQuery</a>
 , <a class="el" href="interface_w_d_signature_request.html#a51068064f38aef47019232a89ad4cc09">WDSignatureRequest</a>
+</li>
+<li>cardPreAuthorizationPaymentType
+: <a class="el" href="interface_w_d_payment_core.html#a7753af0bcdf01e3e39f4c803e99deb34">WDPaymentCore</a>
+, <a class="el" href="category_w_d_payment_core_07_extension_08.html#a7753af0bcdf01e3e39f4c803e99deb34">WDPaymentCore(Extension)</a>
+</li>
+<li>cardPreAuthorizationSupplementPaymentType
+: <a class="el" href="interface_w_d_payment_core.html#ae6b59e4410b4b47f126cd8624f6f8582">WDPaymentCore</a>
+, <a class="el" href="category_w_d_payment_core_07_extension_08.html#ae6b59e4410b4b47f126cd8624f6f8582">WDPaymentCore(Extension)</a>
+</li>
+<li>cardPurchasePaymentType
+: <a class="el" href="interface_w_d_payment_core.html#ac3c5e97f3f6c56e15e0f9d812e986b6a">WDPaymentCore</a>
+, <a class="el" href="category_w_d_payment_core_07_extension_08.html#ac3c5e97f3f6c56e15e0f9d812e986b6a">WDPaymentCore(Extension)</a>
 </li>
 <li>cardType
 : <a class="el" href="interface_w_d_signature_request.html#a6fc14e40d5eafe9dea010bcb027f3886">WDSignatureRequest</a>
@@ -123,8 +141,12 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 : <a class="el" href="interface_w_de_p_o_s.html#a3caf7f16e5e7fb36146f0d37555cf067">WDePOS</a>
 </li>
 <li>cashierId
-: <a class="el" href="interface_w_d_sale_request.html#a9ca6f6bd52766fc2f43145c178922fd5">WDSaleRequest</a>
+: <a class="el" href="interface_w_d_html_receipt_data.html#a718fd35218a17bdd74379ddc07eee567">WDHtmlReceiptData</a>
+, <a class="el" href="interface_w_d_sale_request.html#a9ca6f6bd52766fc2f43145c178922fd5">WDSaleRequest</a>
 , <a class="el" href="interface_w_d_sale_response.html#acc2b8afa90c5d29c1597a127ecae6ecd">WDSaleResponse</a>
+</li>
+<li>cashierIdLabel
+: <a class="el" href="interface_w_d_html_receipt_data.html#a2db3cd45edf449496a22939495fd1301">WDHtmlReceiptData</a>
 </li>
 <li>cashiers:
 : <a class="el" href="interface_w_d_cash_manager.html#a90d1d5dc5f11ece80c9ec46372cd2fe3">WDCashManager</a>
@@ -135,6 +157,10 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 <li>cashOperation:note:amount:currency:completion:
 : <a class="el" href="interface_w_d_cash_manager.html#ad7237bbdf4216e844558ed6579ff3317">WDCashManager</a>
 </li>
+<li>cashPurchasePaymentType
+: <a class="el" href="interface_w_d_payment_core.html#a14884c026bda4f5c4656a6c6ba39888b">WDPaymentCore</a>
+, <a class="el" href="category_w_d_payment_core_07_extension_08.html#a14884c026bda4f5c4656a6c6ba39888b">WDPaymentCore(Extension)</a>
+</li>
 <li>cashRegister
 : <a class="el" href="interface_w_d_cash_shift.html#a954aa1ceb048d43990e2e378e390da02">WDCashShift</a>
 </li>
@@ -142,10 +168,23 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 : <a class="el" href="interface_w_d_cash_manager.html#a0aecf4c4a3232b314e08f110545e9eba">WDCashManager</a>
 </li>
 <li>cashRegisterId
-: <a class="el" href="interface_w_d_reference_sale_request.html#a29350d339965c1e6133537dc97790a5f">WDReferenceSaleRequest</a>
+: <a class="el" href="interface_w_d_html_z_report.html#a6d7ff203f84a9ec8b84e6fc1d76f714a">WDHtmlZReport</a>
+, <a class="el" href="interface_w_d_reference_sale_request.html#a29350d339965c1e6133537dc97790a5f">WDReferenceSaleRequest</a>
 , <a class="el" href="interface_w_d_sale_maintain.html#adc5c9069ae5ac8ebd2856913695e6402">WDSaleMaintain</a>
 , <a class="el" href="interface_w_d_sale_request.html#a7ba4b5521c9e1b3cb998203cf2354c33">WDSaleRequest</a>
 , <a class="el" href="interface_w_d_sale_response.html#a4419caffaff80bd7a3c1a2b82092f3aa">WDSaleResponse</a>
+</li>
+<li>cashRegisterIdLabel
+: <a class="el" href="interface_w_d_html_z_report.html#aa674673959693cde9f7dd0b6b699f79a">WDHtmlZReport</a>
+</li>
+<li>cashRegisterLabel
+: <a class="el" href="interface_w_d_html_z_report.html#a7cb9bb043128510bb81444e8a6de0ec1">WDHtmlZReport</a>
+</li>
+<li>cashRegisterName
+: <a class="el" href="interface_w_d_html_z_report.html#a2c92083dfb5b628a0ef529b9a9a4cbbc">WDHtmlZReport</a>
+</li>
+<li>cashRegisterNameLabel
+: <a class="el" href="interface_w_d_html_z_report.html#a243bdbd5b03fa903f60194fd61427dd6">WDHtmlZReport</a>
 </li>
 <li>cashRegisters:shopId:cashDrawerVendor:completion:
 : <a class="el" href="interface_w_d_cash_manager.html#a60c2a79f96cccaddb0e9ae189a81c5d5">WDCashManager</a>
@@ -155,9 +194,21 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 </li>
 <li>castTo:
 : <a class="el" href="interface_w_d_address.html#a2d43e347f023953252d81dc11f3290ff">WDAddress</a>
+, <a class="el" href="interface_w_d_payment_detail_alipay.html#a4f32bc3971a39cfca3c90b8eeaa4f54b">WDPaymentDetailAlipay</a>
+, <a class="el" href="interface_w_d_payment_detail_we_chat.html#abdab37c59411acbc6c3cfe473dc68f17">WDPaymentDetailWeChat</a>
+</li>
+<li>categories
+: <a class="el" href="interface_w_d_html_z_report.html#a7fa26e09522352078e240ab43123e2e5">WDHtmlZReport</a>
+</li>
+<li>category
+: <a class="el" href="interface_w_d_file.html#a494cfc8a3fecd15a4fd68b497e36266c">WDFile</a>
 </li>
 <li>categoryId
 : <a class="el" href="interface_w_d_product_catalogue_category.html#aa45cb5c804d556da78fef0eb0fbbde57">WDProductCatalogueCategory</a>
+</li>
+<li>center
+: <a class="el" href="interface_w_d_html_receipt_detail_row.html#acc016e85dcd2bd6723b4e2d47623acd0">WDHtmlReceiptDetailRow</a>
+, <a class="el" href="interface_w_d_html_z_report_detail_row.html#a88d989c5c2957b8f73d91d2e2934289d">WDHtmlZReportDetailRow</a>
 </li>
 <li>checksum
 : <a class="el" href="interface_w_d_terminal_update.html#aaff751cd19e4f7563e55bc64bfbc572d">WDTerminalUpdate</a>
@@ -172,8 +223,21 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 <li>clientInformation
 : <a class="el" href="interface_w_d_sale_response.html#a8b6d022f7f38b730dadb42caac33db32">WDSaleResponse</a>
 </li>
+<li>closeDate
+: <a class="el" href="interface_w_d_html_z_report.html#a8b518d9a9038c1d0e5bcc71bc6411193">WDHtmlZReport</a>
+</li>
+<li>closedBy
+: <a class="el" href="interface_w_d_html_z_report.html#aca5507c55cbe3c9adae40be5e4555973">WDHtmlZReport</a>
+</li>
+<li>closedByLabel
+: <a class="el" href="interface_w_d_html_z_report.html#ad833c47e219e58dd1966302fc9a1049e">WDHtmlZReport</a>
+</li>
 <li>closeShift:note:amount:completion:
 : <a class="el" href="interface_w_d_cash_manager.html#a66d9b558fc3b5b4b38b8d97700100bb6">WDCashManager</a>
+</li>
+<li>closingLabel
+: <a class="el" href="interface_w_d_html_receipt_data.html#a4fbd6ef9bb380a8e3866027c95435f99">WDHtmlReceiptData</a>
+, <a class="el" href="interface_w_d_html_z_report.html#ae385e3e886f66237f787c1c684ab5e41">WDHtmlZReport</a>
 </li>
 <li>code
 : <a class="el" href="interface_w_d_currency_core.html#a055b46612bb782c86c9cfdb68557435f">WDCurrencyCore</a>
@@ -200,13 +264,21 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 <li>connectionStatus:
 : <a class="el" href="interface_w_d_extension_manager.html#acf72d755c6b80524a09a504631587731">WDExtensionManager</a>
 </li>
+<li>consumerId
+: <a class="el" href="interface_w_d_payment_request_alipay.html#a342e8f25a01791eed0f26708e8e43aea">WDPaymentRequestAlipay</a>
+, <a class="el" href="interface_w_d_payment_request_we_chat.html#a6a441b722d3e194d9ff77db09ca00490">WDPaymentRequestWeChat</a>
+</li>
+<li>convertHexToData
+: <a class="el" href="category_n_s_string_07_w_d_extras_08.html#a0c96a050cd93c6d3af0432f68e614854">NSString(WDExtras)</a>
+</li>
 <li>country
 : <a class="el" href="interface_w_d_address.html#a73d804949ec430a527e061dfdfe54c65">WDAddress</a>
 , <a class="el" href="interface_w_d_receipt_address.html#a0bfdcc2cbaa883327050725d2e4503ae">WDReceiptAddress</a>
 , <a class="el" href="interface_w_d_tax_category.html#a591ffe7c87e4c949c99d7724d7f43367">WDTaxCategory</a>
 </li>
 <li>couponId
-: <a class="el" href="interface_w_d_sale_coupon.html#a8d41f5a9024994735e423fbc52bb988c">WDSaleCoupon</a>
+: <a class="el" href="interface_w_d_payment_detail_coupon.html#ad28376e6e4caa3b7c790b6b6e61b609f">WDPaymentDetailCoupon</a>
+, <a class="el" href="interface_w_d_sale_coupon.html#a8d41f5a9024994735e423fbc52bb988c">WDSaleCoupon</a>
 </li>
 <li>couponSummary
 : <a class="el" href="interface_w_d_sale.html#a45fdfaf53ae8a87e950096efba8a5c52">WDSale</a>
@@ -225,8 +297,14 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 <li>currencyCode
 : <a class="el" href="interface_w_d_product_price.html#a424ac69bcc68f1bf40710b59878b0f8a">WDProductPrice</a>
 </li>
+<li>currentDate
+: <a class="el" href="interface_w_d_html_z_report.html#a1d54c5e60cbdb406d7636ffbf3cbc0a2">WDHtmlZReport</a>
+</li>
 <li>currentPassword
 : <a class="el" href="interface_w_d_change_password.html#a250437930805ba15e9e3a5d012860f70">WDChangePassword</a>
+</li>
+<li>currentTime
+: <a class="el" href="interface_w_d_html_z_report.html#a8d43a63b5b4480f7b933b3e8d8f6c4a0">WDHtmlZReport</a>
 </li>
 <li>currentUser:
 : <a class="el" href="interface_w_d_user_manager.html#a8854348f3dce9a67d8143008a534ed29">WDUserManager</a>
@@ -234,12 +312,24 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 <li>currentValue
 : <a class="el" href="interface_w_d_tax_category.html#a34d8f3ef2a9dc6eb12108951db6d61b1">WDTaxCategory</a>
 </li>
+<li>customerCardID
+: <a class="el" href="interface_w_d_html_receipt_data.html#a3dbc7b7359d30498e49f430a1dc5df1e">WDHtmlReceiptData</a>
+</li>
+<li>customerCardLabel
+: <a class="el" href="interface_w_d_html_receipt_data.html#acc76966769e4934e1dbedaebce32aa94">WDHtmlReceiptData</a>
+</li>
+<li>customerEmailPresent
+: <a class="el" href="interface_w_d_payment_detail_card.html#afac24c444aa7f37fbba2b9284ae4245b">WDPaymentDetailCard</a>
+</li>
 <li>customerId
 : <a class="el" href="interface_w_d_sale_request.html#a5d90c42e1625298d28e8342e3e6c16d8">WDSaleRequest</a>
 , <a class="el" href="interface_w_d_sale_response.html#a89a040e0388c4b0973162a0f552ba976">WDSaleResponse</a>
 </li>
 <li>customerManager
 : <a class="el" href="interface_w_de_p_o_s.html#ac131ffa6767eca3519f0c916d5b5c6d4">WDePOS</a>
+</li>
+<li>customerPhonePresent
+: <a class="el" href="interface_w_d_payment_detail_card.html#a74c2fa2442c1c48825a269a4247dcbeb">WDPaymentDetailCard</a>
 </li>
 </ul>
 </div><!-- contents -->

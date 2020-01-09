@@ -1,0 +1,31 @@
+<map id="WDPayment" name="WDPayment">
+<area shape="rect" id="node1" title="Payment &#45; contains the information about payment method, transaction type." alt="" coords="450,485,547,511"/>
+<area shape="rect" id="node6" href="$interface_w_d_payment_capture.html" title="Payment Capture &#45; contains the information about the original Payment Authorization to be captured." alt="" coords="645,80,789,105"/>
+<area shape="rect" id="node8" href="$interface_w_d_payment_detail.html" title="Complete information about performed Payment." alt="" coords="652,203,782,228"/>
+<area shape="rect" id="node17" href="$interface_w_d_payment_pre_authorize_supplement.html" title="Payment Capture &#45; contains the information about the original Payment Authorization to be captured." alt="" coords="595,363,839,388"/>
+<area shape="rect" id="node19" href="$interface_w_d_payment_refund.html" title="Payment Refund &#45; contains the information about the original Payment to be refunded." alt="" coords="647,436,786,461"/>
+<area shape="rect" id="node25" href="$interface_w_d_payment_request_alipay.html" title="Alipay Payment Request &#45; contains the information specific to Alipay." alt="" coords="626,485,808,511"/>
+<area shape="rect" id="node26" href="$interface_w_d_payment_request_card.html" title="Card Payment Request &#45; contains the information specific to Card payment." alt="" coords="629,535,804,560"/>
+<area shape="rect" id="node27" href="$interface_w_d_payment_request_cash.html" title="Cash Payment Detail &#45; contains the information specific to Cash payment." alt="" coords="628,584,805,609"/>
+<area shape="rect" id="node28" href="$interface_w_d_payment_request_coupon.html" title="Coupon Payment Request &#45; contains the information specific to Coupon payment." alt="" coords="621,633,813,659"/>
+<area shape="rect" id="node29" href="$interface_w_d_payment_request_we_chat.html" title="WeChat Payment Request &#45; contains the information specific to WeChat." alt="" coords="620,683,814,708"/>
+<area shape="rect" id="node2" href="$interface_w_d_payment_core.html" title=" " alt="" coords="277,485,402,511"/>
+<area shape="rect" id="node3" href="$interface_w_d_object.html" title="WDePOS custom object @discussion WDePOS Generic Object &#45; supports runtime object [property/values] de..." alt="" coords="140,460,222,485"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,460,84,485"/>
+<area shape="rect" id="node5" title=" " alt="" coords="132,509,229,535"/>
+<area shape="rect" id="node7" href="$interface_w_d_payment_capture_card.html" title="Card Capture &#45; contains the information about the original Payment Authorization to be captured." alt="" coords="937,5,1110,31"/>
+<area shape="rect" id="node9" href="$interface_w_d_payment_detail_alipay.html" title="Alipay Payment Detail &#45; contains the information specific to Alipay." alt="" coords="940,55,1107,80"/>
+<area shape="rect" id="node10" href="$interface_w_d_payment_detail_card.html" title="Card Payment Detail &#45; contains the information specific to Card payment." alt="" coords="944,104,1103,129"/>
+<area shape="rect" id="node11" href="$interface_w_d_payment_detail_cash.html" title="Cash Payment Detail &#45; contains the information specific to Cash payment." alt="" coords="943,153,1104,179"/>
+<area shape="rect" id="node12" href="$interface_w_d_payment_detail_coupon.html" title="Coupon Payment Detail &#45; contains the information specific to Coupon payment." alt="" coords="935,203,1112,228"/>
+<area shape="rect" id="node13" href="$interface_w_d_payment_detail_referenced.html" title=" " alt="" coords="924,252,1123,277"/>
+<area shape="rect" id="node16" href="$interface_w_d_payment_detail_we_chat.html" title="WeChat Payment Detail &#45; contains the information specific to WeChat." alt="" coords="935,301,1113,327"/>
+<area shape="rect" id="node14" href="$interface_w_d_payment_detail_referenced_card_capture.html" title="Referenced Payment Detail &#45; contains the information specific to the payment." alt="" coords="1208,215,1408,253"/>
+<area shape="rect" id="node15" href="$interface_w_d_payment_detail_referenced_card_refund.html" title="Referenced Payment Detail &#45; contains the information specific to the payment." alt="" coords="1208,277,1408,316"/>
+<area shape="rect" id="node18" href="$interface_w_d_payment_pre_authorize_supplement_card.html" title="Card Capture &#45; contains the information about the original Payment Pre&#45;Authorization." alt="" coords="887,351,1160,376"/>
+<area shape="rect" id="node20" href="$interface_w_d_payment_refund_alipay.html" title=" " alt="" coords="936,400,1111,425"/>
+<area shape="rect" id="node21" href="$interface_w_d_payment_refund_card.html" title=" " alt="" coords="940,449,1108,475"/>
+<area shape="rect" id="node22" href="$interface_w_d_payment_refund_card_capture.html" title=" " alt="" coords="916,499,1131,524"/>
+<area shape="rect" id="node23" href="$interface_w_d_payment_refund_cash.html" title=" " alt="" coords="939,548,1109,573"/>
+<area shape="rect" id="node24" href="$interface_w_d_payment_refund_we_chat.html" title=" " alt="" coords="930,597,1117,623"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="WDPaymentDetailReferencedCardCapture" name="WDPaymentDetailReferencedCardCapture">
+<area shape="rect" id="node1" title="Referenced Payment Detail &#45; contains the information specific to the payment." alt="" coords="236,445,435,484"/>
+<area shape="rect" id="node2" href="$interface_w_d_payment_detail_referenced.html" title=" " alt="" coords="5,372,205,397"/>
+<area shape="rect" id="node3" href="$interface_w_d_payment_detail.html" title="Complete information about performed Payment." alt="" coords="40,299,170,324"/>
+<area shape="rect" id="node4" href="$interface_w_d_payment.html" title="Payment &#45; contains the information about payment method, transaction type." alt="" coords="57,225,153,251"/>
+<area shape="rect" id="node5" href="$interface_w_d_payment_core.html" title=" " alt="" coords="42,152,167,177"/>
+<area shape="rect" id="node6" href="$interface_w_d_object.html" title="WDePOS custom object @discussion WDePOS Generic Object &#45; supports runtime object [property/values] de..." alt="" coords="8,79,90,104"/>
+<area shape="rect" id="node7" title=" " alt="" coords="10,5,88,31"/>
+<area shape="rect" id="node8" title=" " alt="" coords="113,79,211,104"/>
+<area shape="rect" id="node9" href="$protocol_w_d_payment_detail_refundable-p.html" title=" " alt="" coords="229,372,443,397"/>
+<area shape="rect" id="node10" href="$protocol_w_d_payment_detail_reversable-p.html" title=" " alt="" coords="466,372,680,397"/>
+</map>

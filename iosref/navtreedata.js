@@ -36,7 +36,7 @@ var NAVTREE =
     [ "Files", "files.html", [
       [ "File List", "files.html", "files_dup" ],
       [ "File Members", "globals.html", [
-        [ "All", "globals.html", null ],
+        [ "All", "globals.html", "globals_dup" ],
         [ "Functions", "globals_func.html", null ],
         [ "Variables", "globals_vars.html", null ],
         [ "Typedefs", "globals_type.html", null ],
@@ -50,10 +50,13 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_w_d_a_error_8h.html",
-"interface_w_d_a_i_d.html#a6bd806c12272223a9ae225c12b63eb73",
-"interface_w_d_product_catalogue_manager.html#a6e6abf182e63e57611524ac2a9d3a700",
-"interface_w_d_sale_response.html#aa09d25f748fe970c5690ca7793daa935"
+"_n_s_array_09_extension_8h.html",
+"_w_d_payment_detail_card_8h.html",
+"interface_w_d_cash_manager.html#a075567fa048dd6dfda7d07e08b40dbdb",
+"interface_w_d_merchant.html#a2c2bd247b96a0d62879ae528f97fe962",
+"interface_w_d_product_catalogue_manager.html#aa04b417f7c519774fff7db4c79deb4f8",
+"interface_w_d_sale_response.html#aae38925d4490ead9862da29628f883e2",
+"protocol_w_d_sale_processing_core-p.html#a93c86efa4806739e0e4cd2860edbb6d2"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
