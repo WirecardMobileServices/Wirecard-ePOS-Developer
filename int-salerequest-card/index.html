@@ -32,7 +32,7 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="../assets/images/favicon_black.ico">
-      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.0.1">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.3">
     
     
       
@@ -40,17 +40,17 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/application.982221ab.css">
+      <link rel="stylesheet" href="../assets/stylesheets/application.30686662.css">
       
       
     
     
-      <script src="../assets/javascripts/modernizr.1f0bcf2b.js"></script>
+      <script src="../assets/javascripts/modernizr.74668098.js"></script>
     
     
       
         <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono&display=fallback">
         <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
       
     
@@ -102,7 +102,9 @@
               Wirecard ePOS SDK
             </span>
             <span class="md-header-nav__topic">
-              Card Request
+              
+                Card Request
+              
             </span>
           
         </div>
@@ -145,7 +147,7 @@
         
       
       
-      <main class="md-main">
+      <main class="md-main" role="main">
         <div class="md-main__inner md-grid" data-md-component="container">
           
             
@@ -560,35 +562,35 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#the-user-interface" title="The User Interface" class="md-nav__link">
+  <a href="#the-user-interface" class="md-nav__link">
     The User Interface
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#code-differences-with-credit-sale-request" title="Code Differences with Credit Sale Request" class="md-nav__link">
+  <a href="#code-differences-with-credit-sale-request" class="md-nav__link">
     Code Differences with Credit Sale Request
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#the-ios-object-model" title="The iOS Object Model" class="md-nav__link">
+  <a href="#the-ios-object-model" class="md-nav__link">
     The iOS Object Model
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#the-android-object-model" title="The Android Object Model" class="md-nav__link">
+  <a href="#the-android-object-model" class="md-nav__link">
     The Android Object Model
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#the-sample-code" title="The Sample Code" class="md-nav__link">
+  <a href="#the-sample-code" class="md-nav__link">
     The Sample Code
   </a>
   
@@ -1577,35 +1579,35 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#the-user-interface" title="The User Interface" class="md-nav__link">
+  <a href="#the-user-interface" class="md-nav__link">
     The User Interface
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#code-differences-with-credit-sale-request" title="Code Differences with Credit Sale Request" class="md-nav__link">
+  <a href="#code-differences-with-credit-sale-request" class="md-nav__link">
     Code Differences with Credit Sale Request
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#the-ios-object-model" title="The iOS Object Model" class="md-nav__link">
+  <a href="#the-ios-object-model" class="md-nav__link">
     The iOS Object Model
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#the-android-object-model" title="The Android Object Model" class="md-nav__link">
+  <a href="#the-android-object-model" class="md-nav__link">
     The Android Object Model
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#the-sample-code" title="The Sample Code" class="md-nav__link">
+  <a href="#the-sample-code" class="md-nav__link">
     The Sample Code
   </a>
   
@@ -1654,10 +1656,10 @@
 </div>
 <div class="admonition info">
 <p class="admonition-title">Info</p>
-<p>When adding a payment method (<code class="codehilite">addCashPayment</code>, <code class="codehilite">addCardPayment</code>, etc.), you can <strong>optionally</strong> include a notification callback URL in your payment request (<code class="codehilite">notifyUrl</code>). This URL will then be called once the payment is completed, if you chose to set it. </p>
+<p>When adding a payment method (<code class="codehilite"><span class="n">addCashPayment</span></code>, <code class="codehilite"><span class="n">addCardPayment</span></code>, etc.), you can <strong>optionally</strong> include a notification callback URL in your payment request (<code class="codehilite"><span class="n">notifyUrl</span></code>). This URL will then be called once the payment is completed, if you chose to set it. </p>
 </div>
 <h2 id="the-android-object-model">The Android Object Model</h2>
-<p>The Android sample code is structured somewhat differently from the iOS code. The device discovery, sample sale request building and adding of a card payment are similar, but after that, the <code class="codehilite">eventRelay</code> takes over and handles various events that can take place on the terminal, such as <strong>Signature Request</strong>, <strong>Signature Confirmation</strong> and so forth.</p>
+<p>The Android sample code is structured somewhat differently from the iOS code. The device discovery, sample sale request building and adding of a card payment are similar, but after that, the <code class="codehilite"><span class="n">eventRelay</span></code> takes over and handles various events that can take place on the terminal, such as <strong>Signature Request</strong>, <strong>Signature Confirmation</strong> and so forth.</p>
 <p><img alt="" src="../assets/objectmodel-card-java.png" /></p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -1793,7 +1795,7 @@
       
     </div>
     
-      <script src="../assets/javascripts/application.b806dc00.js"></script>
+      <script src="../assets/javascripts/application.ac79c3b0.js"></script>
       
       <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
       
